@@ -36,6 +36,12 @@
       </pattern>
     </defs>
   
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-design_001-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   
     <!-- Main Canvas Background -->
     <rect width="1200" height="630" fill="url(#promo-design_001-bg-grad)" />
@@ -53,36 +59,36 @@
     <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#27272a" stroke-width="1" />
   
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-design_001-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="201" height="32" rx="16" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
+    <rect x="0" y="0" width="186" height="32" rx="16" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
     <text x="18" y="21" fill="#06b6d4" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       AI ARCHITECTURE
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="75" fill="#fafafa" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Autonomous Agent Swarms</tspan>
+    <text x="0" y="72" fill="#fafafa" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Autonomous Agent</tspan><tspan x="0" dy="46">Swarms</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="200" fill="#a1a1aa" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Multi-agent collaborative networks</tspan><tspan x="0" dy="26">orchestrating enterprise operations with</tspan><tspan x="0" dy="26">self-healing feedback loops.</tspan>
+    <text x="0" y="220" fill="#a1a1aa" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Multi-agent collaborative networks</tspan><tspan x="0" dy="24">orchestrating enterprise operations</tspan><tspan x="0" dy="24">with self-healing feedback loops.</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#promo-design_001-shadow)">
-      <rect x="0" y="0" width="330" height="52" rx="26" fill="url(#promo-design_001-primary-grad)" />
-      <text x="149" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#promo-design_001-shadow)">
+      <rect x="0" y="0" width="310" height="50" rx="25" fill="url(#promo-design_001-primary-grad)" />
+      <text x="139" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         Explore Multi-Agent Swarms
       </text>
       
-    <g transform="translate(294, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(274, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -123,7 +129,7 @@
             Self-Reflection
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Iterative plan critique and</tspan><tspan x="82" dy="18">refinement</tspan>
@@ -151,7 +157,7 @@
             Sub-Second Consensus
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Decentralized state agreement</tspan><tspan x="82" dy="18">protocols</tspan>
@@ -180,7 +186,7 @@
             Zero Tool Hallucination
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Strict schema-bounded API execution</tspan>

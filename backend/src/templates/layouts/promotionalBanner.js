@@ -6,7 +6,7 @@ import { THEME_PALETTES } from "../../engine/colorUtils.js";
 /**
  * 1. Promotional Banner Layout (1200x630 Landscape)
  * Ideal for product launches, marketing promotions, software highlights.
- * Engineered with dynamic sizing to prevent text overflow across all card components.
+ * Strict boundary limits prevent ANY text overlap with the right bento card.
  */
 export function renderPromotionalBanner(data = {}) {
   const width = 1200;
@@ -24,35 +24,41 @@ export function renderPromotionalBanner(data = {}) {
     { title: "AI-Powered", description: "Powered by autonomous foundation models", icon: "sparkles" }
   ];
 
-  // Dynamic calculations to prevent ANY text collision or overflow
-  const badgeWidth = Math.max(140, Math.min(360, badgeText.length * 11 + 36));
-  const ctaBtnWidth = Math.max(220, Math.min(330, ctaText.length * 11 + 60));
+  // Dynamic calculations with strict safety boundaries
+  const badgeWidth = Math.max(130, Math.min(320, badgeText.length * 10 + 36));
+  const ctaBtnWidth = Math.max(210, Math.min(310, ctaText.length * 10.5 + 56));
   const ctaTextX = (ctaBtnWidth - 32) / 2;
   const ctaArrowX = ctaBtnWidth - 36;
 
   return `
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="${escapeXml(title)}">
   ${renderDefs(palette, id)}
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="${id}-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   ${renderBackground(width, height, palette, id)}
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#${id}-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
     <rect x="0" y="0" width="${badgeWidth}" height="32" rx="16" fill="${palette.primary}" fill-opacity="0.2" stroke="${palette.primary}" stroke-width="1.5" />
     <text x="18" y="21" fill="${palette.primary}" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       ${escapeXml(badgeText.toUpperCase())}
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     ${renderWrappedText({
       text: title,
       x: 0,
-      y: 75,
-      maxChars: 26,
-      maxLines: 2,
-      lineHeight: 52,
+      y: 72,
+      maxChars: 19,
+      maxLines: 3,
+      lineHeight: 46,
       fill: palette.text,
-      fontSize: 42,
+      fontSize: 36,
       fontWeight: "800"
     })}
 
@@ -60,22 +66,22 @@ export function renderPromotionalBanner(data = {}) {
     ${renderWrappedText({
       text: subtitle,
       x: 0,
-      y: 200,
-      maxChars: 42,
+      y: 220,
+      maxChars: 38,
       maxLines: 3,
-      lineHeight: 26,
+      lineHeight: 24,
       fill: palette.textMuted,
-      fontSize: 16,
+      fontSize: 15,
       fontWeight: "400"
     })}
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#${id}-shadow)">
-      <rect x="0" y="0" width="${ctaBtnWidth}" height="52" rx="26" fill="url(#${id}-primary-grad)" />
-      <text x="${ctaTextX}" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#${id}-shadow)">
+      <rect x="0" y="0" width="${ctaBtnWidth}" height="50" rx="25" fill="url(#${id}-primary-grad)" />
+      <text x="${ctaTextX}" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         ${escapeXml(ctaText)}
       </text>
-      ${renderIcon("arrow-right", ctaArrowX, 16, 20, "#ffffff", 2.5)}
+      ${renderIcon("arrow-right", ctaArrowX, 15, 20, "#ffffff", 2.5)}
     </g>
   </g>
 
@@ -101,7 +107,7 @@ export function renderPromotionalBanner(data = {}) {
             ${escapeXml(feat.title || "Feature")}
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           ${renderWrappedText({
             text: feat.description || feat.desc || "Optimized vector performance.",
             x: 82,

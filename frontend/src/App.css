@@ -456,17 +456,43 @@ body {
 /* Modern Glowing Loader Overlay */
 .loader-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(10, 14, 23, 0.82);
-  backdrop-filter: blur(10px);
+  inset: 0;
+  background: rgba(10, 14, 23, 0.88);
+  backdrop-filter: blur(12px);
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 40;
-  animation: fadeIn 0.25s ease;
+  z-index: 100;
+  animation: fadeIn 0.2s ease;
+}
+
+.loader-progress-bar {
+  width: 100%;
+  height: 4px;
+  background: rgba(59, 130, 246, 0.15);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.loader-progress-fill {
+  height: 100%;
+  width: 65%;
+  background: linear-gradient(90deg, #3b82f6, #06b6d4);
+  border-radius: 999px;
+  animation: progressPulse 1.3s ease-in-out infinite;
+}
+
+@keyframes progressPulse {
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(50%); }
+  100% { transform: translateX(200%); }
+}
+
+.svg-display.is-loading {
+  opacity: 0.3;
+  filter: blur(3px);
+  transition: all 0.3s ease;
 }
 
 @keyframes fadeIn {

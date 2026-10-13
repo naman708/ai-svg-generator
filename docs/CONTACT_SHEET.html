@@ -174,7 +174,7 @@
         <span class="stat-lbl">Batch Generation</span>
       </div>
       <div class="stat-item">
-        <span class="stat-val">1.5ms</span>
+        <span class="stat-val">1.4ms</span>
         <span class="stat-lbl">Avg Time / Design</span>
       </div>
     </div>
@@ -228,6 +228,12 @@
       </pattern>
     </defs>
   
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-design_001-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   
     <!-- Main Canvas Background -->
     <rect width="1200" height="630" fill="url(#promo-design_001-bg-grad)" />
@@ -245,36 +251,36 @@
     <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#27272a" stroke-width="1" />
   
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-design_001-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="201" height="32" rx="16" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
+    <rect x="0" y="0" width="186" height="32" rx="16" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
     <text x="18" y="21" fill="#06b6d4" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       AI ARCHITECTURE
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="75" fill="#fafafa" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Autonomous Agent Swarms</tspan>
+    <text x="0" y="72" fill="#fafafa" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Autonomous Agent</tspan><tspan x="0" dy="46">Swarms</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="200" fill="#a1a1aa" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Multi-agent collaborative networks</tspan><tspan x="0" dy="26">orchestrating enterprise operations with</tspan><tspan x="0" dy="26">self-healing feedback loops.</tspan>
+    <text x="0" y="220" fill="#a1a1aa" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Multi-agent collaborative networks</tspan><tspan x="0" dy="24">orchestrating enterprise operations</tspan><tspan x="0" dy="24">with self-healing feedback loops.</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#promo-design_001-shadow)">
-      <rect x="0" y="0" width="330" height="52" rx="26" fill="url(#promo-design_001-primary-grad)" />
-      <text x="149" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#promo-design_001-shadow)">
+      <rect x="0" y="0" width="310" height="50" rx="25" fill="url(#promo-design_001-primary-grad)" />
+      <text x="139" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         Explore Multi-Agent Swarms
       </text>
       
-    <g transform="translate(294, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(274, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -315,7 +321,7 @@
             Self-Reflection
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Iterative plan critique and</tspan><tspan x="82" dy="18">refinement</tspan>
@@ -343,7 +349,7 @@
             Sub-Second Consensus
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Decentralized state agreement</tspan><tspan x="82" dy="18">protocols</tspan>
@@ -372,7 +378,7 @@
             Zero Tool Hallucination
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Strict schema-bounded API execution</tspan>
@@ -388,7 +394,7 @@
                   <div class="card-meta">
                     <span class="tag template">promotional_banner</span>
                     <span class="tag">1200x630 (1.91:1 Landscape)</span>
-                    <span class="tag">8.2 KB</span>
+                    <span class="tag">8.6 KB</span>
                     <span class="tag status">XML Valid</span>
                   </div>
                   <div class="card-footer">
@@ -2525,6 +2531,12 @@
       </pattern>
     </defs>
   
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-design_011-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   
     <!-- Main Canvas Background -->
     <rect width="1200" height="630" fill="url(#promo-design_011-bg-grad)" />
@@ -2542,36 +2554,36 @@
     <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#334155" stroke-width="1" />
   
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-design_011-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="223" height="32" rx="16" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
+    <rect x="0" y="0" width="206" height="32" rx="16" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
     <text x="18" y="21" fill="#3b82f6" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       ENTERPRISE GROWTH
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="75" fill="#f8fafc" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Scale From Pre-Seed To</tspan><tspan x="0" dy="52">Series B</tspan>
+    <text x="0" y="72" fill="#f8fafc" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Scale From Pre-Seed</tspan><tspan x="0" dy="46">To Series B</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="200" fill="#94a3b8" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">The unified operational engine helping</tspan><tspan x="0" dy="26">founders streamline capital, talent, and</tspan><tspan x="0" dy="26">go-to-market pipelines.</tspan>
+    <text x="0" y="220" fill="#94a3b8" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">The unified operational engine helping</tspan><tspan x="0" dy="24">founders streamline capital, talent,</tspan><tspan x="0" dy="24">and go-to-market pipelines.</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#promo-design_011-shadow)">
-      <rect x="0" y="0" width="247" height="52" rx="26" fill="url(#promo-design_011-primary-grad)" />
-      <text x="107.5" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#promo-design_011-shadow)">
+      <rect x="0" y="0" width="234.5" height="50" rx="25" fill="url(#promo-design_011-primary-grad)" />
+      <text x="101.25" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         Book Founder Demo
       </text>
       
-    <g transform="translate(211, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(198.5, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -2611,7 +2623,7 @@
             Automated Runway
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#94a3b8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Real-time cashflow forecasting</tspan>
@@ -2642,7 +2654,7 @@
             Talent Pipeline
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#94a3b8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Executive vetting &amp; placement</tspan>
@@ -2672,7 +2684,7 @@
             GTM Intelligence
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#94a3b8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Competitive landscape analytics</tspan>
@@ -2688,7 +2700,7 @@
                   <div class="card-meta">
                     <span class="tag template">promotional_banner</span>
                     <span class="tag">1200x630 (1.91:1 Landscape)</span>
-                    <span class="tag">8.2 KB</span>
+                    <span class="tag">8.5 KB</span>
                     <span class="tag status">XML Valid</span>
                   </div>
                   <div class="card-footer">
@@ -4820,6 +4832,12 @@
       </pattern>
     </defs>
   
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-design_021-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   
     <!-- Main Canvas Background -->
     <rect width="1200" height="630" fill="url(#promo-design_021-bg-grad)" />
@@ -4837,36 +4855,36 @@
     <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#27272a" stroke-width="1" />
   
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-design_021-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="190" height="32" rx="16" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
+    <rect x="0" y="0" width="176" height="32" rx="16" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
     <text x="18" y="21" fill="#06b6d4" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       SECURITY CLOUD
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="75" fill="#fafafa" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Autonomous Zero-Trust</tspan><tspan x="0" dy="52">Defense</tspan>
+    <text x="0" y="72" fill="#fafafa" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Autonomous</tspan><tspan x="0" dy="46">Zero-Trust Defense</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="200" fill="#a1a1aa" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Real-time continuous packet verification,</tspan><tspan x="0" dy="26">micro-segmentation, and automated incident</tspan><tspan x="0" dy="26">containment.</tspan>
+    <text x="0" y="220" fill="#a1a1aa" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Real-time continuous packet</tspan><tspan x="0" dy="24">verification, micro-segmentation, and</tspan><tspan x="0" dy="24">automated incident containment.</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#promo-design_021-shadow)">
-      <rect x="0" y="0" width="330" height="52" rx="26" fill="url(#promo-design_021-primary-grad)" />
-      <text x="149" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#promo-design_021-shadow)">
+      <rect x="0" y="0" width="310" height="50" rx="25" fill="url(#promo-design_021-primary-grad)" />
+      <text x="139" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         Schedule Vulnerability Audit
       </text>
       
-    <g transform="translate(294, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(274, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -4906,7 +4924,7 @@
             Zero Latency Inspection
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Kernel-level eBPF monitoring</tspan>
@@ -4935,7 +4953,7 @@
             Identity Perimeter
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Biometric and hardware token MFA</tspan>
@@ -4965,7 +4983,7 @@
             Instant Killswitch
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Automated compromised node isolation</tspan>
@@ -4981,7 +4999,7 @@
                   <div class="card-meta">
                     <span class="tag template">promotional_banner</span>
                     <span class="tag">1200x630 (1.91:1 Landscape)</span>
-                    <span class="tag">8.1 KB</span>
+                    <span class="tag">8.5 KB</span>
                     <span class="tag status">XML Valid</span>
                   </div>
                   <div class="card-footer">
@@ -7115,6 +7133,12 @@
       </pattern>
     </defs>
   
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-design_031-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   
     <!-- Main Canvas Background -->
     <rect width="1200" height="630" fill="url(#promo-design_031-bg-grad)" />
@@ -7132,36 +7156,36 @@
     <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#145a44" stroke-width="1" />
   
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-design_031-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="234" height="32" rx="16" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
+    <rect x="0" y="0" width="216" height="32" rx="16" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
     <text x="18" y="21" fill="#10b981" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       PRECISION MEDICINE
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="75" fill="#f0fdf4" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Personalized Genomic</tspan><tspan x="0" dy="52">Therapeutics</tspan>
+    <text x="0" y="72" fill="#f0fdf4" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Personalized</tspan><tspan x="0" dy="46">Genomic</tspan><tspan x="0" dy="46">Therapeutics</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="200" fill="#a7f3d0" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Harnessing AI protein folding and</tspan><tspan x="0" dy="26">sequencing to engineer targeted treatments</tspan><tspan x="0" dy="26">for complex conditions.</tspan>
+    <text x="0" y="220" fill="#a7f3d0" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Harnessing AI protein folding and</tspan><tspan x="0" dy="24">sequencing to engineer targeted</tspan><tspan x="0" dy="24">treatments for complex conditions.</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#promo-design_031-shadow)">
-      <rect x="0" y="0" width="324" height="52" rx="26" fill="url(#promo-design_031-primary-grad)" />
-      <text x="146" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#promo-design_031-shadow)">
+      <rect x="0" y="0" width="308" height="50" rx="25" fill="url(#promo-design_031-primary-grad)" />
+      <text x="138" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         Explore Genomic Research
       </text>
       
-    <g transform="translate(288, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(272, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -7201,7 +7225,7 @@
             Targeted Oncology
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a7f3d0" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Custom RNA cancer vaccines</tspan>
@@ -7229,7 +7253,7 @@
             Sub-Second Variant Call
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a7f3d0" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Whole genome processing in minutes</tspan>
@@ -7258,7 +7282,7 @@
             Ethical Data Governance
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a7f3d0" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">HIPAA-certified privacy enclave</tspan>
@@ -7274,7 +7298,7 @@
                   <div class="card-meta">
                     <span class="tag template">promotional_banner</span>
                     <span class="tag">1200x630 (1.91:1 Landscape)</span>
-                    <span class="tag">8.2 KB</span>
+                    <span class="tag">8.5 KB</span>
                     <span class="tag status">XML Valid</span>
                   </div>
                   <div class="card-footer">
@@ -9405,6 +9429,12 @@
       </pattern>
     </defs>
   
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-design_041-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   
     <!-- Main Canvas Background -->
     <rect width="1200" height="630" fill="url(#promo-design_041-bg-grad)" />
@@ -9422,36 +9452,36 @@
     <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#44403c" stroke-width="1" />
   
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-design_041-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="245" height="32" rx="16" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-width="1.5" />
+    <rect x="0" y="0" width="226" height="32" rx="16" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-width="1.5" />
     <text x="18" y="21" fill="#f59e0b" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       WEALTH INTELLIGENCE
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="75" fill="#fafaf9" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Algorithmic Wealth</tspan><tspan x="0" dy="52">Optimization</tspan>
+    <text x="0" y="72" fill="#fafaf9" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Algorithmic Wealth</tspan><tspan x="0" dy="46">Optimization</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="200" fill="#d6d3d1" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Direct indexing, tax-loss harvesting, and</tspan><tspan x="0" dy="26">multi-asset risk parity managed</tspan><tspan x="0" dy="26">autonomously for high net worth investors.</tspan>
+    <text x="0" y="220" fill="#d6d3d1" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Direct indexing, tax-loss harvesting,</tspan><tspan x="0" dy="24">and multi-asset risk parity managed</tspan><tspan x="0" dy="24">autonomously for high net worth...</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#promo-design_041-shadow)">
-      <rect x="0" y="0" width="302" height="52" rx="26" fill="url(#promo-design_041-primary-grad)" />
-      <text x="135" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#promo-design_041-shadow)">
+      <rect x="0" y="0" width="287" height="50" rx="25" fill="url(#promo-design_041-primary-grad)" />
+      <text x="127.5" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         Explore Private Wealth
       </text>
       
-    <g transform="translate(266, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(251, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -9491,7 +9521,7 @@
             Continuous Tax Alpha
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#d6d3d1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Daily automated tax-loss harvesting</tspan>
@@ -9520,7 +9550,7 @@
             Multi-Asset Risk Parity
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#d6d3d1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Dynamic volatility targeting</tspan>
@@ -9549,7 +9579,7 @@
             SIPC Insured Custody
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#d6d3d1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Enterprise institutional custodian</tspan><tspan x="82" dy="18">rails</tspan>
@@ -9565,7 +9595,7 @@
                   <div class="card-meta">
                     <span class="tag template">promotional_banner</span>
                     <span class="tag">1200x630 (1.91:1 Landscape)</span>
-                    <span class="tag">8.2 KB</span>
+                    <span class="tag">8.5 KB</span>
                     <span class="tag status">XML Valid</span>
                   </div>
                   <div class="card-footer">
@@ -11695,6 +11725,12 @@
       </pattern>
     </defs>
   
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-design_051-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   
     <!-- Main Canvas Background -->
     <rect width="1200" height="630" fill="url(#promo-design_051-bg-grad)" />
@@ -11712,36 +11748,36 @@
     <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#312e81" stroke-width="1" />
   
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-design_051-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="223" height="32" rx="16" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
+    <rect x="0" y="0" width="206" height="32" rx="16" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
     <text x="18" y="21" fill="#6366f1" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       NEXT-GEN LEARNING
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="75" fill="#ffffff" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Adaptive 1-on-1 AI</tspan><tspan x="0" dy="52">Tutoring</tspan>
+    <text x="0" y="72" fill="#ffffff" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Adaptive 1-on-1 AI</tspan><tspan x="0" dy="46">Tutoring</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="200" fill="#cbd5e1" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Master complex STEM subjects through</tspan><tspan x="0" dy="26">conversational Socratic dialogue that</tspan><tspan x="0" dy="26">calibrates in real-time to your learnin...</tspan>
+    <text x="0" y="220" fill="#cbd5e1" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Master complex STEM subjects through</tspan><tspan x="0" dy="24">conversational Socratic dialogue that</tspan><tspan x="0" dy="24">calibrates in real-time to your...</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#promo-design_051-shadow)">
-      <rect x="0" y="0" width="330" height="52" rx="26" fill="url(#promo-design_051-primary-grad)" />
-      <text x="149" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#promo-design_051-shadow)">
+      <rect x="0" y="0" width="310" height="50" rx="25" fill="url(#promo-design_051-primary-grad)" />
+      <text x="139" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         Start Free Learning Session
       </text>
       
-    <g transform="translate(294, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(274, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -11782,7 +11818,7 @@
             Socratic Method
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#cbd5e1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Guided inquiry over passive answers</tspan>
@@ -11811,7 +11847,7 @@
             Mastery Based
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#cbd5e1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Progress only after true conceptual</tspan><tspan x="82" dy="18">grasp</tspan>
@@ -11841,7 +11877,7 @@
             Multi-Modal Visuals
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#cbd5e1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Instant dynamic diagrams and plots</tspan>
@@ -11857,7 +11893,7 @@
                   <div class="card-meta">
                     <span class="tag template">promotional_banner</span>
                     <span class="tag">1200x630 (1.91:1 Landscape)</span>
-                    <span class="tag">8.3 KB</span>
+                    <span class="tag">8.6 KB</span>
                     <span class="tag status">XML Valid</span>
                   </div>
                   <div class="card-footer">
@@ -13986,6 +14022,12 @@
       </pattern>
     </defs>
   
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-design_061-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   
     <!-- Main Canvas Background -->
     <rect width="1200" height="630" fill="url(#promo-design_061-bg-grad)" />
@@ -14003,36 +14045,36 @@
     <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#562270" stroke-width="1" />
   
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-design_061-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="201" height="32" rx="16" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
+    <rect x="0" y="0" width="186" height="32" rx="16" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
     <text x="18" y="21" fill="#f97316" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       RETAIL PLATFORM
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="75" fill="#ffffff" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Next-Gen Headless</tspan><tspan x="0" dy="52">E-Commerce</tspan>
+    <text x="0" y="72" fill="#ffffff" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Next-Gen Headless</tspan><tspan x="0" dy="46">E-Commerce</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="200" fill="#fbcfe8" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Sub-second product catalog loading,</tspan><tspan x="0" dy="26">dynamic personalized bundles, and unified</tspan><tspan x="0" dy="26">checkout across digital and physical...</tspan>
+    <text x="0" y="220" fill="#fbcfe8" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Sub-second product catalog loading,</tspan><tspan x="0" dy="24">dynamic personalized bundles, and</tspan><tspan x="0" dy="24">unified checkout across digital and...</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#promo-design_061-shadow)">
-      <rect x="0" y="0" width="247" height="52" rx="26" fill="url(#promo-design_061-primary-grad)" />
-      <text x="107.5" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#promo-design_061-shadow)">
+      <rect x="0" y="0" width="234.5" height="50" rx="25" fill="url(#promo-design_061-primary-grad)" />
+      <text x="101.25" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         Launch Storefront
       </text>
       
-    <g transform="translate(211, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(198.5, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -14073,7 +14115,7 @@
             Edge Catalog Sync
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#fbcfe8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Instantaneous global inventory</tspan><tspan x="82" dy="18">indexing</tspan>
@@ -14101,7 +14143,7 @@
             One-Click Checkout
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#fbcfe8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Frictionless tokenized payments</tspan>
@@ -14129,7 +14171,7 @@
             AI Search &amp; Recommender
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#fbcfe8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Semantic vector product discovery</tspan>
@@ -14145,7 +14187,7 @@
                   <div class="card-meta">
                     <span class="tag template">promotional_banner</span>
                     <span class="tag">1200x630 (1.91:1 Landscape)</span>
-                    <span class="tag">8.3 KB</span>
+                    <span class="tag">8.6 KB</span>
                     <span class="tag status">XML Valid</span>
                   </div>
                   <div class="card-footer">
@@ -16271,6 +16313,12 @@
       </pattern>
     </defs>
   
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-design_071-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   
     <!-- Main Canvas Background -->
     <rect width="1200" height="630" fill="url(#promo-design_071-bg-grad)" />
@@ -16288,36 +16336,36 @@
     <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#145a44" stroke-width="1" />
   
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-design_071-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="201" height="32" rx="16" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
+    <rect x="0" y="0" width="186" height="32" rx="16" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
     <text x="18" y="21" fill="#10b981" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       CLEAN COMPUTING
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="75" fill="#f0fdf4" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Carbon-Negative Data</tspan><tspan x="0" dy="52">Infrastructure</tspan>
+    <text x="0" y="72" fill="#f0fdf4" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Carbon-Negative</tspan><tspan x="0" dy="46">Data Infrastructure</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="200" fill="#a7f3d0" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">100% renewable geothermal and solar</tspan><tspan x="0" dy="26">powered compute clusters with zero water</tspan><tspan x="0" dy="26">waste cooling.</tspan>
+    <text x="0" y="220" fill="#a7f3d0" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">100% renewable geothermal and solar</tspan><tspan x="0" dy="24">powered compute clusters with zero</tspan><tspan x="0" dy="24">water waste cooling.</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#promo-design_071-shadow)">
-      <rect x="0" y="0" width="324" height="52" rx="26" fill="url(#promo-design_071-primary-grad)" />
-      <text x="146" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#promo-design_071-shadow)">
+      <rect x="0" y="0" width="308" height="50" rx="25" fill="url(#promo-design_071-primary-grad)" />
+      <text x="138" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         Calculate Carbon Savings
       </text>
       
-    <g transform="translate(288, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(272, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -16357,7 +16405,7 @@
             100% Renewable Powered
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a7f3d0" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Direct on-site geothermal energy</tspan>
@@ -16385,7 +16433,7 @@
             Zero Water Waste
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a7f3d0" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Closed loop dielectric immersion</tspan>
@@ -16414,7 +16462,7 @@
             Verified Carbon Credits
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a7f3d0" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Real-time cryptographic audit trail</tspan>
@@ -16430,7 +16478,7 @@
                   <div class="card-meta">
                     <span class="tag template">promotional_banner</span>
                     <span class="tag">1200x630 (1.91:1 Landscape)</span>
-                    <span class="tag">8.2 KB</span>
+                    <span class="tag">8.5 KB</span>
                     <span class="tag status">XML Valid</span>
                   </div>
                   <div class="card-footer">
@@ -18554,6 +18602,12 @@
       </pattern>
     </defs>
   
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-design_081-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   
     <!-- Main Canvas Background -->
     <rect width="1200" height="630" fill="url(#promo-design_081-bg-grad)" />
@@ -18571,36 +18625,36 @@
     <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#312e81" stroke-width="1" />
   
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-design_081-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="190" height="32" rx="16" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
+    <rect x="0" y="0" width="176" height="32" rx="16" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
     <text x="18" y="21" fill="#6366f1" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       FOCUS SOFTWARE
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="75" fill="#ffffff" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Reclaim 15 Hours Every</tspan><tspan x="0" dy="52">Week</tspan>
+    <text x="0" y="72" fill="#ffffff" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Reclaim 15 Hours</tspan><tspan x="0" dy="46">Every Week</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="200" fill="#cbd5e1" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Intelligent calendar protection, automated</tspan><tspan x="0" dy="26">task triaging, and deep work blocks</tspan><tspan x="0" dy="26">engineered to eliminate burnout.</tspan>
+    <text x="0" y="220" fill="#cbd5e1" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Intelligent calendar protection,</tspan><tspan x="0" dy="24">automated task triaging, and deep work</tspan><tspan x="0" dy="24">blocks engineered to eliminate...</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#promo-design_081-shadow)">
-      <rect x="0" y="0" width="313" height="52" rx="26" fill="url(#promo-design_081-primary-grad)" />
-      <text x="140.5" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#promo-design_081-shadow)">
+      <rect x="0" y="0" width="297.5" height="50" rx="25" fill="url(#promo-design_081-primary-grad)" />
+      <text x="132.75" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         Start Free 14-Day Trial
       </text>
       
-    <g transform="translate(277, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(261.5, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -18640,7 +18694,7 @@
             Smart Scheduling
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#cbd5e1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Auto-groups meetings to protect</tspan><tspan x="82" dy="18">mornings</tspan>
@@ -18668,7 +18722,7 @@
             Inbox Triage
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#cbd5e1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Synthesizes urgent action items</tspan>
@@ -18697,7 +18751,7 @@
             Distraction Shield
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#cbd5e1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Blocks attention-hijacking feeds</tspan>
@@ -18713,7 +18767,7 @@
                   <div class="card-meta">
                     <span class="tag template">promotional_banner</span>
                     <span class="tag">1200x630 (1.91:1 Landscape)</span>
-                    <span class="tag">8.1 KB</span>
+                    <span class="tag">8.4 KB</span>
                     <span class="tag status">XML Valid</span>
                   </div>
                   <div class="card-footer">
@@ -20846,6 +20900,12 @@
       </pattern>
     </defs>
   
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-design_091-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
   
     <!-- Main Canvas Background -->
     <rect width="1200" height="630" fill="url(#promo-design_091-bg-grad)" />
@@ -20863,36 +20923,36 @@
     <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#562270" stroke-width="1" />
   
 
-  <!-- Left Content Column -->
-  <g transform="translate(80, 85)">
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-design_091-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="212" height="32" rx="16" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
+    <rect x="0" y="0" width="196" height="32" rx="16" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
     <text x="18" y="21" fill="#f97316" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
       GROWTH MARKETING
     </text>
 
-    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="75" fill="#ffffff" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Hyper-Personalized</tspan><tspan x="0" dy="52">Customer Journeys</tspan>
+    <text x="0" y="72" fill="#ffffff" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Hyper-Personalized</tspan><tspan x="0" dy="46">Customer Journeys</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="200" fill="#fbcfe8" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Dynamically generate bespoke landing</tspan><tspan x="0" dy="26">pages, email copy, and vector graphics</tspan><tspan x="0" dy="26">tailored to individual customer intent.</tspan>
+    <text x="0" y="220" fill="#fbcfe8" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Dynamically generate bespoke landing</tspan><tspan x="0" dy="24">pages, email copy, and vector graphics</tspan><tspan x="0" dy="24">tailored to individual customer...</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
-    <g transform="translate(0, 320)" filter="url(#promo-design_091-shadow)">
-      <rect x="0" y="0" width="324" height="52" rx="26" fill="url(#promo-design_091-primary-grad)" />
-      <text x="146" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+    <g transform="translate(0, 325)" filter="url(#promo-design_091-shadow)">
+      <rect x="0" y="0" width="308" height="50" rx="25" fill="url(#promo-design_091-primary-grad)" />
+      <text x="138" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
         Request Enterprise Pilot
       </text>
       
-    <g transform="translate(288, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(272, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -20931,7 +20991,7 @@
             Intent Prediction
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#fbcfe8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Real-time behavioural scoring</tspan>
@@ -20961,7 +21021,7 @@
             Dynamic Creatives
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#fbcfe8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Modular vector hero graphics</tspan>
@@ -20991,7 +21051,7 @@
             Omnichannel Sync
           </text>
           
-          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#fbcfe8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="82" dy="0">Seamless web, mobile, and ad</tspan><tspan x="82" dy="18">delivery</tspan>
@@ -21007,7 +21067,7 @@
                   <div class="card-meta">
                     <span class="tag template">promotional_banner</span>
                     <span class="tag">1200x630 (1.91:1 Landscape)</span>
-                    <span class="tag">8.3 KB</span>
+                    <span class="tag">8.6 KB</span>
                     <span class="tag status">XML Valid</span>
                   </div>
                   <div class="card-footer">

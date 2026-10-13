@@ -399,6 +399,28 @@ export default function App() {
 
           {/* SVG Previewer & Canvas */}
           <section className="preview-container">
+            {/* Full High-Visibility Loader Overlay covering the preview container during Generation */}
+            {loading && (
+              <div className="loader-overlay">
+                <div className="loader-card">
+                  <div className="spinner-wrapper">
+                    <div className="spinner-outer" />
+                    <div className="spinner-inner">
+                      <Sparkles size={24} />
+                    </div>
+                  </div>
+                  <div className="loader-title">Synthesizing Vector Graphics...</div>
+                  <div className="loader-status">
+                    <span className="pulse-dot" />
+                    {loadingStep}
+                  </div>
+                  <div className="loader-progress-bar">
+                    <div className="loader-progress-fill" />
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Warning / Fallback Notice Banner */}
             {aiWarning && (
               <div className="warning-banner">
@@ -459,28 +481,9 @@ export default function App() {
 
             {/* Canvas Stage */}
             <div className="svg-viewport">
-              {/* Full Loader Overlay during Generation */}
-              {loading && (
-                <div className="loader-overlay">
-                  <div className="loader-card">
-                    <div className="spinner-wrapper">
-                      <div className="spinner-outer" />
-                      <div className="spinner-inner">
-                        <Sparkles size={24} />
-                      </div>
-                    </div>
-                    <div className="loader-title">Generating SVG Vector Graphic</div>
-                    <div className="loader-status">
-                      <span className="pulse-dot" />
-                      {loadingStep}
-                    </div>
-                  </div>
-                </div>
-              )}
-
               <div
                 ref={svgContainerRef}
-                className="svg-display"
+                className={`svg-display ${loading ? "is-loading" : ""}`}
                 style={{ transform: `scale(${zoom})`, transformOrigin: "center center" }}
                 dangerouslySetInnerHTML={{ __html: svgContent }}
               />

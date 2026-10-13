@@ -13,7 +13,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8443,
+    "sizeBytes": 8793,
     "durationMs": 4,
     "validationStatus": "passed",
     "warnings": []
@@ -71,7 +71,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 11557,
-    "durationMs": 4,
+    "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -109,7 +109,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 8374,
-    "durationMs": 3,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -147,7 +147,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 7717,
-    "durationMs": 2,
+    "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -203,7 +203,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8410,
+    "sizeBytes": 8737,
     "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
@@ -280,7 +280,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 5291,
-    "durationMs": 1,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -299,7 +299,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 8369,
-    "durationMs": 3,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -337,7 +337,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 7569,
-    "durationMs": 1,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -375,7 +375,7 @@
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
     "sizeBytes": 7757,
-    "durationMs": 1,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -393,8 +393,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8344,
-    "durationMs": 1,
+    "sizeBytes": 8666,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -413,7 +413,7 @@
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
     "sizeBytes": 10131,
-    "durationMs": 1,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -451,7 +451,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 11295,
-    "durationMs": 1,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -583,7 +583,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8397,
+    "sizeBytes": 8747,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -717,7 +717,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 7687,
-    "durationMs": 0,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -736,7 +736,7 @@
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
     "sizeBytes": 12092,
-    "durationMs": 2,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -773,7 +773,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8380,
+    "sizeBytes": 8696,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -793,7 +793,7 @@
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
     "sizeBytes": 10132,
-    "durationMs": 2,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -812,7 +812,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 11254,
-    "durationMs": 4,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -907,7 +907,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 7608,
-    "durationMs": 1,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -963,8 +963,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8532,
-    "durationMs": 1,
+    "sizeBytes": 8846,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1021,7 +1021,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 11334,
-    "durationMs": 1,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1040,7 +1040,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 5246,
-    "durationMs": 0,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1153,7 +1153,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8450,
+    "sizeBytes": 8768,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1192,7 +1192,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 11305,
-    "durationMs": 0,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1343,8 +1343,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8407,
-    "durationMs": 0,
+    "sizeBytes": 8729,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1420,7 +1420,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 5370,
-    "durationMs": 2,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1458,7 +1458,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 10153,
-    "durationMs": 2,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1477,7 +1477,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 7554,
-    "durationMs": 1,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1533,7 +1533,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8286,
+    "sizeBytes": 8607,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1667,7 +1667,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 7620,
-    "durationMs": 0,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1705,7 +1705,7 @@
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
     "sizeBytes": 7749,
-    "durationMs": 0,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1723,8 +1723,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8477,
-    "durationMs": 1,
+    "sizeBytes": 8794,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1800,7 +1800,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 5351,
-    "durationMs": 0,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1838,7 +1838,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 10115,
-    "durationMs": 0,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1857,7 +1857,7 @@
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
     "sizeBytes": 7564,
-    "durationMs": 0,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1895,7 +1895,7 @@
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
     "sizeBytes": 7777,
-    "durationMs": 1,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   }
