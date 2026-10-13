@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200" role="img" aria-label="Decentralized Trust Architecture">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="edu-a65fq-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#09090b" />
+        <stop offset="100%" stop-color="#18181b" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="edu-a65fq-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#06b6d4" />
+        <stop offset="100%" stop-color="#f43f5e" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="edu-a65fq-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#18181b" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#18181b" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="edu-a65fq-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="edu-a65fq-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="edu-a65fq-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#06b6d4" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="800" height="1200" fill="url(#edu-a65fq-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="800" height="1200" fill="url(#edu-a65fq-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="720" cy="120" r="200" fill="#06b6d4" filter="url(#edu-a65fq-glow)" />
+      <circle cx="40" cy="1080" r="160" fill="#f43f5e" filter="url(#edu-a65fq-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#27272a" stroke-width="1" />
+  
+
+  <!-- Header Section -->
+  <g transform="translate(60, 60)">
+    <!-- Pill Badge -->
+    <rect x="0" y="0" width="237" height="30" rx="15" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
+    <text x="15" y="20" fill="#06b6d4" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+      BLOCKCHAIN FUNDAMENTALS
+    </text>
+
+    <!-- Main Title -->
+    
+    <text x="0" y="65" fill="#fafafa" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Decentralized Trust</tspan><tspan x="0" dy="44">Architecture</tspan>
+    </text>
+  
+
+    <!-- Subtitle -->
+    
+    <text x="0" y="165" fill="#a1a1aa" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Explore the cryptographic pillars and protocol mechanics powering</tspan><tspan x="0" dy="24">the next era of digital consensus.</tspan>
+    </text>
+  
+    
+    <!-- Dividing Accent Line -->
+    <line x1="0" y1="220" x2="680" y2="220" stroke="#27272a" stroke-width="1.5" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- Educational Concept Cards (4 Stacked) -->
+  <g transform="translate(60, 310)">
+    
+        <g transform="translate(0, 0)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-a65fq-card-grad)" stroke="#27272a" stroke-width="1.5" filter="url(#edu-a65fq-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#06b6d4" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            01
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafafa" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Distributed Ledger State
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#f43f5e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <ellipse cx="12" cy="5" rx="9" ry="3"/>
+    <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
+    <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#a1a1aa" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Immutable transaction logs synchronized across</tspan><tspan x="95" dy="24">permissionless peer networks without central</tspan><tspan x="95" dy="24">intermediaries.</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(0, 195)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-a65fq-card-grad)" stroke="#27272a" stroke-width="1.5" filter="url(#edu-a65fq-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#06b6d4" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            02
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafafa" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Cryptographic Verification
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#f43f5e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
+    <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#a1a1aa" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">One-way cryptographic hash functions and digital</tspan><tspan x="95" dy="24">signatures enforce data integrity and block</tspan><tspan x="95" dy="24">immutability.</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(0, 390)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-a65fq-card-grad)" stroke="#27272a" stroke-width="1.5" filter="url(#edu-a65fq-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#06b6d4" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            03
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafafa" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Consensus Mechanisms
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#f43f5e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <rect x="4" y="4" width="16" height="16" rx="2"/>
+    <rect x="9" y="9" width="6" height="6"/>
+    <path d="M15 2v2M9 2v2M15 20v2M9 20v2M2 15h2M2 9h2M20 15h2M20 9h2"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#a1a1aa" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Fault-tolerant protocols like Proof-of-Stake</tspan><tspan x="95" dy="24">synchronize distributed state and prevent</tspan><tspan x="95" dy="24">double-spend vectors.</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(0, 585)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-a65fq-card-grad)" stroke="#27272a" stroke-width="1.5" filter="url(#edu-a65fq-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#06b6d4" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            04
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafafa" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Autonomous Smart Contracts
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#f43f5e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <polyline points="16 18 22 12 16 6"/>
+    <polyline points="8 6 2 12 8 18"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#a1a1aa" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Self-executing programmable bytecode deployed</tspan><tspan x="95" dy="24">on-chain to orchestrate trustless decentralized</tspan><tspan x="95" dy="24">operations.</tspan>
+    </text>
+  
+        </g>
+      
+  </g>
+
+  <!-- Footer Info -->
+  <g transform="translate(60, 1130)">
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#27272a" stroke-width="1" />
+    <text x="0" y="32" fill="#a1a1aa" font-size="13" font-family="Inter, sans-serif">
+      AI-Powered Vector Infographic Engine • Generated Visual Guide
+    </text>
+    <text x="680" y="32" fill="#06b6d4" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
+      Open Standards • Production Ready
+    </text>
+  </g>
+</svg>

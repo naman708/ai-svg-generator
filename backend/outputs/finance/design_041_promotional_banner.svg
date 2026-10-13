@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Algorithmic Wealth Optimization">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="promo-design_041-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1c1917" />
+        <stop offset="100%" stop-color="#292524" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="promo-design_041-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#f59e0b" />
+        <stop offset="100%" stop-color="#fde68a" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="promo-design_041-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#292524" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#292524" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="promo-design_041-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="promo-design_041-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="promo-design_041-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#f59e0b" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="1200" height="630" fill="url(#promo-design_041-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="1200" height="630" fill="url(#promo-design_041-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="1080" cy="63" r="300" fill="#f59e0b" filter="url(#promo-design_041-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#fde68a" filter="url(#promo-design_041-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#44403c" stroke-width="1" />
+  
+
+  <!-- Left Content Column -->
+  <g transform="translate(80, 85)">
+    <!-- Category Badge (Dynamic width with safe padding) -->
+    <rect x="0" y="0" width="245" height="32" rx="16" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-width="1.5" />
+    <text x="18" y="21" fill="#f59e0b" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
+      WEALTH INTELLIGENCE
+    </text>
+
+    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    
+    <text x="0" y="75" fill="#fafaf9" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Algorithmic Wealth</tspan><tspan x="0" dy="52">Optimization</tspan>
+    </text>
+  
+
+    <!-- Subtitle / Body Copy -->
+    
+    <text x="0" y="200" fill="#d6d3d1" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Direct indexing, tax-loss harvesting, and</tspan><tspan x="0" dy="26">multi-asset risk parity managed</tspan><tspan x="0" dy="26">autonomously for high net worth investors.</tspan>
+    </text>
+  
+
+    <!-- CTA Button (Dynamic width & calculated icon spacing) -->
+    <g transform="translate(0, 320)" filter="url(#promo-design_041-shadow)">
+      <rect x="0" y="0" width="302" height="52" rx="26" fill="url(#promo-design_041-primary-grad)" />
+      <text x="135" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+        Explore Private Wealth
+      </text>
+      
+    <g transform="translate(266, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="20" height="20" viewBox="0 0 24 24">
+        
+    <line x1="5" x2="19" y1="12" y2="12"/>
+    <polyline points="12 5 19 12 12 19"/>
+  
+      </svg>
+    </g>
+  
+    </g>
+  </g>
+
+  <!-- Right Visual / Feature Cards Bento -->
+  <g transform="translate(680, 105)">
+    <!-- Big Decorative Backing Card -->
+    <rect x="0" y="0" width="440" height="415" rx="20" fill="url(#promo-design_041-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#promo-design_041-shadow)" />
+    
+    <!-- Feature items -->
+    
+        <g transform="translate(25, 24)">
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#292524" stroke="#44403c" stroke-width="1" />
+          
+          <!-- Icon Bubble -->
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#f59e0b" fill-opacity="0.15" />
+          
+    <g transform="translate(31, 40)" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <line x1="12" x2="12" y1="2" y2="22"/>
+    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+  
+      </svg>
+    </g>
+  
+          
+          <!-- Feature Title -->
+          <text x="82" y="38" fill="#fafaf9" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            Continuous Tax Alpha
+          </text>
+          
+          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          
+    <text x="82" y="60" fill="#d6d3d1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Daily automated tax-loss harvesting</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(25, 148)">
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#292524" stroke="#44403c" stroke-width="1" />
+          
+          <!-- Icon Bubble -->
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#f59e0b" fill-opacity="0.15" />
+          
+    <g transform="translate(31, 40)" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
+    <polyline points="16 7 22 7 22 13"/>
+  
+      </svg>
+    </g>
+  
+          
+          <!-- Feature Title -->
+          <text x="82" y="38" fill="#fafaf9" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            Multi-Asset Risk Parity
+          </text>
+          
+          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          
+    <text x="82" y="60" fill="#d6d3d1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Dynamic volatility targeting</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(25, 272)">
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#292524" stroke="#44403c" stroke-width="1" />
+          
+          <!-- Icon Bubble -->
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#f59e0b" fill-opacity="0.15" />
+          
+    <g transform="translate(31, 40)" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+    <path d="m9 12 2 2 4-4"/>
+  
+      </svg>
+    </g>
+  
+          
+          <!-- Feature Title -->
+          <text x="82" y="38" fill="#fafaf9" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            SIPC Insured Custody
+          </text>
+          
+          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          
+    <text x="82" y="60" fill="#d6d3d1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Enterprise institutional custodian</tspan><tspan x="82" dy="18">rails</tspan>
+    </text>
+  
+        </g>
+      
+  </g>
+</svg>

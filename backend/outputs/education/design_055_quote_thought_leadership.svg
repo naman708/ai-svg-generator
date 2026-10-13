@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Education is not the learning of facts, but the training of the mind to think through complex first principles.">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="quote-design_055-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0f172a" />
+        <stop offset="100%" stop-color="#1e1b4b" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="quote-design_055-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#6366f1" />
+        <stop offset="100%" stop-color="#c084fc" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="quote-design_055-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="quote-design_055-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="quote-design_055-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="quote-design_055-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#6366f1" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="1200" height="630" fill="url(#quote-design_055-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="1200" height="630" fill="url(#quote-design_055-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="1080" cy="63" r="300" fill="#6366f1" filter="url(#quote-design_055-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#c084fc" filter="url(#quote-design_055-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#312e81" stroke-width="1" />
+  
+
+  <!-- Central Card -->
+  <g transform="translate(100, 75)">
+    <rect x="0" y="0" width="1000" height="480" rx="24" fill="url(#quote-design_055-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#quote-design_055-shadow)" />
+
+    <!-- Top Badge -->
+    <g transform="translate(60, 50)">
+      <rect x="0" y="0" width="237" height="30" rx="15" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
+      <text x="15" y="20" fill="#6366f1" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+        PHILOSOPHY OF EDUCATION
+      </text>
+    </g>
+
+    <!-- Large Decorative Quote Glyph -->
+    <g transform="translate(60, 110)">
+      
+    <g transform="translate(0, 0)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="48" height="48" viewBox="0 0 24 24">
+        
+    <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+    <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+  
+      </svg>
+    </g>
+  
+    </g>
+
+    <!-- Quote Body -->
+    <g transform="translate(60, 180)">
+      
+    <text x="0" y="20" fill="#ffffff" font-size="32" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">“Education is not the learning of facts, but</tspan><tspan x="0" dy="44">the training of the mind to think through</tspan><tspan x="0" dy="44">complex first principles.”</tspan>
+    </text>
+  
+    </g>
+
+    <!-- Author Profile Footer -->
+    <g transform="translate(60, 390)">
+      <!-- Avatar Circle with Initial -->
+      <circle cx="28" cy="28" r="28" fill="#6366f1" />
+      <text x="28" y="37" fill="#ffffff" font-size="22" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+        A
+      </text>
+
+      <!-- Author Name & Verified Badge -->
+      <text x="75" y="24" fill="#ffffff" font-size="20" font-weight="700" font-family="Inter, sans-serif">
+        Albert Einstein
+      </text>
+      
+    <g transform="translate(250, 8)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="18" height="18" viewBox="0 0 24 24">
+        
+    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+    <polyline points="22 4 12 14.01 9 11.01"/>
+  
+      </svg>
+    </g>
+  
+
+      <!-- Role / Title -->
+      <text x="75" y="46" fill="#cbd5e1" font-size="14" font-family="Inter, sans-serif">
+        Theoretical Physicist
+      </text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "name": "ai-svg-generator-suite",
+  "version": "1.0.0",
+  "description": "AI-Powered SVG Banner & Infographic Generation Engine Suite",
+  "main": "backend/src/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "npm --prefix backend install && npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "node backend/src/server.js",
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend run dev",
+    "batch": "npm --prefix backend run batch",
+    "test:templates": "npm --prefix backend run test:templates"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

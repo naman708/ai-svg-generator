@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Global Flash Sale: Up To 60% Off">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="announce-design_066-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1c102b" />
+        <stop offset="100%" stop-color="#2e123d" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="announce-design_066-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#f97316" />
+        <stop offset="100%" stop-color="#ec4899" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="announce-design_066-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#38174a" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#38174a" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="announce-design_066-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="announce-design_066-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="announce-design_066-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#f97316" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="1200" height="630" fill="url(#announce-design_066-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="1200" height="630" fill="url(#announce-design_066-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="1080" cy="63" r="300" fill="#f97316" filter="url(#announce-design_066-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#ec4899" filter="url(#announce-design_066-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#562270" stroke-width="1" />
+  
+
+  <!-- Central Announcement Board -->
+  <g transform="translate(80, 60)">
+    <!-- Header Meta Row: Badge & Date Tag -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="198" height="28" rx="6" fill="#f97316" />
+      <text x="99" y="19" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+        MEGA ANNUAL EVENT
+      </text>
+
+      <rect x="214" y="0" width="248" height="28" rx="6" fill="#38174a" stroke="#562270" stroke-width="1" />
+      <text x="338" y="19" fill="#ec4899" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+        LIMITED 48-HOUR ACCESS
+      </text>
+    </g>
+
+    <!-- Main Title -->
+    <g transform="translate(0, 50)">
+      
+    <text x="0" y="40" fill="#ffffff" font-size="42" font-weight="900" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Global Flash Sale: Up To 60% Off</tspan>
+    </text>
+  
+    </g>
+
+    <!-- Description -->
+    <g transform="translate(0, 160)">
+      
+    <text x="0" y="20" fill="#fbcfe8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Exclusive enterprise discounts across all software licenses,</tspan><tspan x="0" dy="26">hardware tools, and developer subscriptions.</tspan>
+    </text>
+  
+    </g>
+
+    <!-- 3 Highlight Pills -->
+    <g transform="translate(0, 240)">
+      
+          <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_066-card-grad)" stroke="#562270" stroke-width="1" />
+            <circle cx="28" cy="24" r="12" fill="#f97316" fill-opacity="0.2" />
+            
+    <g transform="translate(18, 14)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="20" height="20" viewBox="0 0 24 24">
+        
+    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+    <polyline points="22 4 12 14.01 9 11.01"/>
+  
+      </svg>
+    </g>
+  
+            
+    <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="54" dy="0">Instant coupon redemption at checkout</tspan>
+    </text>
+  
+          </g>
+        
+          <g transform="translate(0, 60)">
+            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_066-card-grad)" stroke="#562270" stroke-width="1" />
+            <circle cx="28" cy="24" r="12" fill="#f97316" fill-opacity="0.2" />
+            
+    <g transform="translate(18, 14)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="20" height="20" viewBox="0 0 24 24">
+        
+    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+    <polyline points="22 4 12 14.01 9 11.01"/>
+  
+      </svg>
+    </g>
+  
+            
+    <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="54" dy="0">Free expedited global shipping on all hardware</tspan>
+    </text>
+  
+          </g>
+        
+          <g transform="translate(0, 120)">
+            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_066-card-grad)" stroke="#562270" stroke-width="1" />
+            <circle cx="28" cy="24" r="12" fill="#f97316" fill-opacity="0.2" />
+            
+    <g transform="translate(18, 14)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="20" height="20" viewBox="0 0 24 24">
+        
+    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+    <polyline points="22 4 12 14.01 9 11.01"/>
+  
+      </svg>
+    </g>
+  
+            
+    <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="54" dy="0">Priority 24/7 dedicated onboarding support</tspan>
+    </text>
+  
+          </g>
+        
+    </g>
+  </g>
+
+  <!-- Right Visual Emblem Card -->
+  <g transform="translate(850, 110)">
+    <rect x="0" y="0" width="270" height="420" rx="20" fill="url(#announce-design_066-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#announce-design_066-shadow)" />
+    
+    <!-- Central Icon Glow Motif -->
+    <circle cx="135" cy="150" r="70" fill="#f97316" fill-opacity="0.15" />
+    <circle cx="135" cy="150" r="50" fill="#f97316" fill-opacity="0.25" />
+    
+    <g transform="translate(107, 122)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="56" height="56" viewBox="0 0 24 24">
+        
+    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+    <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+    <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
+    <path d="M12 9V4s3.03.55 4 2c1.08 1.62 0 5 0 5"/>
+  
+      </svg>
+    </g>
+  
+
+    <text x="135" y="270" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+      Official Release
+    </text>
+    <text x="135" y="300" fill="#fbcfe8" font-size="14" text-anchor="middle" font-family="Inter, sans-serif">
+      Production Build Verified
+    </text>
+
+    <!-- Verification Pill -->
+    <rect x="45" y="340" width="180" height="36" rx="18" fill="url(#announce-design_066-primary-grad)" />
+    <text x="135" y="363" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+      EXPLORE NOW
+    </text>
+  </g>
+</svg>

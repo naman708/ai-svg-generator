@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "design_001",
+    "index": 1,
+    "category": "Technology and AI",
+    "topic": "Autonomous AI Agent Swarms",
+    "template": "promotional_banner",
+    "theme": "cyberpunk-tech",
+    "file": "outputs/technology_and_ai/design_001_promotional_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\technology_and_ai\\design_001_promotional_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8443,
+    "durationMs": 4,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_002",
+    "index": 2,
+    "category": "Technology and AI",
+    "topic": "Anatomy of Large Language Models",
+    "template": "educational_infographic",
+    "theme": "royal-indigo",
+    "file": "outputs/technology_and_ai/design_002_educational_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\technology_and_ai\\design_002_educational_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 10217,
+    "durationMs": 3,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_003",
+    "index": 3,
+    "category": "Technology and AI",
+    "topic": "LLM Inference Cost & Throughput",
+    "template": "statistics_metrics",
+    "theme": "modern-corporate",
+    "file": "outputs/technology_and_ai/design_003_statistics_metrics.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\technology_and_ai\\design_003_statistics_metrics.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11255,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_004",
+    "index": 4,
+    "category": "Technology and AI",
+    "topic": "AI Model Deployment Pipeline",
+    "template": "step_by_step_roadmap",
+    "theme": "sunset-vibrant",
+    "file": "outputs/technology_and_ai/design_004_step_by_step_roadmap.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\technology_and_ai\\design_004_step_by_step_roadmap.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11557,
+    "durationMs": 4,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_005",
+    "index": 5,
+    "category": "Technology and AI",
+    "topic": "The Frontier of Neural Compute",
+    "template": "quote_thought_leadership",
+    "theme": "amber-warmth",
+    "file": "outputs/technology_and_ai/design_005_quote_thought_leadership.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\technology_and_ai\\design_005_quote_thought_leadership.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 5337,
+    "durationMs": 3,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_006",
+    "index": 6,
+    "category": "Technology and AI",
+    "topic": "Next-Gen Quantum Neural Engine Release",
+    "template": "announcement_banner",
+    "theme": "crimson-energy",
+    "file": "outputs/technology_and_ai/design_006_announcement_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\technology_and_ai\\design_006_announcement_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8374,
+    "durationMs": 3,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_007",
+    "index": 7,
+    "category": "Technology and AI",
+    "topic": "Monolithic LLMs vs Compound AI Systems",
+    "template": "comparison_layout",
+    "theme": "modern-corporate",
+    "file": "outputs/technology_and_ai/design_007_comparison_layout.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\technology_and_ai\\design_007_comparison_layout.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 10087,
+    "durationMs": 3,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_008",
+    "index": 8,
+    "category": "Technology and AI",
+    "topic": "Vector Database Clustering Architecture",
+    "template": "feature_highlights",
+    "theme": "cyberpunk-tech",
+    "file": "outputs/technology_and_ai/design_008_feature_highlights.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\technology_and_ai\\design_008_feature_highlights.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 7717,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_009",
+    "index": 9,
+    "category": "Technology and AI",
+    "topic": "5 Rules for Resilient AI Architectures",
+    "template": "list_bullet_infographic",
+    "theme": "clean-minimal-light",
+    "file": "outputs/technology_and_ai/design_009_list_bullet_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\technology_and_ai\\design_009_list_bullet_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 11843,
+    "durationMs": 3,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_010",
+    "index": 10,
+    "category": "Technology and AI",
+    "topic": "Vector Graphics as Code",
+    "template": "social_square_graphic",
+    "theme": "royal-indigo",
+    "file": "outputs/technology_and_ai/design_010_social_square_graphic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\technology_and_ai\\design_010_social_square_graphic.svg",
+    "dimensions": {
+      "width": 1080,
+      "height": 1080
+    },
+    "aspectRatio": "1080x1080 (1:1 Square)",
+    "sizeBytes": 7756,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_011",
+    "index": 11,
+    "category": "Business and Startups",
+    "topic": "B2B SaaS Acceleration Platform",
+    "template": "promotional_banner",
+    "theme": "modern-corporate",
+    "file": "outputs/business_and_startups/design_011_promotional_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\business_and_startups\\design_011_promotional_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8410,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_012",
+    "index": 12,
+    "category": "Business and Startups",
+    "topic": "Startup Funding Lifecycle",
+    "template": "educational_infographic",
+    "theme": "amber-warmth",
+    "file": "outputs/business_and_startups/design_012_educational_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\business_and_startups\\design_012_educational_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 10287,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_013",
+    "index": 13,
+    "category": "Business and Startups",
+    "topic": "SaaS Valuation Multiples & Retention",
+    "template": "statistics_metrics",
+    "theme": "clean-minimal-light",
+    "file": "outputs/business_and_startups/design_013_statistics_metrics.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\business_and_startups\\design_013_statistics_metrics.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11183,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_014",
+    "index": 14,
+    "category": "Business and Startups",
+    "topic": "Product-Led Growth Playbook",
+    "template": "step_by_step_roadmap",
+    "theme": "sunset-vibrant",
+    "file": "outputs/business_and_startups/design_014_step_by_step_roadmap.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\business_and_startups\\design_014_step_by_step_roadmap.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11293,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_015",
+    "index": 15,
+    "category": "Business and Startups",
+    "topic": "Founders on Execution Speed",
+    "template": "quote_thought_leadership",
+    "theme": "royal-indigo",
+    "file": "outputs/business_and_startups/design_015_quote_thought_leadership.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\business_and_startups\\design_015_quote_thought_leadership.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 5291,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_016",
+    "index": 16,
+    "category": "Business and Startups",
+    "topic": "Series A Capital Announcement",
+    "template": "announcement_banner",
+    "theme": "modern-corporate",
+    "file": "outputs/business_and_startups/design_016_announcement_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\business_and_startups\\design_016_announcement_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8369,
+    "durationMs": 3,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_017",
+    "index": 17,
+    "category": "Business and Startups",
+    "topic": "Bootstrapped vs Venture Funded",
+    "template": "comparison_layout",
+    "theme": "amber-warmth",
+    "file": "outputs/business_and_startups/design_017_comparison_layout.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\business_and_startups\\design_017_comparison_layout.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 10092,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_018",
+    "index": 18,
+    "category": "Business and Startups",
+    "topic": "Enterprise Workflow OS",
+    "template": "feature_highlights",
+    "theme": "modern-corporate",
+    "file": "outputs/business_and_startups/design_018_feature_highlights.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\business_and_startups\\design_018_feature_highlights.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 7569,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_019",
+    "index": 19,
+    "category": "Business and Startups",
+    "topic": "5 Levers for Net Revenue Retention",
+    "template": "list_bullet_infographic",
+    "theme": "clean-minimal-light",
+    "file": "outputs/business_and_startups/design_019_list_bullet_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\business_and_startups\\design_019_list_bullet_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 11872,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_020",
+    "index": 20,
+    "category": "Business and Startups",
+    "topic": "The Power of High-Velocity Experimentation",
+    "template": "social_square_graphic",
+    "theme": "sunset-vibrant",
+    "file": "outputs/business_and_startups/design_020_social_square_graphic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\business_and_startups\\design_020_social_square_graphic.svg",
+    "dimensions": {
+      "width": 1080,
+      "height": 1080
+    },
+    "aspectRatio": "1080x1080 (1:1 Square)",
+    "sizeBytes": 7757,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_021",
+    "index": 21,
+    "category": "Cybersecurity",
+    "topic": "Autonomous Zero-Trust Defense",
+    "template": "promotional_banner",
+    "theme": "cyberpunk-tech",
+    "file": "outputs/cybersecurity/design_021_promotional_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_021_promotional_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8344,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_022",
+    "index": 22,
+    "category": "Cybersecurity",
+    "topic": "Anatomy of Ransomware Attacks",
+    "template": "educational_infographic",
+    "theme": "crimson-energy",
+    "file": "outputs/cybersecurity/design_022_educational_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_022_educational_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 10131,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_023",
+    "index": 23,
+    "category": "Cybersecurity",
+    "topic": "Enterprise SOC Response Metrics",
+    "template": "statistics_metrics",
+    "theme": "cyberpunk-tech",
+    "file": "outputs/cybersecurity/design_023_statistics_metrics.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_023_statistics_metrics.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11223,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_024",
+    "index": 24,
+    "category": "Cybersecurity",
+    "topic": "Zero Trust Architecture Roadmap",
+    "template": "step_by_step_roadmap",
+    "theme": "royal-indigo",
+    "file": "outputs/cybersecurity/design_024_step_by_step_roadmap.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_024_step_by_step_roadmap.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11295,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_025",
+    "index": 25,
+    "category": "Cybersecurity",
+    "topic": "Security as an Engineering Enabler",
+    "template": "quote_thought_leadership",
+    "theme": "cyberpunk-tech",
+    "file": "outputs/cybersecurity/design_025_quote_thought_leadership.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_025_quote_thought_leadership.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 5344,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_026",
+    "index": 26,
+    "category": "Cybersecurity",
+    "topic": "Quantum-Resistant Encryption Standard",
+    "template": "announcement_banner",
+    "theme": "royal-indigo",
+    "file": "outputs/cybersecurity/design_026_announcement_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_026_announcement_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8400,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_027",
+    "index": 27,
+    "category": "Cybersecurity",
+    "topic": "Traditional Firewalls vs Cloud Native SASE",
+    "template": "comparison_layout",
+    "theme": "cyberpunk-tech",
+    "file": "outputs/cybersecurity/design_027_comparison_layout.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_027_comparison_layout.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 10123,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_028",
+    "index": 28,
+    "category": "Cybersecurity",
+    "topic": "Next-Gen Threat Intelligence Cloud",
+    "template": "feature_highlights",
+    "theme": "crimson-energy",
+    "file": "outputs/cybersecurity/design_028_feature_highlights.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_028_feature_highlights.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 7539,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_029",
+    "index": 29,
+    "category": "Cybersecurity",
+    "topic": "5 Habits of Cyber Resilient Teams",
+    "template": "list_bullet_infographic",
+    "theme": "clean-minimal-light",
+    "file": "outputs/cybersecurity/design_029_list_bullet_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_029_list_bullet_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 11972,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_030",
+    "index": 30,
+    "category": "Cybersecurity",
+    "topic": "Security Is Not A Destination",
+    "template": "social_square_graphic",
+    "theme": "cyberpunk-tech",
+    "file": "outputs/cybersecurity/design_030_social_square_graphic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_030_social_square_graphic.svg",
+    "dimensions": {
+      "width": 1080,
+      "height": 1080
+    },
+    "aspectRatio": "1080x1080 (1:1 Square)",
+    "sizeBytes": 7797,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_031",
+    "index": 31,
+    "category": "Healthcare",
+    "topic": "Next-Gen Genomic Medicine",
+    "template": "promotional_banner",
+    "theme": "emerald-eco",
+    "file": "outputs/healthcare/design_031_promotional_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_031_promotional_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8397,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_032",
+    "index": 32,
+    "category": "Healthcare",
+    "topic": "The Mechanism of mRNA Vaccines",
+    "template": "educational_infographic",
+    "theme": "emerald-eco",
+    "file": "outputs/healthcare/design_032_educational_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_032_educational_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 10113,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_033",
+    "index": 33,
+    "category": "Healthcare",
+    "topic": "AI Diagnostic Accuracy Rates",
+    "template": "statistics_metrics",
+    "theme": "crimson-energy",
+    "file": "outputs/healthcare/design_033_statistics_metrics.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_033_statistics_metrics.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11474,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_034",
+    "index": 34,
+    "category": "Healthcare",
+    "topic": "Clinical Drug Discovery Pipeline",
+    "template": "step_by_step_roadmap",
+    "theme": "emerald-eco",
+    "file": "outputs/healthcare/design_034_step_by_step_roadmap.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_034_step_by_step_roadmap.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11570,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_035",
+    "index": 35,
+    "category": "Healthcare",
+    "topic": "Technology in Medicine",
+    "template": "quote_thought_leadership",
+    "theme": "crimson-energy",
+    "file": "outputs/healthcare/design_035_quote_thought_leadership.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_035_quote_thought_leadership.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 5367,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_036",
+    "index": 36,
+    "category": "Healthcare",
+    "topic": "Autonomous Robotic Surgery System",
+    "template": "announcement_banner",
+    "theme": "emerald-eco",
+    "file": "outputs/healthcare/design_036_announcement_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_036_announcement_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8367,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_037",
+    "index": 37,
+    "category": "Healthcare",
+    "topic": "Reactive Healthcare vs Preventive Medicine",
+    "template": "comparison_layout",
+    "theme": "emerald-eco",
+    "file": "outputs/healthcare/design_037_comparison_layout.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_037_comparison_layout.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 10125,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_038",
+    "index": 38,
+    "category": "Healthcare",
+    "topic": "Decentralized Clinical Trials Cloud",
+    "template": "feature_highlights",
+    "theme": "royal-indigo",
+    "file": "outputs/healthcare/design_038_feature_highlights.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_038_feature_highlights.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 7687,
+    "durationMs": 0,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_039",
+    "index": 39,
+    "category": "Healthcare",
+    "topic": "5 Pillars of Human Longevity",
+    "template": "list_bullet_infographic",
+    "theme": "clean-minimal-light",
+    "file": "outputs/healthcare/design_039_list_bullet_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_039_list_bullet_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 12092,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_040",
+    "index": 40,
+    "category": "Healthcare",
+    "topic": "Health As An Everyday System",
+    "template": "social_square_graphic",
+    "theme": "emerald-eco",
+    "file": "outputs/healthcare/design_040_social_square_graphic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_040_social_square_graphic.svg",
+    "dimensions": {
+      "width": 1080,
+      "height": 1080
+    },
+    "aspectRatio": "1080x1080 (1:1 Square)",
+    "sizeBytes": 7778,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_041",
+    "index": 41,
+    "category": "Finance",
+    "topic": "Algorithmic Wealth Management",
+    "template": "promotional_banner",
+    "theme": "amber-warmth",
+    "file": "outputs/finance/design_041_promotional_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_041_promotional_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8380,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_042",
+    "index": 42,
+    "category": "Finance",
+    "topic": "Understanding Modern Bond Yields",
+    "template": "educational_infographic",
+    "theme": "modern-corporate",
+    "file": "outputs/finance/design_042_educational_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_042_educational_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 10132,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_043",
+    "index": 43,
+    "category": "Finance",
+    "topic": "Hedge Fund Performance & Alpha",
+    "template": "statistics_metrics",
+    "theme": "amber-warmth",
+    "file": "outputs/finance/design_043_statistics_metrics.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_043_statistics_metrics.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11254,
+    "durationMs": 4,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_044",
+    "index": 44,
+    "category": "Finance",
+    "topic": "Personal Financial Independence Roadmap",
+    "template": "step_by_step_roadmap",
+    "theme": "clean-minimal-light",
+    "file": "outputs/finance/design_044_step_by_step_roadmap.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_044_step_by_step_roadmap.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11278,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_045",
+    "index": 45,
+    "category": "Finance",
+    "topic": "The Power of Compound Interest",
+    "template": "quote_thought_leadership",
+    "theme": "amber-warmth",
+    "file": "outputs/finance/design_045_quote_thought_leadership.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_045_quote_thought_leadership.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 5275,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_046",
+    "index": 46,
+    "category": "Finance",
+    "topic": "Zero-Fee Institutional Brokerage Launch",
+    "template": "announcement_banner",
+    "theme": "modern-corporate",
+    "file": "outputs/finance/design_046_announcement_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_046_announcement_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8379,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_047",
+    "index": 47,
+    "category": "Finance",
+    "topic": "Active Stock Picking vs Low-Cost Indexing",
+    "template": "comparison_layout",
+    "theme": "amber-warmth",
+    "file": "outputs/finance/design_047_comparison_layout.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_047_comparison_layout.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 10148,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_048",
+    "index": 48,
+    "category": "Finance",
+    "topic": "Institutional Treasury Management Engine",
+    "template": "feature_highlights",
+    "theme": "modern-corporate",
+    "file": "outputs/finance/design_048_feature_highlights.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_048_feature_highlights.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 7608,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_049",
+    "index": 49,
+    "category": "Finance",
+    "topic": "5 Golden Rules of Sound Portfolio Construction",
+    "template": "list_bullet_infographic",
+    "theme": "clean-minimal-light",
+    "file": "outputs/finance/design_049_list_bullet_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_049_list_bullet_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 11922,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_050",
+    "index": 50,
+    "category": "Finance",
+    "topic": "Investing In What You Understand",
+    "template": "social_square_graphic",
+    "theme": "amber-warmth",
+    "file": "outputs/finance/design_050_social_square_graphic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_050_social_square_graphic.svg",
+    "dimensions": {
+      "width": 1080,
+      "height": 1080
+    },
+    "aspectRatio": "1080x1080 (1:1 Square)",
+    "sizeBytes": 7766,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_051",
+    "index": 51,
+    "category": "Education",
+    "topic": "Adaptive AI Tutoring Platform",
+    "template": "promotional_banner",
+    "theme": "royal-indigo",
+    "file": "outputs/education/design_051_promotional_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_051_promotional_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8532,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_052",
+    "index": 52,
+    "category": "Education",
+    "topic": "Bloom's Revised Cognitive Taxonomy",
+    "template": "educational_infographic",
+    "theme": "royal-indigo",
+    "file": "outputs/education/design_052_educational_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_052_educational_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 10235,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_053",
+    "index": 53,
+    "category": "Education",
+    "topic": "Global Online Education Outcomes",
+    "template": "statistics_metrics",
+    "theme": "clean-minimal-light",
+    "file": "outputs/education/design_053_statistics_metrics.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_053_statistics_metrics.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11431,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_054",
+    "index": 54,
+    "category": "Education",
+    "topic": "Accelerated Skill Mastery Framework",
+    "template": "step_by_step_roadmap",
+    "theme": "sunset-vibrant",
+    "file": "outputs/education/design_054_step_by_step_roadmap.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_054_step_by_step_roadmap.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11334,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_055",
+    "index": 55,
+    "category": "Education",
+    "topic": "The Ultimate Purpose of Education",
+    "template": "quote_thought_leadership",
+    "theme": "royal-indigo",
+    "file": "outputs/education/design_055_quote_thought_leadership.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_055_quote_thought_leadership.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 5246,
+    "durationMs": 0,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_056",
+    "index": 56,
+    "category": "Education",
+    "topic": "Open STEM Curriculum Initiative",
+    "template": "announcement_banner",
+    "theme": "modern-corporate",
+    "file": "outputs/education/design_056_announcement_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_056_announcement_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8388,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_057",
+    "index": 57,
+    "category": "Education",
+    "topic": "Passive Lectures vs Active Retrieval Practice",
+    "template": "comparison_layout",
+    "theme": "clean-minimal-light",
+    "file": "outputs/education/design_057_comparison_layout.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_057_comparison_layout.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 10156,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_058",
+    "index": 58,
+    "category": "Education",
+    "topic": "Next-Gen Virtual Science Lab",
+    "template": "feature_highlights",
+    "theme": "emerald-eco",
+    "file": "outputs/education/design_058_feature_highlights.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_058_feature_highlights.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 7676,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_059",
+    "index": 59,
+    "category": "Education",
+    "topic": "5 Proven Habits of Elite Learners",
+    "template": "list_bullet_infographic",
+    "theme": "clean-minimal-light",
+    "file": "outputs/education/design_059_list_bullet_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_059_list_bullet_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 12047,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_060",
+    "index": 60,
+    "category": "Education",
+    "topic": "Learning Is A Lifelong Compounding Game",
+    "template": "social_square_graphic",
+    "theme": "royal-indigo",
+    "file": "outputs/education/design_060_social_square_graphic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_060_social_square_graphic.svg",
+    "dimensions": {
+      "width": 1080,
+      "height": 1080
+    },
+    "aspectRatio": "1080x1080 (1:1 Square)",
+    "sizeBytes": 7774,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_061",
+    "index": 61,
+    "category": "E-commerce",
+    "topic": "Omnichannel Commerce Cloud",
+    "template": "promotional_banner",
+    "theme": "sunset-vibrant",
+    "file": "outputs/e_commerce/design_061_promotional_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_061_promotional_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8450,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_062",
+    "index": 62,
+    "category": "E-commerce",
+    "topic": "E-Commerce Conversion Funnel Anatomy",
+    "template": "educational_infographic",
+    "theme": "sunset-vibrant",
+    "file": "outputs/e_commerce/design_062_educational_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_062_educational_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 10170,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_063",
+    "index": 63,
+    "category": "E-commerce",
+    "topic": "Holiday Cyber Week Retail Benchmarks",
+    "template": "statistics_metrics",
+    "theme": "amber-warmth",
+    "file": "outputs/e_commerce/design_063_statistics_metrics.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_063_statistics_metrics.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11305,
+    "durationMs": 0,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_064",
+    "index": 64,
+    "category": "E-commerce",
+    "topic": "Direct-to-Consumer Scaling Roadmap",
+    "template": "step_by_step_roadmap",
+    "theme": "modern-corporate",
+    "file": "outputs/e_commerce/design_064_step_by_step_roadmap.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_064_step_by_step_roadmap.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11329,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_065",
+    "index": 65,
+    "category": "E-commerce",
+    "topic": "Obsessing Over Customer Experience",
+    "template": "quote_thought_leadership",
+    "theme": "sunset-vibrant",
+    "file": "outputs/e_commerce/design_065_quote_thought_leadership.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_065_quote_thought_leadership.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 5330,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_066",
+    "index": 66,
+    "category": "E-commerce",
+    "topic": "Global Cyber Monday Flash Sale",
+    "template": "announcement_banner",
+    "theme": "sunset-vibrant",
+    "file": "outputs/e_commerce/design_066_announcement_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_066_announcement_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8335,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_067",
+    "index": 67,
+    "category": "E-commerce",
+    "topic": "Monolithic E-Commerce vs Headless Architecture",
+    "template": "comparison_layout",
+    "theme": "sunset-vibrant",
+    "file": "outputs/e_commerce/design_067_comparison_layout.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_067_comparison_layout.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 10139,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_068",
+    "index": 68,
+    "category": "E-commerce",
+    "topic": "AI-Powered Visual Search Recommender",
+    "template": "feature_highlights",
+    "theme": "modern-corporate",
+    "file": "outputs/e_commerce/design_068_feature_highlights.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_068_feature_highlights.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 7661,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_069",
+    "index": 69,
+    "category": "E-commerce",
+    "topic": "5 Ways to Combat Shopping Cart Abandonment",
+    "template": "list_bullet_infographic",
+    "theme": "clean-minimal-light",
+    "file": "outputs/e_commerce/design_069_list_bullet_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_069_list_bullet_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 11905,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_070",
+    "index": 70,
+    "category": "E-commerce",
+    "topic": "The Future of Digital Commerce",
+    "template": "social_square_graphic",
+    "theme": "sunset-vibrant",
+    "file": "outputs/e_commerce/design_070_social_square_graphic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_070_social_square_graphic.svg",
+    "dimensions": {
+      "width": 1080,
+      "height": 1080
+    },
+    "aspectRatio": "1080x1080 (1:1 Square)",
+    "sizeBytes": 7743,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_071",
+    "index": 71,
+    "category": "Sustainability",
+    "topic": "Carbon-Negative Cloud Data Centers",
+    "template": "promotional_banner",
+    "theme": "emerald-eco",
+    "file": "outputs/sustainability/design_071_promotional_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_071_promotional_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8407,
+    "durationMs": 0,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_072",
+    "index": 72,
+    "category": "Sustainability",
+    "topic": "The Circular Economy Framework",
+    "template": "educational_infographic",
+    "theme": "emerald-eco",
+    "file": "outputs/sustainability/design_072_educational_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_072_educational_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 10076,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_073",
+    "index": 73,
+    "category": "Sustainability",
+    "topic": "Global Clean Energy Transition Metrics",
+    "template": "statistics_metrics",
+    "theme": "emerald-eco",
+    "file": "outputs/sustainability/design_073_statistics_metrics.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_073_statistics_metrics.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11342,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_074",
+    "index": 74,
+    "category": "Sustainability",
+    "topic": "Corporate Net-Zero Transition Roadmap",
+    "template": "step_by_step_roadmap",
+    "theme": "emerald-eco",
+    "file": "outputs/sustainability/design_074_step_by_step_roadmap.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_074_step_by_step_roadmap.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11339,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_075",
+    "index": 75,
+    "category": "Sustainability",
+    "topic": "Ecological Responsibility",
+    "template": "quote_thought_leadership",
+    "theme": "emerald-eco",
+    "file": "outputs/sustainability/design_075_quote_thought_leadership.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_075_quote_thought_leadership.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 5370,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_076",
+    "index": 76,
+    "category": "Sustainability",
+    "topic": "Next-Gen Solid State Battery Rollout",
+    "template": "announcement_banner",
+    "theme": "emerald-eco",
+    "file": "outputs/sustainability/design_076_announcement_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_076_announcement_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8402,
+    "durationMs": 0,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_077",
+    "index": 77,
+    "category": "Sustainability",
+    "topic": "Linear Take-Make-Waste vs Closed Loop Circularity",
+    "template": "comparison_layout",
+    "theme": "emerald-eco",
+    "file": "outputs/sustainability/design_077_comparison_layout.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_077_comparison_layout.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 10153,
+    "durationMs": 2,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_078",
+    "index": 78,
+    "category": "Sustainability",
+    "topic": "Smart Microgrid Optimization System",
+    "template": "feature_highlights",
+    "theme": "emerald-eco",
+    "file": "outputs/sustainability/design_078_feature_highlights.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_078_feature_highlights.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 7554,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_079",
+    "index": 79,
+    "category": "Sustainability",
+    "topic": "5 Steps to Cut Digital Carbon Footprint",
+    "template": "list_bullet_infographic",
+    "theme": "clean-minimal-light",
+    "file": "outputs/sustainability/design_079_list_bullet_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_079_list_bullet_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 11941,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_080",
+    "index": 80,
+    "category": "Sustainability",
+    "topic": "Sustainability Is Good Business",
+    "template": "social_square_graphic",
+    "theme": "emerald-eco",
+    "file": "outputs/sustainability/design_080_social_square_graphic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_080_social_square_graphic.svg",
+    "dimensions": {
+      "width": 1080,
+      "height": 1080
+    },
+    "aspectRatio": "1080x1080 (1:1 Square)",
+    "sizeBytes": 7770,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_081",
+    "index": 81,
+    "category": "Productivity",
+    "topic": "Autonomous Focus Operating System",
+    "template": "promotional_banner",
+    "theme": "royal-indigo",
+    "file": "outputs/productivity/design_081_promotional_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_081_promotional_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8286,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_082",
+    "index": 82,
+    "category": "Productivity",
+    "topic": "The Eisenhower Decision Matrix",
+    "template": "educational_infographic",
+    "theme": "royal-indigo",
+    "file": "outputs/productivity/design_082_educational_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_082_educational_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 10254,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_083",
+    "index": 83,
+    "category": "Productivity",
+    "topic": "Deep Work Metrics and Focus Velocity",
+    "template": "statistics_metrics",
+    "theme": "modern-corporate",
+    "file": "outputs/productivity/design_083_statistics_metrics.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_083_statistics_metrics.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11176,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_084",
+    "index": 84,
+    "category": "Productivity",
+    "topic": "Getting Things Done (GTD) Workflow",
+    "template": "step_by_step_roadmap",
+    "theme": "sunset-vibrant",
+    "file": "outputs/productivity/design_084_step_by_step_roadmap.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_084_step_by_step_roadmap.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11481,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_085",
+    "index": 85,
+    "category": "Productivity",
+    "topic": "Cal Newport on Deep Focus",
+    "template": "quote_thought_leadership",
+    "theme": "royal-indigo",
+    "file": "outputs/productivity/design_085_quote_thought_leadership.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_085_quote_thought_leadership.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 5321,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_086",
+    "index": 86,
+    "category": "Productivity",
+    "topic": "Universal Knowledge Workspace Release",
+    "template": "announcement_banner",
+    "theme": "royal-indigo",
+    "file": "outputs/productivity/design_086_announcement_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_086_announcement_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8368,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_087",
+    "index": 87,
+    "category": "Productivity",
+    "topic": "Multitasking vs Single-Task Deep Focus",
+    "template": "comparison_layout",
+    "theme": "clean-minimal-light",
+    "file": "outputs/productivity/design_087_comparison_layout.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_087_comparison_layout.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 10148,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_088",
+    "index": 88,
+    "category": "Productivity",
+    "topic": "Asynchronous Collaboration Engine",
+    "template": "feature_highlights",
+    "theme": "modern-corporate",
+    "file": "outputs/productivity/design_088_feature_highlights.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_088_feature_highlights.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 7620,
+    "durationMs": 0,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_089",
+    "index": 89,
+    "category": "Productivity",
+    "topic": "5 Micro-Habits for Peak Focus",
+    "template": "list_bullet_infographic",
+    "theme": "clean-minimal-light",
+    "file": "outputs/productivity/design_089_list_bullet_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_089_list_bullet_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 11914,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_090",
+    "index": 90,
+    "category": "Productivity",
+    "topic": "Focus Is A Superpower",
+    "template": "social_square_graphic",
+    "theme": "royal-indigo",
+    "file": "outputs/productivity/design_090_social_square_graphic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_090_social_square_graphic.svg",
+    "dimensions": {
+      "width": 1080,
+      "height": 1080
+    },
+    "aspectRatio": "1080x1080 (1:1 Square)",
+    "sizeBytes": 7749,
+    "durationMs": 0,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_091",
+    "index": 91,
+    "category": "Marketing",
+    "topic": "Autonomous Content Personalization Engine",
+    "template": "promotional_banner",
+    "theme": "sunset-vibrant",
+    "file": "outputs/marketing/design_091_promotional_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_091_promotional_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8477,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_092",
+    "index": 92,
+    "category": "Marketing",
+    "topic": "StoryBrand 7-Part Framework",
+    "template": "educational_infographic",
+    "theme": "amber-warmth",
+    "file": "outputs/marketing/design_092_educational_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_092_educational_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 10194,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_093",
+    "index": 93,
+    "category": "Marketing",
+    "topic": "B2B Content ROI & Inbound Metrics",
+    "template": "statistics_metrics",
+    "theme": "modern-corporate",
+    "file": "outputs/marketing/design_093_statistics_metrics.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_093_statistics_metrics.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11269,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_094",
+    "index": 94,
+    "category": "Marketing",
+    "topic": "Full-Funnel Demand Generation Engine",
+    "template": "step_by_step_roadmap",
+    "theme": "sunset-vibrant",
+    "file": "outputs/marketing/design_094_step_by_step_roadmap.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_094_step_by_step_roadmap.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 11539,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_095",
+    "index": 95,
+    "category": "Marketing",
+    "topic": "David Ogilvy on Clear Copywriting",
+    "template": "quote_thought_leadership",
+    "theme": "amber-warmth",
+    "file": "outputs/marketing/design_095_quote_thought_leadership.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_095_quote_thought_leadership.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 5351,
+    "durationMs": 0,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_096",
+    "index": 96,
+    "category": "Marketing",
+    "topic": "AI Brand Asset Cloud Launch",
+    "template": "announcement_banner",
+    "theme": "crimson-energy",
+    "file": "outputs/marketing/design_096_announcement_banner.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_096_announcement_banner.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 8370,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_097",
+    "index": 97,
+    "category": "Marketing",
+    "topic": "Vanity Metrics vs Real Growth Drivers",
+    "template": "comparison_layout",
+    "theme": "sunset-vibrant",
+    "file": "outputs/marketing/design_097_comparison_layout.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_097_comparison_layout.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 10115,
+    "durationMs": 0,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_098",
+    "index": 98,
+    "category": "Marketing",
+    "topic": "Account-Based Marketing Orchestrator",
+    "template": "feature_highlights",
+    "theme": "modern-corporate",
+    "file": "outputs/marketing/design_098_feature_highlights.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_098_feature_highlights.svg",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    },
+    "aspectRatio": "1200x630 (1.91:1 Landscape)",
+    "sizeBytes": 7564,
+    "durationMs": 0,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_099",
+    "index": 99,
+    "category": "Marketing",
+    "topic": "5 Timeless Principles of Direct-Response Copy",
+    "template": "list_bullet_infographic",
+    "theme": "clean-minimal-light",
+    "file": "outputs/marketing/design_099_list_bullet_infographic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_099_list_bullet_infographic.svg",
+    "dimensions": {
+      "width": 800,
+      "height": 1200
+    },
+    "aspectRatio": "800x1200 (2:3 Portrait)",
+    "sizeBytes": 12041,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  },
+  {
+    "id": "design_100",
+    "index": 100,
+    "category": "Marketing",
+    "topic": "Brand Is What People Say When You Leave The Room",
+    "template": "social_square_graphic",
+    "theme": "sunset-vibrant",
+    "file": "outputs/marketing/design_100_social_square_graphic.svg",
+    "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_100_social_square_graphic.svg",
+    "dimensions": {
+      "width": 1080,
+      "height": 1080
+    },
+    "aspectRatio": "1080x1080 (1:1 Square)",
+    "sizeBytes": 7777,
+    "durationMs": 1,
+    "validationStatus": "passed",
+    "warnings": []
+  }
+]

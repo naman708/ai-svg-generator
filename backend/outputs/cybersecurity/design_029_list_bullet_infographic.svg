@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200" role="img" aria-label="5 Habits of Cyber Resilient Teams">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="list-design_029-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#f8fafc" />
+        <stop offset="100%" stop-color="#e2e8f0" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="list-design_029-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#2563eb" />
+        <stop offset="100%" stop-color="#4f46e5" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="list-design_029-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="list-design_029-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="list-design_029-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="list-design_029-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#2563eb" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="800" height="1200" fill="url(#list-design_029-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="800" height="1200" fill="url(#list-design_029-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="720" cy="120" r="200" fill="#2563eb" filter="url(#list-design_029-glow)" />
+      <circle cx="40" cy="1080" r="160" fill="#4f46e5" filter="url(#list-design_029-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#cbd5e1" stroke-width="1" />
+  
+
+  <!-- Header Banner -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="208" height="30" rx="15" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="1.5" />
+    <text x="104" y="20" fill="#2563eb" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      SECURITY HYGIENE
+    </text>
+
+    <!-- Main Title -->
+    
+    <text x="0" y="65" fill="#0f172a" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">5 Habits of Cyber Resilient</tspan><tspan x="0" dy="44">Teams</tspan>
+    </text>
+  
+
+    <!-- Subtitle -->
+    
+    <text x="0" y="165" fill="#64748b" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Everyday technical safeguards that neutralize over 98% of</tspan><tspan x="0" dy="24">opportunistic attack vectors.</tspan>
+    </text>
+  
+
+    <line x1="0" y1="225" x2="680" y2="225" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- 5 Sequential List Cards -->
+  <g transform="translate(60, 315)">
+    
+        <g transform="translate(0, 0)">
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_029-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_029-shadow)" />
+          
+          <!-- Number Box -->
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            1
+          </text>
+
+          <!-- Row Content -->
+          <g transform="translate(90, 24)">
+            
+    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Mandatory Hardware MFA</tspan>
+    </text>
+  
+
+            
+    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Eliminate SMS and app push OTP vulnerabilities with</tspan><tspan x="0" dy="22">physical keys.</tspan>
+    </text>
+  
+          </g>
+
+          <!-- Right Icon -->
+          
+    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
+    <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+  
+      </svg>
+    </g>
+  
+        </g>
+      
+        <g transform="translate(0, 155)">
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_029-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_029-shadow)" />
+          
+          <!-- Number Box -->
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            2
+          </text>
+
+          <!-- Row Content -->
+          <g transform="translate(90, 24)">
+            
+    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Automated Patch Management</tspan>
+    </text>
+  
+
+            
+    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Zero-day vulnerability patching within 24 hours of</tspan><tspan x="0" dy="22">disclosure.</tspan>
+    </text>
+  
+          </g>
+
+          <!-- Right Icon -->
+          
+    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+    <polyline points="22 4 12 14.01 9 11.01"/>
+  
+      </svg>
+    </g>
+  
+        </g>
+      
+        <g transform="translate(0, 310)">
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_029-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_029-shadow)" />
+          
+          <!-- Number Box -->
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            3
+          </text>
+
+          <!-- Row Content -->
+          <g transform="translate(90, 24)">
+            
+    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Immutable Offline Backups</tspan>
+    </text>
+  
+
+            
+    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Air-gapped and write-once backup volumes to</tspan><tspan x="0" dy="22">withstand ransomware.</tspan>
+    </text>
+  
+          </g>
+
+          <!-- Right Icon -->
+          
+    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <ellipse cx="12" cy="5" rx="9" ry="3"/>
+    <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
+    <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/>
+  
+      </svg>
+    </g>
+  
+        </g>
+      
+        <g transform="translate(0, 465)">
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_029-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_029-shadow)" />
+          
+          <!-- Number Box -->
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            4
+          </text>
+
+          <!-- Row Content -->
+          <g transform="translate(90, 24)">
+            
+    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Least Privilege Enforced</tspan>
+    </text>
+  
+
+            
+    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Never grant persistent administrative privileges to</tspan><tspan x="0" dy="22">user accounts.</tspan>
+    </text>
+  
+          </g>
+
+          <!-- Right Icon -->
+          
+    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+    <path d="m9 12 2 2 4-4"/>
+  
+      </svg>
+    </g>
+  
+        </g>
+      
+        <g transform="translate(0, 620)">
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_029-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_029-shadow)" />
+          
+          <!-- Number Box -->
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            5
+          </text>
+
+          <!-- Row Content -->
+          <g transform="translate(90, 24)">
+            
+    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Regular Chaos Breach Drills</tspan>
+    </text>
+  
+
+            
+    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Run surprise table-top breach recovery exercises</tspan><tspan x="0" dy="22">quarterly.</tspan>
+    </text>
+  
+          </g>
+
+          <!-- Right Icon -->
+          
+    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+  
+      </svg>
+    </g>
+  
+        </g>
+      
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(60, 1130)">
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#cbd5e1" stroke-width="1" />
+    <text x="0" y="32" fill="#64748b" font-size="13" font-family="Inter, sans-serif">
+      Synthesized Vector Framework • Shri Genesis AI Technical Assessment
+    </text>
+    <text x="680" y="32" fill="#2563eb" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
+      100% Vector Scalable
+    </text>
+  </g>
+</svg>

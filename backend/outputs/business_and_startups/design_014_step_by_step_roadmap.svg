@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Product-Led Expansion Framework">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="steps-design_014-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1c102b" />
+        <stop offset="100%" stop-color="#2e123d" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="steps-design_014-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#f97316" />
+        <stop offset="100%" stop-color="#ec4899" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="steps-design_014-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#38174a" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#38174a" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="steps-design_014-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="steps-design_014-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="steps-design_014-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#f97316" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="1200" height="630" fill="url(#steps-design_014-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="1200" height="630" fill="url(#steps-design_014-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="1080" cy="63" r="300" fill="#f97316" filter="url(#steps-design_014-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#ec4899" filter="url(#steps-design_014-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#562270" stroke-width="1" />
+  
+
+  <!-- Header Section -->
+  <g transform="translate(80, 65)">
+    <rect x="0" y="0" width="175" height="30" rx="15" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
+    <text x="87.5" y="20" fill="#f97316" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      GTM FRAMEWORK
+    </text>
+
+    <!-- Main Title -->
+    
+    <text x="0" y="65" fill="#ffffff" font-size="38" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Product-Led Expansion Framework</tspan>
+    </text>
+  
+
+    <!-- Subtitle -->
+    
+    <text x="0" y="110" fill="#fbcfe8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Transitioning your customer acquisition model from sales-heavy to product-driven</tspan><tspan x="0" dy="24">viral adoption.</tspan>
+    </text>
+  
+  </g>
+
+  <!-- Horizontal Connector Line between Nodes -->
+  <line x1="180" y1="260" x2="1020" y2="260" stroke="#f97316" stroke-width="3" stroke-dasharray="6 6" opacity="0.6" />
+
+  <!-- 4 Step Cards -->
+  <g transform="translate(80, 210)">
+    
+        <g transform="translate(0, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_014-shadow)" />
+          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            01
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_014-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_014-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title (Safely bounded) -->
+            
+    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Frictionless...</tspan>
+    </text>
+  
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Instant value delivery</tspan><tspan x="20" dy="22">with zero sales gates.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+        <g transform="translate(265, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_014-shadow)" />
+          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            02
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_014-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_014-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title (Safely bounded) -->
+            
+    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Habit Loop</tspan>
+    </text>
+  
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Reinforcing daily</tspan><tspan x="20" dy="22">active workflows</tspan><tspan x="20" dy="22">through</tspan><tspan x="20" dy="22">micro-delights.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+        <g transform="translate(530, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_014-shadow)" />
+          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            03
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_014-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_014-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+    <circle cx="9" cy="7" r="4"/>
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title (Safely bounded) -->
+            
+    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Team Invitation</tspan>
+    </text>
+  
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Collaborative</tspan><tspan x="20" dy="22">multiplayer utility</tspan><tspan x="20" dy="22">triggering team</tspan><tspan x="20" dy="22">adoption.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+        <g transform="translate(795, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_014-shadow)" />
+          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            04
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_014-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_014-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+    <path d="m9 12 2 2 4-4"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title (Safely bounded) -->
+            
+    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Enterprise Tier</tspan>
+    </text>
+  
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Seamless upgrade to</tspan><tspan x="20" dy="22">SSO, compliance, and</tspan><tspan x="20" dy="22">custom governance.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+  </g>
+</svg>

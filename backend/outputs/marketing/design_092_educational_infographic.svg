@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200" role="img" aria-label="The 7 Elements of Brand Storytelling">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="edu-design_092-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1c1917" />
+        <stop offset="100%" stop-color="#292524" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="edu-design_092-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#f59e0b" />
+        <stop offset="100%" stop-color="#fde68a" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="edu-design_092-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#292524" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#292524" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="edu-design_092-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="edu-design_092-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="edu-design_092-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#f59e0b" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="800" height="1200" fill="url(#edu-design_092-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="800" height="1200" fill="url(#edu-design_092-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="720" cy="120" r="200" fill="#f59e0b" filter="url(#edu-design_092-glow)" />
+      <circle cx="40" cy="1080" r="160" fill="#fde68a" filter="url(#edu-design_092-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#44403c" stroke-width="1" />
+  
+
+  <!-- Header Section -->
+  <g transform="translate(60, 60)">
+    <!-- Pill Badge -->
+    <rect x="0" y="0" width="156" height="30" rx="15" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-width="1.5" />
+    <text x="15" y="20" fill="#f59e0b" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+      BRAND STRATEGY
+    </text>
+
+    <!-- Main Title -->
+    
+    <text x="0" y="65" fill="#fafaf9" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">The 7 Elements of Brand</tspan><tspan x="0" dy="44">Storytelling</tspan>
+    </text>
+  
+
+    <!-- Subtitle -->
+    
+    <text x="0" y="165" fill="#d6d3d1" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Donald Miller&apos;s framework to clarify your message so customers</tspan><tspan x="0" dy="24">immediately understand your value.</tspan>
+    </text>
+  
+    
+    <!-- Dividing Accent Line -->
+    <line x1="0" y1="220" x2="680" y2="220" stroke="#44403c" stroke-width="1.5" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- Educational Concept Cards (4 Stacked) -->
+  <g transform="translate(60, 310)">
+    
+        <g transform="translate(0, 0)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_092-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#edu-design_092-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f59e0b" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            01
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafaf9" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            The Character (Customer)
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+    <circle cx="9" cy="7" r="4"/>
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">The customer is the hero of the story, not your</tspan><tspan x="95" dy="24">company or product.</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(0, 195)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_092-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#edu-design_092-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f59e0b" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            02
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafaf9" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Has a Problem
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <circle cx="12" cy="12" r="10"/>
+    <line x1="12" x2="12" y1="8" y2="12"/>
+    <line x1="12" x2="12.01" y1="16" y2="16"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Identify the external, internal, and philosophical</tspan><tspan x="95" dy="24">friction they experience.</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(0, 390)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_092-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#edu-design_092-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f59e0b" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            03
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafaf9" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Meets a Guide (Your Brand)
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <circle cx="12" cy="8" r="6"/>
+    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Your brand steps in with deep empathy and proven</tspan><tspan x="95" dy="24">authoritative competence.</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(0, 585)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_092-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#edu-design_092-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f59e0b" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            04
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafaf9" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Who Gives Them a Clear Plan
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <circle cx="12" cy="12" r="10"/>
+    <circle cx="12" cy="12" r="6"/>
+    <circle cx="12" cy="12" r="2"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Provide a simple 3-step pathway that clarifies how</tspan><tspan x="95" dy="24">they succeed and avoid failure.</tspan>
+    </text>
+  
+        </g>
+      
+  </g>
+
+  <!-- Footer Info -->
+  <g transform="translate(60, 1130)">
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#44403c" stroke-width="1" />
+    <text x="0" y="32" fill="#d6d3d1" font-size="13" font-family="Inter, sans-serif">
+      AI-Powered Vector Infographic Engine • Generated Visual Guide
+    </text>
+    <text x="680" y="32" fill="#f59e0b" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
+      Open Standards • Production Ready
+    </text>
+  </g>
+</svg>

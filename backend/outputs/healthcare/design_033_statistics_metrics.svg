@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="AI Medical Imaging Performance">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="stats-design_033-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#180c0e" />
+        <stop offset="100%" stop-color="#2d1217" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="stats-design_033-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#ef4444" />
+        <stop offset="100%" stop-color="#fbbf24" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="stats-design_033-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#3f141c" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#3f141c" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="stats-design_033-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="stats-design_033-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="stats-design_033-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#ef4444" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="1200" height="630" fill="url(#stats-design_033-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="1200" height="630" fill="url(#stats-design_033-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="1080" cy="63" r="300" fill="#ef4444" filter="url(#stats-design_033-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#fbbf24" filter="url(#stats-design_033-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#5b1d28" stroke-width="1" />
+  
+
+  <!-- Header Banner -->
+  <g transform="translate(80, 70)">
+    <!-- Pill Badge -->
+    <rect x="0" y="0" width="165" height="30" rx="15" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444" stroke-width="1.5" />
+    <text x="15" y="20" fill="#ef4444" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+      CLINICAL TRIALS
+    </text>
+
+    <!-- Headline -->
+    
+    <text x="0" y="65" fill="#ffffff" font-size="40" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">AI Medical Imaging Performance</tspan>
+    </text>
+  
+
+    <!-- Subtitle -->
+    
+    <text x="0" y="110" fill="#fecaca" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Peer-reviewed diagnostic benchmarks across multi-center oncology radiology</tspan><tspan x="0" dy="24">datasets.</tspan>
+    </text>
+  
+  </g>
+
+  <!-- 3 Metric Cards Grid -->
+  <g transform="translate(80, 230)">
+    
+        <g transform="translate(0, 0)">
+          <!-- Card Backdrop -->
+          <rect x="0" y="0" width="320" height="320" rx="20" fill="url(#stats-design_033-card-grad)" stroke="#5b1d28" stroke-width="1.5" filter="url(#stats-design_033-shadow)" />
+          
+          <!-- Card Header: Icon & Delta Pill -->
+          <g transform="translate(24, 24)">
+            <rect x="0" y="0" width="46" height="46" rx="12" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444" stroke-width="1" />
+            
+    <g transform="translate(11, 11)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+    <path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/>
+  
+      </svg>
+    </g>
+  
+            
+            <!-- Delta Pill -->
+            <rect x="180" y="6" width="90" height="28" rx="14" fill="#fbbf24" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1" />
+            <text x="225" y="24" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+              +14.3% vs Human
+            </text>
+          </g>
+
+          <!-- Big Metric Value -->
+          <text x="24" y="145" fill="#ffffff" font-size="48" font-weight="900" font-family="Inter, sans-serif" letter-spacing="-1">
+            98.7%
+          </text>
+
+          <!-- Metric Label -->
+          <text x="24" y="185" fill="#ef4444" font-size="18" font-weight="700" font-family="Inter, sans-serif">
+            Early Detection Sensitivity
+          </text>
+
+          <!-- Divider Line -->
+          <line x1="24" y1="210" x2="296" y2="210" stroke="#5b1d28" stroke-width="1" />
+
+          <!-- Metric Description -->
+          
+    <text x="24" y="235" fill="#fecaca" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="24" dy="0">Validated detection of</tspan><tspan x="24" dy="20">micro-calcifications in</tspan><tspan x="24" dy="20">mammography</tspan>
+    </text>
+  
+
+          <!-- Mini Vector Sparkline/Bar Visual -->
+          <g transform="translate(24, 290)">
+            <rect x="0" y="0" width="40" height="6" rx="3" fill="#ef4444" fill-opacity="0.3" />
+            <rect x="50" y="0" width="55" height="6" rx="3" fill="#ef4444" fill-opacity="0.5" />
+            <rect x="115" y="0" width="70" height="6" rx="3" fill="#ef4444" fill-opacity="0.7" />
+            <rect x="195" y="0" width="80" height="6" rx="3" fill="#fbbf24" />
+          </g>
+        </g>
+      
+        <g transform="translate(360, 0)">
+          <!-- Card Backdrop -->
+          <rect x="0" y="0" width="320" height="320" rx="20" fill="url(#stats-design_033-card-grad)" stroke="#5b1d28" stroke-width="1.5" filter="url(#stats-design_033-shadow)" />
+          
+          <!-- Card Header: Icon & Delta Pill -->
+          <g transform="translate(24, 24)">
+            <rect x="0" y="0" width="46" height="46" rx="12" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444" stroke-width="1" />
+            
+    <g transform="translate(11, 11)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <circle cx="12" cy="12" r="10"/>
+    <polyline points="12 6 12 12 16 14"/>
+  
+      </svg>
+    </g>
+  
+            
+            <!-- Delta Pill -->
+            <rect x="180" y="6" width="90" height="28" rx="14" fill="#fbbf24" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1" />
+            <text x="225" y="24" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+              -88% Wait Time
+            </text>
+          </g>
+
+          <!-- Big Metric Value -->
+          <text x="24" y="145" fill="#ffffff" font-size="48" font-weight="900" font-family="Inter, sans-serif" letter-spacing="-1">
+            3.2 Min
+          </text>
+
+          <!-- Metric Label -->
+          <text x="24" y="185" fill="#ef4444" font-size="18" font-weight="700" font-family="Inter, sans-serif">
+            Diagnostic Turnaround
+          </text>
+
+          <!-- Divider Line -->
+          <line x1="24" y1="210" x2="296" y2="210" stroke="#5b1d28" stroke-width="1" />
+
+          <!-- Metric Description -->
+          
+    <text x="24" y="235" fill="#fecaca" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="24" dy="0">Instantaneous preliminary</tspan><tspan x="24" dy="20">radiology triaging pipeline</tspan>
+    </text>
+  
+
+          <!-- Mini Vector Sparkline/Bar Visual -->
+          <g transform="translate(24, 290)">
+            <rect x="0" y="0" width="40" height="6" rx="3" fill="#ef4444" fill-opacity="0.3" />
+            <rect x="50" y="0" width="55" height="6" rx="3" fill="#ef4444" fill-opacity="0.5" />
+            <rect x="115" y="0" width="70" height="6" rx="3" fill="#ef4444" fill-opacity="0.7" />
+            <rect x="195" y="0" width="80" height="6" rx="3" fill="#fbbf24" />
+          </g>
+        </g>
+      
+        <g transform="translate(720, 0)">
+          <!-- Card Backdrop -->
+          <rect x="0" y="0" width="320" height="320" rx="20" fill="url(#stats-design_033-card-grad)" stroke="#5b1d28" stroke-width="1.5" filter="url(#stats-design_033-shadow)" />
+          
+          <!-- Card Header: Icon & Delta Pill -->
+          <g transform="translate(24, 24)">
+            <rect x="0" y="0" width="46" height="46" rx="12" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444" stroke-width="1" />
+            
+    <g transform="translate(11, 11)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+    <circle cx="9" cy="7" r="4"/>
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+  
+      </svg>
+    </g>
+  
+            
+            <!-- Delta Pill -->
+            <rect x="180" y="6" width="90" height="28" rx="14" fill="#fbbf24" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1" />
+            <text x="225" y="24" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+              Global Multi-Center
+            </text>
+          </g>
+
+          <!-- Big Metric Value -->
+          <text x="24" y="145" fill="#ffffff" font-size="48" font-weight="900" font-family="Inter, sans-serif" letter-spacing="-1">
+            1.2M+
+          </text>
+
+          <!-- Metric Label -->
+          <text x="24" y="185" fill="#ef4444" font-size="18" font-weight="700" font-family="Inter, sans-serif">
+            Patients Screened
+          </text>
+
+          <!-- Divider Line -->
+          <line x1="24" y1="210" x2="296" y2="210" stroke="#5b1d28" stroke-width="1" />
+
+          <!-- Metric Description -->
+          
+    <text x="24" y="235" fill="#fecaca" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="24" dy="0">Standardized imaging deployed</tspan><tspan x="24" dy="20">across 240 hospital networks</tspan>
+    </text>
+  
+
+          <!-- Mini Vector Sparkline/Bar Visual -->
+          <g transform="translate(24, 290)">
+            <rect x="0" y="0" width="40" height="6" rx="3" fill="#ef4444" fill-opacity="0.3" />
+            <rect x="50" y="0" width="55" height="6" rx="3" fill="#ef4444" fill-opacity="0.5" />
+            <rect x="115" y="0" width="70" height="6" rx="3" fill="#ef4444" fill-opacity="0.7" />
+            <rect x="195" y="0" width="80" height="6" rx="3" fill="#fbbf24" />
+          </g>
+        </g>
+      
+  </g>
+</svg>

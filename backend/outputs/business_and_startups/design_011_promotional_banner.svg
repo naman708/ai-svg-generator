@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Scale From Pre-Seed To Series B">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="promo-design_011-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0f172a" />
+        <stop offset="100%" stop-color="#1e293b" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="promo-design_011-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#3b82f6" />
+        <stop offset="100%" stop-color="#38bdf8" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="promo-design_011-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#1e293b" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="promo-design_011-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="promo-design_011-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="promo-design_011-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#3b82f6" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="1200" height="630" fill="url(#promo-design_011-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="1200" height="630" fill="url(#promo-design_011-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="1080" cy="63" r="300" fill="#3b82f6" filter="url(#promo-design_011-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#38bdf8" filter="url(#promo-design_011-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#334155" stroke-width="1" />
+  
+
+  <!-- Left Content Column -->
+  <g transform="translate(80, 85)">
+    <!-- Category Badge (Dynamic width with safe padding) -->
+    <rect x="0" y="0" width="223" height="32" rx="16" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
+    <text x="18" y="21" fill="#3b82f6" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
+      ENTERPRISE GROWTH
+    </text>
+
+    <!-- Main Headline (Optimized sizing & line-wrap) -->
+    
+    <text x="0" y="75" fill="#f8fafc" font-size="42" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Scale From Pre-Seed To</tspan><tspan x="0" dy="52">Series B</tspan>
+    </text>
+  
+
+    <!-- Subtitle / Body Copy -->
+    
+    <text x="0" y="200" fill="#94a3b8" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">The unified operational engine helping</tspan><tspan x="0" dy="26">founders streamline capital, talent, and</tspan><tspan x="0" dy="26">go-to-market pipelines.</tspan>
+    </text>
+  
+
+    <!-- CTA Button (Dynamic width & calculated icon spacing) -->
+    <g transform="translate(0, 320)" filter="url(#promo-design_011-shadow)">
+      <rect x="0" y="0" width="247" height="52" rx="26" fill="url(#promo-design_011-primary-grad)" />
+      <text x="107.5" y="32" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+        Book Founder Demo
+      </text>
+      
+    <g transform="translate(211, 16)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="20" height="20" viewBox="0 0 24 24">
+        
+    <line x1="5" x2="19" y1="12" y2="12"/>
+    <polyline points="12 5 19 12 12 19"/>
+  
+      </svg>
+    </g>
+  
+    </g>
+  </g>
+
+  <!-- Right Visual / Feature Cards Bento -->
+  <g transform="translate(680, 105)">
+    <!-- Big Decorative Backing Card -->
+    <rect x="0" y="0" width="440" height="415" rx="20" fill="url(#promo-design_011-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#promo-design_011-shadow)" />
+    
+    <!-- Feature items -->
+    
+        <g transform="translate(25, 24)">
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+          
+          <!-- Icon Bubble -->
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#3b82f6" fill-opacity="0.15" />
+          
+    <g transform="translate(31, 40)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <line x1="12" x2="12" y1="2" y2="22"/>
+    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+  
+      </svg>
+    </g>
+  
+          
+          <!-- Feature Title -->
+          <text x="82" y="38" fill="#f8fafc" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            Automated Runway
+          </text>
+          
+          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          
+    <text x="82" y="60" fill="#94a3b8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Real-time cashflow forecasting</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(25, 148)">
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+          
+          <!-- Icon Bubble -->
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#3b82f6" fill-opacity="0.15" />
+          
+    <g transform="translate(31, 40)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+    <circle cx="9" cy="7" r="4"/>
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+  
+      </svg>
+    </g>
+  
+          
+          <!-- Feature Title -->
+          <text x="82" y="38" fill="#f8fafc" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            Talent Pipeline
+          </text>
+          
+          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          
+    <text x="82" y="60" fill="#94a3b8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Executive vetting &amp; placement</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(25, 272)">
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+          
+          <!-- Icon Bubble -->
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#3b82f6" fill-opacity="0.15" />
+          
+    <g transform="translate(31, 40)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <circle cx="12" cy="12" r="10"/>
+    <circle cx="12" cy="12" r="6"/>
+    <circle cx="12" cy="12" r="2"/>
+  
+      </svg>
+    </g>
+  
+          
+          <!-- Feature Title -->
+          <text x="82" y="38" fill="#f8fafc" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            GTM Intelligence
+          </text>
+          
+          <!-- Feature Description (Wrapped dynamically to prevent box overflow) -->
+          
+    <text x="82" y="60" fill="#94a3b8" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Competitive landscape analytics</tspan>
+    </text>
+  
+        </g>
+      
+  </g>
+</svg>

@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="From Target Molecule to Patient Care">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="steps-design_034-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#06281e" />
+        <stop offset="100%" stop-color="#0b3d2e" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="steps-design_034-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#10b981" />
+        <stop offset="100%" stop-color="#a7f3d0" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="steps-design_034-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#0e4a38" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#0e4a38" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="steps-design_034-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="steps-design_034-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="steps-design_034-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#10b981" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="1200" height="630" fill="url(#steps-design_034-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="1200" height="630" fill="url(#steps-design_034-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="1080" cy="63" r="300" fill="#10b981" filter="url(#steps-design_034-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#a7f3d0" filter="url(#steps-design_034-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#145a44" stroke-width="1" />
+  
+
+  <!-- Header Section -->
+  <g transform="translate(80, 65)">
+    <rect x="0" y="0" width="285" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
+    <text x="142.5" y="20" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      PHARMACEUTICAL PIPELINE
+    </text>
+
+    <!-- Main Title -->
+    
+    <text x="0" y="65" fill="#f0fdf4" font-size="38" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">From Target Molecule to Patient Care</tspan>
+    </text>
+  
+
+    <!-- Subtitle -->
+    
+    <text x="0" y="110" fill="#a7f3d0" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">The 4 essential phases required to bring novel chemical entities from laboratory</tspan><tspan x="0" dy="24">to global healthcare.</tspan>
+    </text>
+  
+  </g>
+
+  <!-- Horizontal Connector Line between Nodes -->
+  <line x1="180" y1="260" x2="1020" y2="260" stroke="#10b981" stroke-width="3" stroke-dasharray="6 6" opacity="0.6" />
+
+  <!-- 4 Step Cards -->
+  <g transform="translate(80, 210)">
+    
+        <g transform="translate(0, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#06281e" stroke="#10b981" stroke-width="3" filter="url(#steps-design_034-shadow)" />
+          <text x="115" y="56" fill="#10b981" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            01
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_034-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#steps-design_034-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#10b981" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title (Safely bounded) -->
+            
+    <text x="20" y="95" fill="#f0fdf4" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">In-Silico...</tspan>
+    </text>
+  
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Virtual simulation of</tspan><tspan x="20" dy="22">billions of</tspan><tspan x="20" dy="22">ligand-protein binding</tspan><tspan x="20" dy="22">affinities.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+        <g transform="translate(265, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#06281e" stroke="#10b981" stroke-width="3" filter="url(#steps-design_034-shadow)" />
+          <text x="115" y="56" fill="#10b981" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            02
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_034-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#steps-design_034-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#10b981" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title (Safely bounded) -->
+            
+    <text x="20" y="95" fill="#f0fdf4" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Pre-Clinical...</tspan>
+    </text>
+  
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Safety profiling and</tspan><tspan x="20" dy="22">pharmacokinetics in</tspan><tspan x="20" dy="22">certified laboratory</tspan><tspan x="20" dy="22">assays.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+        <g transform="translate(530, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#06281e" stroke="#10b981" stroke-width="3" filter="url(#steps-design_034-shadow)" />
+          <text x="115" y="56" fill="#10b981" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            03
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_034-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#steps-design_034-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#10b981" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+    <path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title (Safely bounded) -->
+            
+    <text x="20" y="95" fill="#f0fdf4" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Multi-Phase Trials</tspan>
+    </text>
+  
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Rigorous double-blind</tspan><tspan x="20" dy="22">efficacy studies</tspan><tspan x="20" dy="22">across patient</tspan><tspan x="20" dy="22">cohorts.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+        <g transform="translate(795, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#06281e" stroke="#10b981" stroke-width="3" filter="url(#steps-design_034-shadow)" />
+          <text x="115" y="56" fill="#10b981" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            04
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_034-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#steps-design_034-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#10b981" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <circle cx="12" cy="8" r="6"/>
+    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title (Safely bounded) -->
+            
+    <text x="20" y="95" fill="#f0fdf4" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Regulatory...</tspan>
+    </text>
+  
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">FDA &amp; EMA submission</tspan><tspan x="20" dy="22">with post-market</tspan><tspan x="20" dy="22">surveillance</tspan><tspan x="20" dy="22">protocols.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+  </g>
+</svg>

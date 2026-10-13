@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Enterprise Zero-Trust Defense">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="steps-gen_i6aivdg-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#09090b" />
+        <stop offset="100%" stop-color="#18181b" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="steps-gen_i6aivdg-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#06b6d4" />
+        <stop offset="100%" stop-color="#f43f5e" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="steps-gen_i6aivdg-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#18181b" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#18181b" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="steps-gen_i6aivdg-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="steps-gen_i6aivdg-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="steps-gen_i6aivdg-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#06b6d4" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="1200" height="630" fill="url(#steps-gen_i6aivdg-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="1200" height="630" fill="url(#steps-gen_i6aivdg-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="1080" cy="63" r="300" fill="#06b6d4" filter="url(#steps-gen_i6aivdg-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#f43f5e" filter="url(#steps-gen_i6aivdg-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#27272a" stroke-width="1" />
+  
+
+  <!-- Header Section -->
+  <g transform="translate(80, 70)">
+    <rect x="0" y="0" width="174" height="30" rx="15" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
+    <text x="15" y="20" fill="#06b6d4" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+      MARKETING • 2026
+    </text>
+
+    <!-- Main Title -->
+    
+    <text x="0" y="65" fill="#fafafa" font-size="38" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Enterprise Zero-Trust Defense</tspan>
+    </text>
+  
+
+    <!-- Subtitle -->
+    
+    <text x="0" y="110" fill="#a1a1aa" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Comprehensive visual breakdown and tactical implementation guide for enterprise</tspan><tspan x="0" dy="24">zero-trust defense.</tspan>
+    </text>
+  
+  </g>
+
+  <!-- Horizontal Connector Line between Nodes -->
+  <line x1="180" y1="260" x2="1020" y2="260" stroke="#06b6d4" stroke-width="3" stroke-dasharray="6 6" opacity="0.6" />
+
+  <!-- 4 Step Cards -->
+  <g transform="translate(80, 210)">
+    
+        <g transform="translate(0, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#09090b" stroke="#06b6d4" stroke-width="3" filter="url(#steps-gen_i6aivdg-shadow)" />
+          <text x="115" y="56" fill="#06b6d4" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            01
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-gen_i6aivdg-card-grad)" stroke="#27272a" stroke-width="1.5" filter="url(#steps-gen_i6aivdg-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#06b6d4" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title -->
+            <text x="20" y="95" fill="#fafafa" font-size="19" font-weight="700" font-family="Inter, sans-serif">
+              Assessment
+            </text>
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#a1a1aa" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Conducting initial</tspan><tspan x="20" dy="22">diagnostic and systems</tspan><tspan x="20" dy="22">discovery.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+        <g transform="translate(265, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#09090b" stroke="#06b6d4" stroke-width="3" filter="url(#steps-gen_i6aivdg-shadow)" />
+          <text x="115" y="56" fill="#06b6d4" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            02
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-gen_i6aivdg-card-grad)" stroke="#27272a" stroke-width="1.5" filter="url(#steps-gen_i6aivdg-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#06b6d4" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+    <polyline points="2 17 12 22 22 17"/>
+    <polyline points="2 12 12 17 22 12"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title -->
+            <text x="20" y="95" fill="#fafafa" font-size="19" font-weight="700" font-family="Inter, sans-serif">
+              Prototyping
+            </text>
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#a1a1aa" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Synthesizing vector</tspan><tspan x="20" dy="22">templates and workflow</tspan><tspan x="20" dy="22">pipelines.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+        <g transform="translate(530, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#09090b" stroke="#06b6d4" stroke-width="3" filter="url(#steps-gen_i6aivdg-shadow)" />
+          <text x="115" y="56" fill="#06b6d4" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            03
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-gen_i6aivdg-card-grad)" stroke="#27272a" stroke-width="1.5" filter="url(#steps-gen_i6aivdg-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#06b6d4" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+    <polyline points="22 4 12 14.01 9 11.01"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title -->
+            <text x="20" y="95" fill="#fafafa" font-size="19" font-weight="700" font-family="Inter, sans-serif">
+              Integration
+            </text>
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#a1a1aa" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Enforcing rigorous</tspan><tspan x="20" dy="22">validation and</tspan><tspan x="20" dy="22">contract testing.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+        <g transform="translate(795, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#09090b" stroke="#06b6d4" stroke-width="3" filter="url(#steps-gen_i6aivdg-shadow)" />
+          <text x="115" y="56" fill="#06b6d4" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            04
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-gen_i6aivdg-card-grad)" stroke="#27272a" stroke-width="1.5" filter="url(#steps-gen_i6aivdg-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#06b6d4" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+    <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+    <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
+    <path d="M12 9V4s3.03.55 4 2c1.08 1.62 0 5 0 5"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title -->
+            <text x="20" y="95" fill="#fafafa" font-size="19" font-weight="700" font-family="Inter, sans-serif">
+              Full Scale
+            </text>
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#a1a1aa" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Global distribution</tspan><tspan x="20" dy="22">across automated</tspan><tspan x="20" dy="22">endpoints.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+  </g>
+</svg>

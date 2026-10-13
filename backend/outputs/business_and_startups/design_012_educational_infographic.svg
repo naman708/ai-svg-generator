@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200" role="img" aria-label="The Venture Capital Lifecycle">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="edu-design_012-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1c1917" />
+        <stop offset="100%" stop-color="#292524" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="edu-design_012-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#f59e0b" />
+        <stop offset="100%" stop-color="#fde68a" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="edu-design_012-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#292524" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#292524" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="edu-design_012-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="edu-design_012-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="edu-design_012-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#f59e0b" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  
+    <!-- Main Canvas Background -->
+    <rect width="800" height="1200" fill="url(#edu-design_012-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="800" height="1200" fill="url(#edu-design_012-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="720" cy="120" r="200" fill="#f59e0b" filter="url(#edu-design_012-glow)" />
+      <circle cx="40" cy="1080" r="160" fill="#fde68a" filter="url(#edu-design_012-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#44403c" stroke-width="1" />
+  
+
+  <!-- Header Section -->
+  <g transform="translate(60, 60)">
+    <!-- Pill Badge -->
+    <rect x="0" y="0" width="174" height="30" rx="15" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-width="1.5" />
+    <text x="15" y="20" fill="#f59e0b" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+      FOUNDER PLAYBOOK
+    </text>
+
+    <!-- Main Title -->
+    
+    <text x="0" y="65" fill="#fafaf9" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">The Venture Capital</tspan><tspan x="0" dy="44">Lifecycle</tspan>
+    </text>
+  
+
+    <!-- Subtitle -->
+    
+    <text x="0" y="165" fill="#d6d3d1" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Navigating equity dilution, milestone benchmarks, and investor</tspan><tspan x="0" dy="24">alignment from idea to IPO.</tspan>
+    </text>
+  
+    
+    <!-- Dividing Accent Line -->
+    <line x1="0" y1="220" x2="680" y2="220" stroke="#44403c" stroke-width="1.5" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- Educational Concept Cards (4 Stacked) -->
+  <g transform="translate(60, 310)">
+    
+        <g transform="translate(0, 0)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_012-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#edu-design_012-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f59e0b" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            01
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafaf9" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Pre-Seed &amp; Angel
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
+    <path d="M9 18h6"/>
+    <path d="M10 22h4"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Prototyping MVP and proving customer</tspan><tspan x="95" dy="24">problem-solution alignment.</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(0, 195)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_012-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#edu-design_012-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f59e0b" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            02
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafaf9" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Seed Stage
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+    <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+    <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
+    <path d="M12 9V4s3.03.55 4 2c1.08 1.62 0 5 0 5"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Initial go-to-market traction and repeatability of</tspan><tspan x="95" dy="24">customer acquisition.</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(0, 390)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_012-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#edu-design_012-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f59e0b" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            03
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafaf9" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Series A / Growth
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
+    <polyline points="16 7 22 7 22 13"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Optimizing unit economics and scaling customer</tspan><tspan x="95" dy="24">lifetime value.</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(0, 585)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_012-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#edu-design_012-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f59e0b" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            04
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#fafaf9" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Late Stage &amp; Exit
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <circle cx="12" cy="8" r="6"/>
+    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Institutional governance, defensible moats, and</tspan><tspan x="95" dy="24">liquidity events.</tspan>
+    </text>
+  
+        </g>
+      
+  </g>
+
+  <!-- Footer Info -->
+  <g transform="translate(60, 1130)">
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#44403c" stroke-width="1" />
+    <text x="0" y="32" fill="#d6d3d1" font-size="13" font-family="Inter, sans-serif">
+      AI-Powered Vector Infographic Engine • Generated Visual Guide
+    </text>
+    <text x="680" y="32" fill="#f59e0b" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
+      Open Standards • Production Ready
+    </text>
+  </g>
+</svg>

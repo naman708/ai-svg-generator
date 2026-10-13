@@ -1,0 +1,22 @@
+{
+  "name": "ai-svg-generator-backend",
+  "version": "1.0.0",
+  "description": "AI-Powered SVG Banner & Infographic Generation Engine - Backend",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "batch": "node src/batch/batchRunner.js",
+    "test:templates": "node src/test-templates.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.29.0",
+    "ai-svg-generator-suite": "file:..",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fast-xml-parser": "^4.5.3",
+    "openai": "^4.86.1"
+  }
+}
