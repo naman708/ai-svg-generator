@@ -3,27 +3,17 @@ import { GoogleGenAI } from "@google/genai";
 import { SYSTEM_DESIGNER_PROMPT, buildUserPrompt } from "./promptBuilder.js";
 
 /**
- * Helper to race an async operation against a timeout.
- */
-function withTimeout(promise, ms = 4000) {
-  return Promise.race([
-    promise,
-    new Promise((_, reject) => setTimeout(() => reject(new Error(`Timeout after ${ms}ms`)), ms))
-  ]);
-}
-
-/**
  * AI Service for generating structured SVG design instructions.
- * Optimized for maximum speed (< 2s) with automatic fallback.
+ * Waits for Gemini / OpenAI to fully generate without premature timeout.
+ * Only falls back if an actual error is returned by the AI provider.
  */
 export async function generateDesignInstructions({ topic, category, template, style, tone }) {
   const geminiKey = process.env.GEMINI_API_KEY;
   const openaiKey = process.env.OPENAI_API_KEY;
   let lastErrorNotice = null;
 
-  // Option 1: Google Gemini (Free Tier, fast models first)
+  // Option 1: Google Gemini (Free Tier)
   if (geminiKey && geminiKey.trim() !== "" && geminiKey !== "your_gemini_api_key_here") {
-    // gemini-1.5-flash has massive throughput and responds in <1s with almost zero 503s
     const preferredModel = process.env.GEMINI_MODEL || "gemini-1.5-flash";
     const modelsToTry = [preferredModel, "gemini-2.0-flash", "gemini-1.5-flash"]
       .filter((m, i, arr) => arr.indexOf(m) === i);
@@ -33,8 +23,8 @@ export async function generateDesignInstructions({ topic, category, template, st
 
     for (const modelName of modelsToTry) {
       try {
-        console.log(`[AI] Calling Gemini (${modelName}) with fast timeout...`);
-        const callPromise = ai.models.generateContent({
+        console.log(`[AI] Calling Gemini (${modelName})... Waiting for full model response.`);
+        const response = await ai.models.generateContent({
           model: modelName,
           contents: promptText,
           config: {
@@ -43,26 +33,27 @@ export async function generateDesignInstructions({ topic, category, template, st
           }
         });
 
-        const response = await withTimeout(callPromise, 4500);
         const text = response.text;
         const parsed = JSON.parse(text);
         parsed.source = `gemini (${modelName})`;
+        console.log(`[AI] Gemini (${modelName}) successfully generated design!`);
         return parsed;
       } catch (err) {
-        console.warn(`[AI] Gemini (${modelName}) attempt failed or timed out: ${err.message}`);
+        console.warn(`[AI] Gemini (${modelName}) returned an error: ${err.message}`);
         lastErrorNotice = err.message.includes("503") || err.message.includes("high demand")
           ? "Gemini experienced high demand (503)."
-          : (err.message.includes("Timeout") ? "Gemini request timed out (>4s)." : `Gemini: ${err.message}`);
-        break; // Don't delay the user; immediately proceed to fast fallback
+          : `Gemini: ${err.message}`;
+        // If 503 high demand on preferred model, loop continues to try next model in modelsToTry
       }
     }
   }
 
-  // Option 2: OpenAI API (with 4s timeout)
+  // Option 2: OpenAI API
   if (openaiKey && openaiKey.trim() !== "" && openaiKey !== "your_openai_api_key_here") {
     try {
+      console.log("[AI] Calling OpenAI API...");
       const client = new OpenAI({ apiKey: openaiKey });
-      const completionPromise = client.chat.completions.create({
+      const completion = await client.chat.completions.create({
         model: process.env.OPENAI_MODEL || "gpt-4o-mini",
         messages: [
           { role: "system", content: SYSTEM_DESIGNER_PROMPT },
@@ -72,21 +63,21 @@ export async function generateDesignInstructions({ topic, category, template, st
         temperature: 0.7
       });
 
-      const completion = await withTimeout(completionPromise, 4500);
       const responseText = completion.choices[0]?.message?.content;
       const parsed = JSON.parse(responseText);
       parsed.source = "openai";
+      console.log("[AI] OpenAI successfully generated design!");
       return parsed;
     } catch (err) {
-      console.warn("[AI] OpenAI API call failed or timed out:", err.message);
+      console.warn("[AI] OpenAI API returned an error:", err.message);
       lastErrorNotice = `OpenAI: ${err.message}`;
     }
   }
 
-  // Option 3: Local deterministic domain synthesizer (Instant ~5ms response)
+  // Option 3: Local deterministic domain synthesizer (Only used when no key provided or actual API error occurred)
   const synthetic = generateSyntheticDesign({ topic, category, template, style, tone });
   if (lastErrorNotice) {
-    synthetic.aiWarning = `${lastErrorNotice} Auto-switched to Instant Vector Synthesizer for zero delay.`;
+    synthetic.aiWarning = `${lastErrorNotice} Auto-switched to Local Vector Synthesizer.`;
   }
   return synthetic;
 }

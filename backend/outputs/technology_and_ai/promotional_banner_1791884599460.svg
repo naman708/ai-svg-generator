@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Autonomous AI Agent Swarms">
+  
+    <defs>
+      <!-- Base Background Linear Gradient -->
+      <linearGradient id="promo-gen_49ltxfg-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#09090b" />
+        <stop offset="100%" stop-color="#18181b" />
+      </linearGradient>
+
+      <!-- Primary Gradient for Accents and Cards -->
+      <linearGradient id="promo-gen_49ltxfg-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#06b6d4" />
+        <stop offset="100%" stop-color="#f43f5e" />
+      </linearGradient>
+
+      <!-- Glass / Surface Card Gradient -->
+      <linearGradient id="promo-gen_49ltxfg-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#18181b" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#18181b" stop-opacity="0.6" />
+      </linearGradient>
+
+      <!-- Modern Drop Shadow Filter -->
+      <filter id="promo-gen_49ltxfg-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+      </filter>
+
+      <!-- Subtle Glow Filter for Accents -->
+      <filter id="promo-gen_49ltxfg-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+
+      <!-- Tech Dot Pattern -->
+      <pattern id="promo-gen_49ltxfg-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.2" fill="#06b6d4" fill-opacity="0.12" />
+      </pattern>
+    </defs>
+  
+  <defs>
+    <!-- Hard Boundary ClipPath for Left Column to prevent any collision with right card -->
+    <clipPath id="promo-gen_49ltxfg-left-clip">
+      <rect x="0" y="0" width="560" height="460" />
+    </clipPath>
+  </defs>
+  
+    <!-- Main Canvas Background -->
+    <rect width="1200" height="630" fill="url(#promo-gen_49ltxfg-bg-grad)" />
+
+    <!-- Ambient Grid Texture -->
+    <rect width="1200" height="630" fill="url(#promo-gen_49ltxfg-dot-grid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <g opacity="0.3">
+      <circle cx="1080" cy="63" r="300" fill="#06b6d4" filter="url(#promo-gen_49ltxfg-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#f43f5e" filter="url(#promo-gen_49ltxfg-glow)" />
+    </g>
+
+    <!-- Border Accent Line -->
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#27272a" stroke-width="1" />
+  
+
+  <!-- Left Content Column with strict clipPath boundary -->
+  <g transform="translate(80, 85)" clip-path="url(#promo-gen_49ltxfg-left-clip)">
+    <!-- Category Badge (Dynamic width with safe padding) -->
+    <rect x="0" y="0" width="276" height="32" rx="16" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
+    <text x="18" y="21" fill="#06b6d4" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
+      TECHNOLOGY AND AI • 2026
+    </text>
+
+    <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
+    
+    <text x="0" y="72" fill="#fafafa" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Autonomous AI Agent</tspan><tspan x="0" dy="46">Swarms</tspan>
+    </text>
+  
+
+    <!-- Subtitle / Body Copy -->
+    
+    <text x="0" y="220" fill="#a1a1aa" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Comprehensive visual breakdown and</tspan><tspan x="0" dy="24">tactical implementation guide for</tspan><tspan x="0" dy="24">autonomous ai agent swarms.</tspan>
+    </text>
+  
+
+    <!-- CTA Button (Dynamic width & calculated icon spacing) -->
+    <g transform="translate(0, 325)" filter="url(#promo-gen_49ltxfg-shadow)">
+      <rect x="0" y="0" width="245" height="50" rx="25" fill="url(#promo-gen_49ltxfg-primary-grad)" />
+      <text x="106.5" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+        Discover Solutions
+      </text>
+      
+    <g transform="translate(209, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="20" height="20" viewBox="0 0 24 24">
+        
+    <line x1="5" x2="19" y1="12" y2="12"/>
+    <polyline points="12 5 19 12 12 19"/>
+  
+      </svg>
+    </g>
+  
+    </g>
+  </g>
+
+  <!-- Right Visual / Feature Cards Bento -->
+  <g transform="translate(680, 105)">
+    <!-- Big Decorative Backing Card -->
+    <rect x="0" y="0" width="440" height="415" rx="20" fill="url(#promo-gen_49ltxfg-card-grad)" stroke="#27272a" stroke-width="1.5" filter="url(#promo-gen_49ltxfg-shadow)" />
+    
+    <!-- Feature items -->
+    
+        <g transform="translate(25, 24)">
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#18181b" stroke="#27272a" stroke-width="1" />
+          
+          <!-- Icon Bubble -->
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#06b6d4" fill-opacity="0.15" />
+          
+    <g transform="translate(31, 40)" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+  
+      </svg>
+    </g>
+  
+          
+          <!-- Feature Title -->
+          <text x="82" y="38" fill="#fafafa" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            Peak Performance
+          </text>
+          
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
+          
+    <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Engineered for maximum scale &amp;</tspan><tspan x="82" dy="18">reliability</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(25, 148)">
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#18181b" stroke="#27272a" stroke-width="1" />
+          
+          <!-- Icon Bubble -->
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#06b6d4" fill-opacity="0.15" />
+          
+    <g transform="translate(31, 40)" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+    <path d="m9 12 2 2 4-4"/>
+  
+      </svg>
+    </g>
+  
+          
+          <!-- Feature Title -->
+          <text x="82" y="38" fill="#fafafa" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            Bank-Grade Security
+          </text>
+          
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
+          
+    <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Zero trust architecture and</tspan><tspan x="82" dy="18">encryption</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(25, 272)">
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#18181b" stroke="#27272a" stroke-width="1" />
+          
+          <!-- Icon Bubble -->
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#06b6d4" fill-opacity="0.15" />
+          
+    <g transform="translate(31, 40)" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+  
+      </svg>
+    </g>
+  
+          
+          <!-- Feature Title -->
+          <text x="82" y="38" fill="#fafafa" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            Next-Gen Intelligence
+          </text>
+          
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
+          
+    <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Powered by autonomous foundation</tspan><tspan x="82" dy="18">models</tspan>
+    </text>
+  
+        </g>
+      
+  </g>
+</svg>
