@@ -14,8 +14,8 @@ export async function generateDesignInstructions({ topic, category, template, st
 
   // Option 1: Google Gemini (Free Tier)
   if (geminiKey && geminiKey.trim() !== "" && geminiKey !== "your_gemini_api_key_here") {
-    const preferredModel = process.env.GEMINI_MODEL || "gemini-1.5-flash";
-    const modelsToTry = [preferredModel, "gemini-2.0-flash", "gemini-1.5-flash"]
+    const preferredModel = process.env.GEMINI_MODEL || "gemini-3.8-flash";
+    const modelsToTry = [preferredModel, "gemini-3.8-flash", "gemini-3.8-flash"]
       .filter((m, i, arr) => arr.indexOf(m) === i);
 
     const ai = new GoogleGenAI({ apiKey: geminiKey });
