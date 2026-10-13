@@ -15,7 +15,10 @@ import {
   Palette,
   Layout,
   Sliders,
-  ExternalLink
+  ExternalLink,
+  AlertTriangle,
+  X,
+  Cpu
 } from "lucide-react";
 
 const API_BASE = import.meta.env.VITE_API_BASE || "/api";
@@ -57,6 +60,13 @@ const TEMPLATES = [
   { id: "social_square_graphic", name: "Social Square Graphic (1080x1080)" }
 ];
 
+const LOADING_STEPS = [
+  "Calling Gemini to analyze brief & design hierarchy...",
+  "Synthesizing vector typography & harmonious palettes...",
+  "Compiling pure SVG coordinates & validating boundaries...",
+  "Finalizing vector elements and render passes..."
+];
+
 export default function App() {
   const [activeTab, setActiveTab] = useState("studio"); // 'studio' | 'gallery'
   const [topic, setTopic] = useState("Autonomous AI Agent Swarms");
@@ -65,6 +75,8 @@ export default function App() {
   const [theme, setTheme] = useState("cyberpunk-tech");
   const [tone, setTone] = useState("Professional and Authoritative");
   const [loading, setLoading] = useState(false);
+  const [loadingStep, setLoadingStep] = useState(LOADING_STEPS[0]);
+  const [aiWarning, setAiWarning] = useState(null);
   const [copied, setCopied] = useState(false);
   const [showCode, setShowCode] = useState(false);
   const [zoom, setZoom] = useState(1);
@@ -88,6 +100,18 @@ export default function App() {
     fetchGallery();
   }, []);
 
+  // Cycle loading messages when loading
+  useEffect(() => {
+    if (!loading) return;
+    let stepIdx = 0;
+    setLoadingStep(LOADING_STEPS[0]);
+    const interval = setInterval(() => {
+      stepIdx = (stepIdx + 1) % LOADING_STEPS.length;
+      setLoadingStep(LOADING_STEPS[stepIdx]);
+    }, 1800);
+    return () => clearInterval(interval);
+  }, [loading]);
+
   const fetchGallery = async () => {
     try {
       const res = await fetch(`${API_BASE}/designs`);
@@ -103,6 +127,8 @@ export default function App() {
   const handleGenerate = async (overrideParams = {}) => {
     setLoading(true);
     setCopied(false);
+    setAiWarning(null);
+
     try {
       const payload = {
         topic: overrideParams.topic || topic,
@@ -128,8 +154,13 @@ export default function App() {
         setGenerationStats({
           timeMs: data.generationTimeMs,
           aspectRatio: data.aspectRatio,
-          sizeKb: (new Blob([data.svg]).size / 1024).toFixed(1)
+          sizeKb: (new Blob([data.svg]).size / 1024).toFixed(1),
+          source: data.source || "unknown"
         });
+
+        if (data.aiWarning) {
+          setAiWarning(data.aiWarning);
+        }
       } else {
         alert("Generation error: " + (data.error || "Unknown error"));
       }
@@ -368,6 +399,19 @@ export default function App() {
 
           {/* SVG Previewer & Canvas */}
           <section className="preview-container">
+            {/* Warning / Fallback Notice Banner */}
+            {aiWarning && (
+              <div className="warning-banner">
+                <div className="warning-content">
+                  <AlertTriangle size={16} />
+                  <span>{aiWarning}</span>
+                </div>
+                <button className="btn-dismiss" onClick={() => setAiWarning(null)} title="Dismiss notice">
+                  <X size={15} />
+                </button>
+              </div>
+            )}
+
             {/* Top Toolbar */}
             <div className="preview-toolbar">
               <div className="meta-badges">
@@ -378,9 +422,12 @@ export default function App() {
                 )}
                 {generationStats && (
                   <>
+                    <span className="badge-pill engine-source" title="Engine Source">
+                      <Cpu size={12} /> {generationStats.source}
+                    </span>
                     <span className="badge-pill dim">{generationStats.aspectRatio}</span>
                     <span className="badge-pill dim">{generationStats.sizeKb} KB</span>
-                    <span className="badge-pill dim">{generationStats.timeMs}ms latency</span>
+                    <span className="badge-pill dim">{generationStats.timeMs}ms</span>
                   </>
                 )}
               </div>
@@ -412,6 +459,25 @@ export default function App() {
 
             {/* Canvas Stage */}
             <div className="svg-viewport">
+              {/* Full Loader Overlay during Generation */}
+              {loading && (
+                <div className="loader-overlay">
+                  <div className="loader-card">
+                    <div className="spinner-wrapper">
+                      <div className="spinner-outer" />
+                      <div className="spinner-inner">
+                        <Sparkles size={24} />
+                      </div>
+                    </div>
+                    <div className="loader-title">Generating SVG Vector Graphic</div>
+                    <div className="loader-status">
+                      <span className="pulse-dot" />
+                      {loadingStep}
+                    </div>
+                  </div>
+                </div>
+              )}
+
               <div
                 ref={svgContainerRef}
                 className="svg-display"

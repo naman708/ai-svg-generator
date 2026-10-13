@@ -5,7 +5,7 @@ import { SYSTEM_DESIGNER_PROMPT, buildUserPrompt } from "./promptBuilder.js";
 /**
  * AI Service for generating structured SVG design instructions.
  * Supports:
- * 1. Google Gemini API (Free tier via Google AI Studio)
+ * 1. Google Gemini API with automatic model retry (gemini-2.5-flash -> gemini-2.0-flash -> gemini-1.5-flash)
  * 2. OpenAI API
  * 3. Local deterministic domain synthesizer fallback
  */
@@ -13,34 +13,45 @@ import { SYSTEM_DESIGNER_PROMPT, buildUserPrompt } from "./promptBuilder.js";
 export async function generateDesignInstructions({ topic, category, template, style, tone }) {
   const geminiKey = process.env.GEMINI_API_KEY;
   const openaiKey = process.env.OPENAI_API_KEY;
+  let lastErrorNotice = null;
 
   // Option 1: Google Gemini (Free Tier)
-  if (geminiKey && geminiKey !== "your_gemini_api_key_here") {
-    try {
-      const ai = new GoogleGenAI({ apiKey: geminiKey });
-      const promptText = `${SYSTEM_DESIGNER_PROMPT}\n\n${buildUserPrompt({ topic, category, template, style, tone })}`;
-      
-      const modelName = process.env.GEMINI_MODEL || "gemini-2.5-flash";
-      const response = await ai.models.generateContent({
-        model: modelName,
-        contents: promptText,
-        config: {
-          responseMimeType: "application/json",
-          temperature: 0.7
-        }
-      });
+  if (geminiKey && geminiKey.trim() !== "" && geminiKey !== "your_gemini_api_key_here") {
+    // Models to try in sequence if one returns 503/429 high demand
+    const preferredModel = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+    const modelsToTry = [preferredModel, "gemini-2.0-flash", "gemini-1.5-flash"]
+      .filter((m, i, arr) => arr.indexOf(m) === i);
 
-      const text = response.text;
-      const parsed = JSON.parse(text);
-      parsed.source = `gemini (${modelName})`;
-      return parsed;
-    } catch (err) {
-      console.warn("Gemini API call failed, falling back to local synthesis engine:", err.message);
+    const ai = new GoogleGenAI({ apiKey: geminiKey });
+    const promptText = `${SYSTEM_DESIGNER_PROMPT}\n\n${buildUserPrompt({ topic, category, template, style, tone })}`;
+
+    for (const modelName of modelsToTry) {
+      try {
+        console.log(`[AI] Attempting generation with Gemini (${modelName})...`);
+        const response = await ai.models.generateContent({
+          model: modelName,
+          contents: promptText,
+          config: {
+            responseMimeType: "application/json",
+            temperature: 0.7
+          }
+        });
+
+        const text = response.text;
+        const parsed = JSON.parse(text);
+        parsed.source = `gemini (${modelName})`;
+        return parsed;
+      } catch (err) {
+        console.warn(`[AI] Gemini (${modelName}) failed: ${err.message}`);
+        lastErrorNotice = err.message.includes("503") || err.message.includes("high demand")
+          ? "Gemini models are experiencing high demand (503)."
+          : `Gemini error: ${err.message}`;
+      }
     }
   }
 
   // Option 2: OpenAI API
-  if (openaiKey && openaiKey !== "your_openai_api_key_here") {
+  if (openaiKey && openaiKey.trim() !== "" && openaiKey !== "your_openai_api_key_here") {
     try {
       const client = new OpenAI({ apiKey: openaiKey });
       const completion = await client.chat.completions.create({
@@ -58,12 +69,17 @@ export async function generateDesignInstructions({ topic, category, template, st
       parsed.source = "openai";
       return parsed;
     } catch (err) {
-      console.warn("OpenAI API call failed, falling back to local synthesis engine:", err.message);
+      console.warn("[AI] OpenAI API call failed:", err.message);
+      lastErrorNotice = `OpenAI error: ${err.message}`;
     }
   }
 
-  // Option 3: Fallback deterministic domain synthesizer (Fast, offline, 100% reliable)
-  return generateSyntheticDesign({ topic, category, template, style, tone });
+  // Option 3: Local deterministic domain synthesizer (Fast, offline, 100% reliable)
+  const synthetic = generateSyntheticDesign({ topic, category, template, style, tone });
+  if (lastErrorNotice) {
+    synthetic.aiWarning = `${lastErrorNotice} Auto-switched to Local Vector Synthesizer to ensure instant generation.`;
+  }
+  return synthetic;
 }
 
 /**
@@ -104,7 +120,7 @@ export function generateSyntheticDesign({ topic = "Artificial Intelligence Syste
       baseContent.metrics = [
         { value: "99.8%", label: "Operational Reliability", delta: "+12.4%", desc: "Continuous uptime SLA verified under enterprise load", icon: "activity" },
         { value: "5.2x", label: "Productivity Velocity", delta: "+420%", desc: "Accelerated development delivery cycle efficiency", icon: "zap" },
-        { value: "$18.4M", label: "Annual Cost Reduction", delta: "+55% YoY", icon: "dollar-sign" },
+        { value: "$18.4M", label: "Annual Cost Reduction", delta: "+55% YoY", icon: "dollar-sign" }
       ];
       break;
 

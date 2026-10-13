@@ -100,7 +100,9 @@ apiRouter.post("/generate", async (req, res) => {
       aspectRatio: rendered.aspectRatio,
       validation,
       savedFile: savedFileName ? `outputs/${(designInstructions.category || "general").toLowerCase().replace(/[^a-z0-9]/g, "_")}/${savedFileName}` : null,
-      generationTimeMs: durationMs
+      generationTimeMs: durationMs,
+      aiWarning: designInstructions.aiWarning || null,
+      source: designInstructions.source || "unknown"
     });
   } catch (err) {
     console.error("Generation error:", err);
