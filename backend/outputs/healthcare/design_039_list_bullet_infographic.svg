@@ -3,20 +3,20 @@
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="list-design_039-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#f8fafc" />
-        <stop offset="100%" stop-color="#e2e8f0" />
+        <stop offset="0%" stop-color="#06281e" />
+        <stop offset="100%" stop-color="#0b3d2e" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="list-design_039-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#2563eb" />
-        <stop offset="100%" stop-color="#4f46e5" />
+        <stop offset="0%" stop-color="#10b981" />
+        <stop offset="100%" stop-color="#a7f3d0" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="list-design_039-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#ffffff" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#0e4a38" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#0e4a38" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="list-design_039-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#2563eb" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#10b981" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,46 +45,46 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="720" cy="120" r="200" fill="#2563eb" filter="url(#list-design_039-glow)" />
-      <circle cx="40" cy="1080" r="160" fill="#4f46e5" filter="url(#list-design_039-glow)" />
+      <circle cx="720" cy="120" r="200" fill="#10b981" filter="url(#list-design_039-glow)" />
+      <circle cx="40" cy="1080" r="160" fill="#a7f3d0" filter="url(#list-design_039-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#cbd5e1" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#145a44" stroke-width="1" />
   
 
   <!-- Header Banner -->
   <g transform="translate(60, 60)">
-    <rect x="0" y="0" width="230" height="30" rx="15" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="1.5" />
-    <text x="115" y="20" fill="#2563eb" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      LONGEVITY MEDICINE
+    <rect x="0" y="0" width="230" height="30" rx="15" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1.5" />
+    <text x="115" y="20" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      HEALTH FOUNDATIONS
     </text>
 
     <!-- Main Title -->
     
-    <text x="0" y="65" fill="#0f172a" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+    <text x="0" y="65" fill="#f0fdf4" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="0" dy="0">5 Pillars of Biological</tspan><tspan x="0" dy="44">Longevity</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
-    <text x="0" y="165" fill="#64748b" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Evidence-based lifestyle and physiological interventions that</tspan><tspan x="0" dy="24">optimize cellular health and lifespan.</tspan>
+    <text x="0" y="165" fill="#a7f3d0" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Evidence-based habits that protect cellular vitality, prevent</tspan><tspan x="0" dy="24">disease, and maintain lifelong energy.</tspan>
     </text>
   
 
-    <line x1="0" y1="225" x2="680" y2="225" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 4" />
+    <line x1="0" y1="225" x2="680" y2="225" stroke="#145a44" stroke-width="1.5" stroke-dasharray="4 4" />
   </g>
 
   <!-- 5 Sequential List Cards -->
   <g transform="translate(60, 315)">
     
         <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_039-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_039-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_039-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#list-design_039-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#10b981" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             1
           </text>
@@ -92,21 +92,21 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Deep restorative Sleep</tspan>
+    <text x="0" y="22" fill="#f0fdf4" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Prioritize Restorative Sleep</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Optimize glymphatic brain clearance with consistent</tspan><tspan x="0" dy="22">sleep hygiene.</tspan>
+    <text x="0" y="54" fill="#a7f3d0" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">7 to 9 hours of quality sleep cleanses brain tissue</tspan><tspan x="0" dy="22">and restores hormones.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <circle cx="12" cy="12" r="10"/>
@@ -118,10 +118,10 @@
         </g>
       
         <g transform="translate(0, 155)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_039-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_039-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_039-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#list-design_039-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#10b981" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             2
           </text>
@@ -129,21 +129,21 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Resistance &amp; Aerobic Exercise</tspan>
+    <text x="0" y="22" fill="#f0fdf4" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Zone 2 Cardiovascular Exercise</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Preserve mitochondrial density and skeletal muscle</tspan><tspan x="0" dy="22">mass.</tspan>
+    <text x="0" y="54" fill="#a7f3d0" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Low-intensity aerobic movement builds dense, healthy</tspan><tspan x="0" dy="22">mitochondria.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
@@ -154,10 +154,10 @@
         </g>
       
         <g transform="translate(0, 310)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_039-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_039-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_039-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#list-design_039-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#10b981" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             3
           </text>
@@ -165,21 +165,58 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Metabolic Optimization</tspan>
+    <text x="0" y="22" fill="#f0fdf4" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Eat Whole, Unprocessed Foods</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Maintain low insulin resistance and balanced blood</tspan><tspan x="0" dy="22">glucose levels.</tspan>
+    <text x="0" y="54" fill="#a7f3d0" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Cuts chronic systemic inflammation and nurtures</tspan><tspan x="0" dy="22">healthy gut bacteria.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+    <path d="M2 21c0-3 1.85-5.36 5.08-6"/>
+  
+      </svg>
+    </g>
+  
+        </g>
+      
+        <g transform="translate(0, 465)">
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_039-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#list-design_039-shadow)" />
+          
+          <!-- Number Box -->
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#10b981" />
+          <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            4
+          </text>
+
+          <!-- Row Content -->
+          <g transform="translate(90, 24)">
+            
+    <text x="0" y="22" fill="#f0fdf4" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Consistent Resistance Training</tspan>
+    </text>
+  
+
+            
+    <text x="0" y="54" fill="#a7f3d0" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Preserving muscle mass is one of the strongest</tspan><tspan x="0" dy="22">predictors of longevity.</tspan>
+    </text>
+  
+          </g>
+
+          <!-- Right Icon -->
+          
+    <g transform="translate(620, 28)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
@@ -190,47 +227,11 @@
   
         </g>
       
-        <g transform="translate(0, 465)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_039-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_039-shadow)" />
-          
-          <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
-          <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
-            4
-          </text>
-
-          <!-- Row Content -->
-          <g transform="translate(90, 24)">
-            
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Thermal Hormesis</tspan>
-    </text>
-  
-
-            
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Activate heat-shock proteins and circulation with</tspan><tspan x="0" dy="22">sauna and cold immersion.</tspan>
-    </text>
-  
-          </g>
-
-          <!-- Right Icon -->
-          
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <svg width="24" height="24" viewBox="0 0 24 24">
-        
-    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
-  
-      </svg>
-    </g>
-  
-        </g>
-      
         <g transform="translate(0, 620)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_039-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_039-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_039-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#list-design_039-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#10b981" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             5
           </text>
@@ -238,21 +239,21 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Social Connection &amp; Community</tspan>
+    <text x="0" y="22" fill="#f0fdf4" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Nurture Social Connections</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Strong interpersonal bonds dramatically reduce</tspan><tspan x="0" dy="22">systemic inflammation.</tspan>
+    <text x="0" y="54" fill="#a7f3d0" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Meaningful friendships lower stress markers and</tspan><tspan x="0" dy="22">support mental health.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
@@ -269,11 +270,11 @@
 
   <!-- Footer -->
   <g transform="translate(60, 1130)">
-    <line x1="0" y1="0" x2="680" y2="0" stroke="#cbd5e1" stroke-width="1" />
-    <text x="0" y="32" fill="#64748b" font-size="13" font-family="Inter, sans-serif">
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#145a44" stroke-width="1" />
+    <text x="0" y="32" fill="#a7f3d0" font-size="13" font-family="Inter, sans-serif">
       Synthesized Vector Framework • Shri Genesis AI Technical Assessment
     </text>
-    <text x="680" y="32" fill="#2563eb" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
+    <text x="680" y="32" fill="#10b981" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
       100% Vector Scalable
     </text>
   </g>

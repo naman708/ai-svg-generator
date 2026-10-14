@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="The true superpower of artificial intelligence in healthcare is not replacing clinicians, but giving them the gift of time to look patients in the eye.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="The true superpower of artificial intelligence in healthcare is not replacing clinicians, but giving them back the time to look patients in the eye.">
   
     <defs>
       <!-- Base Background Linear Gradient -->
@@ -83,7 +83,7 @@
     <g transform="translate(60, 180)">
       
     <text x="0" y="20" fill="#ffffff" font-size="32" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">“The true superpower of artificial</tspan><tspan x="0" dy="44">intelligence in healthcare is not replacing</tspan><tspan x="0" dy="44">clinicians, but giving them the gift of time</tspan><tspan x="0" dy="44">to look patients in the eye.”</tspan>
+      <tspan x="0" dy="0">“The true superpower of artificial</tspan><tspan x="0" dy="44">intelligence in healthcare is not replacing</tspan><tspan x="0" dy="44">clinicians, but giving them back the time to</tspan><tspan x="0" dy="44">look patients in the eye.”</tspan>
     </text>
   
     </g>

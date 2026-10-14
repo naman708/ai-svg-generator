@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Algorithmic Wealth Optimization">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Automated Wealth Optimization">
   
     <defs>
       <!-- Base Background Linear Gradient -->
@@ -62,33 +62,33 @@
   <!-- Left Content Column with strict clipPath boundary -->
   <g transform="translate(80, 85)" clip-path="url(#promo-design_041-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="226" height="32" rx="16" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-width="1.5" />
+    <rect x="0" y="0" width="206" height="32" rx="16" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-width="1.5" />
     <text x="18" y="21" fill="#f59e0b" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
-      WEALTH INTELLIGENCE
+      WEALTH MANAGEMENT
     </text>
 
     <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
     <text x="0" y="72" fill="#fafaf9" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Algorithmic Wealth</tspan><tspan x="0" dy="46">Optimization</tspan>
+      <tspan x="0" dy="0">Automated Wealth</tspan><tspan x="0" dy="46">Optimization</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
     <text x="0" y="220" fill="#d6d3d1" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Direct indexing, tax-loss harvesting,</tspan><tspan x="0" dy="24">and multi-asset risk parity managed</tspan><tspan x="0" dy="24">autonomously for high net worth...</tspan>
+      <tspan x="0" dy="0">Direct indexing, tax-loss harvesting,</tspan><tspan x="0" dy="24">and balanced asset allocation tailored</tspan><tspan x="0" dy="24">to personal financial goals.</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
     <g transform="translate(0, 325)" filter="url(#promo-design_041-shadow)">
-      <rect x="0" y="0" width="287" height="50" rx="25" fill="url(#promo-design_041-primary-grad)" />
-      <text x="127.5" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-        Explore Private Wealth
+      <rect x="0" y="0" width="245" height="50" rx="25" fill="url(#promo-design_041-primary-grad)" />
+      <text x="106.5" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+        Explore Strategies
       </text>
       
-    <g transform="translate(251, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(209, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -125,18 +125,48 @@
           
           <!-- Feature Title -->
           <text x="82" y="38" fill="#fafaf9" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            Continuous Tax Alpha
+            Tax-Loss Harvesting
           </text>
           
           <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#d6d3d1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">Daily automated tax-loss harvesting</tspan>
+      <tspan x="82" dy="0">Captures market dips automatically</tspan><tspan x="82" dy="18">to offset capital gains</tspan>
     </text>
   
         </g>
       
         <g transform="translate(25, 148)">
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#292524" stroke="#44403c" stroke-width="1" />
+          
+          <!-- Icon Bubble -->
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#f59e0b" fill-opacity="0.15" />
+          
+    <g transform="translate(31, 40)" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+    <polyline points="2 17 12 22 22 17"/>
+    <polyline points="2 12 12 17 22 12"/>
+  
+      </svg>
+    </g>
+  
+          
+          <!-- Feature Title -->
+          <text x="82" y="38" fill="#fafaf9" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            Direct Indexing
+          </text>
+          
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
+          
+    <text x="82" y="60" fill="#d6d3d1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Own underlying stocks directly with</tspan><tspan x="82" dy="18">custom ethical filters</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(25, 272)">
           <rect x="0" y="0" width="390" height="104" rx="14" fill="#292524" stroke="#44403c" stroke-width="1" />
           
           <!-- Icon Bubble -->
@@ -154,42 +184,13 @@
           
           <!-- Feature Title -->
           <text x="82" y="38" fill="#fafaf9" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            Multi-Asset Risk Parity
+            Smart Rebalancing
           </text>
           
           <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#d6d3d1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">Dynamic volatility targeting</tspan>
-    </text>
-  
-        </g>
-      
-        <g transform="translate(25, 272)">
-          <rect x="0" y="0" width="390" height="104" rx="14" fill="#292524" stroke="#44403c" stroke-width="1" />
-          
-          <!-- Icon Bubble -->
-          <rect x="18" y="27" width="50" height="50" rx="12" fill="#f59e0b" fill-opacity="0.15" />
-          
-    <g transform="translate(31, 40)" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <svg width="24" height="24" viewBox="0 0 24 24">
-        
-    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
-    <path d="m9 12 2 2 4-4"/>
-  
-      </svg>
-    </g>
-  
-          
-          <!-- Feature Title -->
-          <text x="82" y="38" fill="#fafaf9" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            SIPC Insured Custody
-          </text>
-          
-          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
-          
-    <text x="82" y="60" fill="#d6d3d1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">Enterprise institutional custodian</tspan><tspan x="82" dy="18">rails</tspan>
+      <tspan x="82" dy="0">Realigns portfolio targets without</tspan><tspan x="82" dy="18">triggering high tax bills</tspan>
     </text>
   
         </g>

@@ -55,9 +55,9 @@
 
   <!-- Header Banner -->
   <g transform="translate(60, 60)">
-    <rect x="0" y="0" width="208" height="30" rx="15" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="1.5" />
-    <text x="104" y="20" fill="#2563eb" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      SECURITY HYGIENE
+    <rect x="0" y="0" width="197" height="30" rx="15" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="1.5" />
+    <text x="98.5" y="20" fill="#2563eb" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      SECURITY HABITS
     </text>
 
     <!-- Main Title -->
@@ -70,7 +70,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="165" fill="#64748b" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Everyday technical safeguards that neutralize over 98% of</tspan><tspan x="0" dy="24">opportunistic attack vectors.</tspan>
+      <tspan x="0" dy="0">Simple, repeatable engineering habits that neutralize the vast</tspan><tspan x="0" dy="24">majority of cyber attacks.</tspan>
     </text>
   
 
@@ -93,13 +93,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Mandatory Hardware MFA</tspan>
+      <tspan x="0" dy="0">Use Hardware Keys &amp; MFA</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Eliminate SMS and app push OTP vulnerabilities with</tspan><tspan x="0" dy="22">physical keys.</tspan>
+      <tspan x="0" dy="0">Eliminates password reuse and stops automated</tspan><tspan x="0" dy="22">credential stuffing.</tspan>
     </text>
   
           </g>
@@ -130,13 +130,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Automated Patch Management</tspan>
+      <tspan x="0" dy="0">Patch Dependencies Promptly</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Zero-day vulnerability patching within 24 hours of</tspan><tspan x="0" dy="22">disclosure.</tspan>
+      <tspan x="0" dy="0">Keep software libraries updated to close known</tspan><tspan x="0" dy="22">vulnerabilities early.</tspan>
     </text>
   
           </g>
@@ -146,8 +146,8 @@
     <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-    <polyline points="22 4 12 14.01 9 11.01"/>
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+    <path d="m9 12 2 2 4-4"/>
   
       </svg>
     </g>
@@ -167,13 +167,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Immutable Offline Backups</tspan>
+      <tspan x="0" dy="0">Follow Least Privilege</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Air-gapped and write-once backup volumes to</tspan><tspan x="0" dy="22">withstand ransomware.</tspan>
+      <tspan x="0" dy="0">Give team members only the permissions needed for</tspan><tspan x="0" dy="22">their daily work.</tspan>
     </text>
   
           </g>
@@ -183,9 +183,10 @@
     <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <ellipse cx="12" cy="5" rx="9" ry="3"/>
-    <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
-    <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/>
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+    <circle cx="9" cy="7" r="4"/>
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
   
       </svg>
     </g>
@@ -205,13 +206,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Least Privilege Enforced</tspan>
+      <tspan x="0" dy="0">Test Backups Regularly</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Never grant persistent administrative privileges to</tspan><tspan x="0" dy="22">user accounts.</tspan>
+      <tspan x="0" dy="0">Make sure database restores actually work before</tspan><tspan x="0" dy="22">disaster strikes.</tspan>
     </text>
   
           </g>
@@ -221,8 +222,9 @@
     <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
-    <path d="m9 12 2 2 4-4"/>
+    <ellipse cx="12" cy="5" rx="9" ry="3"/>
+    <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
+    <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/>
   
       </svg>
     </g>
@@ -242,13 +244,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Regular Chaos Breach Drills</tspan>
+      <tspan x="0" dy="0">Run Realistic Drills</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Run surprise table-top breach recovery exercises</tspan><tspan x="0" dy="22">quarterly.</tspan>
+      <tspan x="0" dy="0">Train employees with simulated phishing so they spot</tspan><tspan x="0" dy="22">real threats easily.</tspan>
     </text>
   
           </g>
@@ -258,7 +260,9 @@
     <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+    <circle cx="12" cy="12" r="10"/>
+    <circle cx="12" cy="12" r="6"/>
+    <circle cx="12" cy="12" r="2"/>
   
       </svg>
     </g>

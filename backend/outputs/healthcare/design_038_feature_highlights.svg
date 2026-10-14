@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Decentralized Clinical Trials Engine">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Decentralized Clinical Trials Hub">
   
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="feat-design_038-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
         <stop offset="0%" stop-color="#0f172a" />
-        <stop offset="100%" stop-color="#1e1b4b" />
+        <stop offset="100%" stop-color="#1e293b" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="feat-design_038-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#6366f1" />
-        <stop offset="100%" stop-color="#c084fc" />
+        <stop offset="0%" stop-color="#3b82f6" />
+        <stop offset="100%" stop-color="#38bdf8" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="feat-design_038-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#1e293b" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="feat-design_038-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#6366f1" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#3b82f6" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,31 +45,31 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="1080" cy="63" r="300" fill="#6366f1" filter="url(#feat-design_038-glow)" />
-      <circle cx="60" cy="567" r="240" fill="#c084fc" filter="url(#feat-design_038-glow)" />
+      <circle cx="1080" cy="63" r="300" fill="#3b82f6" filter="url(#feat-design_038-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#38bdf8" filter="url(#feat-design_038-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#312e81" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#334155" stroke-width="1" />
   
 
   <!-- Top Header -->
   <g transform="translate(80, 50)">
-    <rect x="0" y="0" width="183" height="30" rx="15" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
-    <text x="15" y="20" fill="#6366f1" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+    <rect x="0" y="0" width="183" height="30" rx="15" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
+    <text x="15" y="20" fill="#3b82f6" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
       CLINICAL RESEARCH
     </text>
 
     
-    <text x="0" y="65" fill="#ffffff" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Decentralized Clinical Trials Engine</tspan>
+    <text x="0" y="65" fill="#f8fafc" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Decentralized Clinical Trials Hub</tspan>
     </text>
   
   </g>
 
   <!-- Left Hero Bento Card -->
   <g transform="translate(80, 160)">
-    <rect x="0" y="0" width="500" height="410" rx="20" fill="url(#feat-design_038-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#feat-design_038-shadow)" />
+    <rect x="0" y="0" width="500" height="410" rx="20" fill="url(#feat-design_038-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#feat-design_038-shadow)" />
     
     <!-- Hero Icon Bubble -->
     <rect x="40" y="40" width="64" height="64" rx="16" fill="url(#feat-design_038-primary-grad)" />
@@ -85,27 +85,27 @@
   
 
     <!-- Tag Pill -->
-    <rect x="120" y="58" width="130" height="26" rx="13" fill="#6366f1" fill-opacity="0.15" />
-    <text x="185" y="75" fill="#6366f1" font-size="11" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-      CONTINUOUS TELEMETRY
+    <rect x="120" y="58" width="130" height="26" rx="13" fill="#3b82f6" fill-opacity="0.15" />
+    <text x="185" y="75" fill="#3b82f6" font-size="11" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+      BREAKTHROUGH
     </text>
 
     <!-- Hero Title -->
-    <text x="40" y="160" fill="#ffffff" font-size="28" font-weight="800" font-family="Inter, sans-serif">
-      Wearable Biomarker Streaming
+    <text x="40" y="160" fill="#f8fafc" font-size="28" font-weight="800" font-family="Inter, sans-serif">
+      Remote Participant Enrollment
     </text>
 
     <!-- Hero Body -->
     
-    <text x="40" y="200" fill="#cbd5e1" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="40" dy="0">Continuous physiological monitoring</tspan><tspan x="40" dy="28">capturing real-world clinical</tspan><tspan x="40" dy="28">endpoints directly from patient</tspan><tspan x="40" dy="28">wearables with cryptographic</tspan><tspan x="40" dy="28">verification.</tspan>
+    <text x="40" y="200" fill="#94a3b8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="40" dy="0">Enables patients to join life-saving</tspan><tspan x="40" dy="28">clinical trials from home using</tspan><tspan x="40" dy="28">connected medical sensors and local</tspan><tspan x="40" dy="28">clinic visits.</tspan>
     </text>
   
 
     <!-- Bottom Indicator -->
     <g transform="translate(40, 345)">
-      <circle cx="6" cy="6" r="6" fill="#c084fc" />
-      <text x="22" y="10" fill="#ffffff" font-size="13" font-weight="600" font-family="Inter, sans-serif">
+      <circle cx="6" cy="6" r="6" fill="#38bdf8" />
+      <text x="22" y="10" fill="#f8fafc" font-size="13" font-weight="600" font-family="Inter, sans-serif">
         Enterprise Standard Production Module
       </text>
     </g>
@@ -115,59 +115,58 @@
   <g transform="translate(610, 160)">
     
         <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="510" height="195" rx="18" fill="url(#feat-design_038-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#feat-design_038-shadow)" />
+          <rect x="0" y="0" width="510" height="195" rx="18" fill="url(#feat-design_038-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#feat-design_038-shadow)" />
           
           <!-- Icon Bubble -->
-          <rect x="30" y="30" width="48" height="48" rx="12" fill="#6366f1" fill-opacity="0.15" />
+          <rect x="30" y="30" width="48" height="48" rx="12" fill="#3b82f6" fill-opacity="0.15" />
           
-    <g transform="translate(42, 42)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(42, 42)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-    <polyline points="22 4 12 14.01 9 11.01"/>
+    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
   
       </svg>
     </g>
   
 
           <!-- Title -->
-          <text x="95" y="60" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Direct Patient eConsent
+          <text x="95" y="60" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Digital Informed Consent
           </text>
 
           <!-- Description -->
           
-    <text x="30" y="110" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="30" dy="0">Multilingual compliant digital consent signing</tspan><tspan x="30" dy="24">on mobile.</tspan>
+    <text x="30" y="110" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="30" dy="0">Clear, plain-language digital explanations for</tspan><tspan x="30" dy="24">trial participants.</tspan>
     </text>
   
         </g>
       
         <g transform="translate(0, 215)">
-          <rect x="0" y="0" width="510" height="195" rx="18" fill="url(#feat-design_038-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#feat-design_038-shadow)" />
+          <rect x="0" y="0" width="510" height="195" rx="18" fill="url(#feat-design_038-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#feat-design_038-shadow)" />
           
           <!-- Icon Bubble -->
-          <rect x="30" y="30" width="48" height="48" rx="12" fill="#6366f1" fill-opacity="0.15" />
+          <rect x="30" y="30" width="48" height="48" rx="12" fill="#3b82f6" fill-opacity="0.15" />
           
-    <g transform="translate(42, 42)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(42, 42)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
-    <path d="m9 12 2 2 4-4"/>
+    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
   
       </svg>
     </g>
   
 
           <!-- Title -->
-          <text x="95" y="60" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Automated Adverse Event Detection
+          <text x="95" y="60" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Continuous Health Sync
           </text>
 
           <!-- Description -->
           
-    <text x="30" y="110" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="30" dy="0">Instantaneous alerting for vital anomalies.</tspan>
+    <text x="30" y="110" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="30" dy="0">Monitors patient vitals automatically to flag</tspan><tspan x="30" dy="24">adverse reactions fast.</tspan>
     </text>
   
         </g>

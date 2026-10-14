@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Autonomous Agent Swarms">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Collaborative AI Agents in Action">
   
     <defs>
       <!-- Base Background Linear Gradient -->
@@ -62,33 +62,33 @@
   <!-- Left Content Column with strict clipPath boundary -->
   <g transform="translate(80, 85)" clip-path="url(#promo-design_001-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="186" height="32" rx="16" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
+    <rect x="0" y="0" width="226" height="32" rx="16" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
     <text x="18" y="21" fill="#06b6d4" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
-      AI ARCHITECTURE
+      MULTI-AGENT SYSTEMS
     </text>
 
     <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
     <text x="0" y="72" fill="#fafafa" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Autonomous Agent</tspan><tspan x="0" dy="46">Swarms</tspan>
+      <tspan x="0" dy="0">Collaborative AI</tspan><tspan x="0" dy="46">Agents in Action</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
     <text x="0" y="220" fill="#a1a1aa" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Multi-agent collaborative networks</tspan><tspan x="0" dy="24">orchestrating enterprise operations</tspan><tspan x="0" dy="24">with self-healing feedback loops.</tspan>
+      <tspan x="0" dy="0">Deploy specialized agent workflows</tspan><tspan x="0" dy="24">that plan, code, and review with</tspan><tspan x="0" dy="24">direct peer-to-peer feedback.</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
     <g transform="translate(0, 325)" filter="url(#promo-design_001-shadow)">
-      <rect x="0" y="0" width="310" height="50" rx="25" fill="url(#promo-design_001-primary-grad)" />
-      <text x="139" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-        Explore Multi-Agent Swarms
+      <rect x="0" y="0" width="266" height="50" rx="25" fill="url(#promo-design_001-primary-grad)" />
+      <text x="117" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+        See Agents In Action
       </text>
       
-    <g transform="translate(274, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(230, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -126,13 +126,13 @@
           
           <!-- Feature Title -->
           <text x="82" y="38" fill="#fafafa" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            Self-Reflection
+            Self-Review
           </text>
           
           <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">Iterative plan critique and</tspan><tspan x="82" dy="18">refinement</tspan>
+      <tspan x="82" dy="0">Agents inspect and refine their work</tspan><tspan x="82" dy="18">before taking action</tspan>
     </text>
   
         </g>
@@ -154,13 +154,13 @@
           
           <!-- Feature Title -->
           <text x="82" y="38" fill="#fafafa" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            Sub-Second Consensus
+            Fast Coordination
           </text>
           
           <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">Decentralized state agreement</tspan><tspan x="82" dy="18">protocols</tspan>
+      <tspan x="82" dy="0">Direct messaging between agents</tspan><tspan x="82" dy="18">without bottleneck delays</tspan>
     </text>
   
         </g>
@@ -183,13 +183,13 @@
           
           <!-- Feature Title -->
           <text x="82" y="38" fill="#fafafa" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            Zero Tool Hallucination
+            Strict Guardrails
           </text>
           
           <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a1a1aa" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">Strict schema-bounded API execution</tspan>
+      <tspan x="82" dy="0">Schema-locked tools prevent</tspan><tspan x="82" dy="18">unexpected hallucinations</tspan>
     </text>
   
         </g>

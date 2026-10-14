@@ -71,7 +71,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="110" fill="#94a3b8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Audited ROI metrics comparing organic thought leadership to outbound paid</tspan><tspan x="0" dy="24">advertising.</tspan>
+      <tspan x="0" dy="0">Audited ROI numbers comparing thoughtful, educational content with expensive</tspan><tspan x="0" dy="24">paid advertising.</tspan>
     </text>
   
   </g>
@@ -90,9 +90,8 @@
     <g transform="translate(11, 11)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <circle cx="12" cy="12" r="10"/>
-    <circle cx="12" cy="12" r="6"/>
-    <circle cx="12" cy="12" r="2"/>
+    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
+    <polyline points="16 7 22 7 22 13"/>
   
       </svg>
     </g>
@@ -101,7 +100,7 @@
             <!-- Delta Pill -->
             <rect x="180" y="6" width="90" height="28" rx="14" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1" />
             <text x="225" y="24" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-              +220% Leads
+              Per Dollar Spent
             </text>
           </g>
 
@@ -112,7 +111,7 @@
 
           <!-- Metric Label -->
           <text x="24" y="185" fill="#3b82f6" font-size="18" font-weight="700" font-family="Inter, sans-serif">
-            Lead Generation Multiple
+            More Leads Generated
           </text>
 
           <!-- Divider Line -->
@@ -121,7 +120,7 @@
           <!-- Metric Description -->
           
     <text x="24" y="235" fill="#94a3b8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">Organic educational assets</tspan><tspan x="24" dy="20">outperforming paid display ads</tspan>
+      <tspan x="24" dy="0">Inbound educational content</tspan><tspan x="24" dy="20">consistently beats paid ad spend</tspan><tspan x="24" dy="20">over time</tspan>
     </text>
   
 
@@ -155,18 +154,18 @@
             <!-- Delta Pill -->
             <rect x="180" y="6" width="90" height="28" rx="14" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1" />
             <text x="225" y="24" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-              Lower CAC
+              Verified Savings
             </text>
           </g>
 
           <!-- Big Metric Value -->
           <text x="24" y="145" fill="#f8fafc" font-size="48" font-weight="900" font-family="Inter, sans-serif" letter-spacing="-1">
-            -62%
+            62%
           </text>
 
           <!-- Metric Label -->
           <text x="24" y="185" fill="#3b82f6" font-size="18" font-weight="700" font-family="Inter, sans-serif">
-            Customer Acquisition Cost
+            Lower Cost Per Lead
           </text>
 
           <!-- Divider Line -->
@@ -175,7 +174,7 @@
           <!-- Metric Description -->
           
     <text x="24" y="235" fill="#94a3b8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">Compounding evergreen inbound</tspan><tspan x="24" dy="20">search authority</tspan>
+      <tspan x="24" dy="0">Organic articles and guides</tspan><tspan x="24" dy="20">continue attracting buyers</tspan><tspan x="24" dy="20">months after publishing</tspan>
     </text>
   
 
@@ -199,8 +198,8 @@
     <g transform="translate(11, 11)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
-    <polyline points="16 7 22 7 22 13"/>
+    <circle cx="12" cy="8" r="6"/>
+    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
   
       </svg>
     </g>
@@ -209,18 +208,18 @@
             <!-- Delta Pill -->
             <rect x="180" y="6" width="90" height="28" rx="14" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1" />
             <text x="225" y="24" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-              +45% YoY
+              Surveyed Buyers
             </text>
           </g>
 
           <!-- Big Metric Value -->
           <text x="24" y="145" fill="#f8fafc" font-size="48" font-weight="900" font-family="Inter, sans-serif" letter-spacing="-1">
-            480K+
+            4.8x
           </text>
 
           <!-- Metric Label -->
           <text x="24" y="185" fill="#3b82f6" font-size="18" font-weight="700" font-family="Inter, sans-serif">
-            Monthly Qualified Inbound
+            Higher Customer Trust
           </text>
 
           <!-- Divider Line -->
@@ -229,7 +228,7 @@
           <!-- Metric Description -->
           
     <text x="24" y="235" fill="#94a3b8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">High-intent organic traffic</tspan><tspan x="24" dy="20">looking for tactical solutions</tspan>
+      <tspan x="24" dy="0">Buyers prefer researching</tspan><tspan x="24" dy="20">solutions independently before</tspan><tspan x="24" dy="20">talking to sales</tspan>
     </text>
   
 

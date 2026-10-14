@@ -59,9 +59,9 @@
 
     <!-- Top Badge Row -->
     <g transform="translate(60, 60)">
-      <rect x="0" y="0" width="164" height="32" rx="16" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
-      <text x="82" y="21" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-        PLANET FIRST
+      <rect x="0" y="0" width="175" height="32" rx="16" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
+      <text x="87.5" y="21" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+        GREEN ECONOMY
       </text>
     </g>
 
@@ -78,7 +78,7 @@
     <g transform="translate(60, 310)">
       
     <text x="0" y="20" fill="#a7f3d0" font-size="18" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Why the companies leading the clean energy transition</tspan><tspan x="0" dy="28">will be the most valuable enterprises of the 21st</tspan><tspan x="0" dy="28">century.</tspan>
+      <tspan x="0" dy="0">Why companies that lead in resource efficiency and</tspan><tspan x="0" dy="28">climate responsibility build more durable value.</tspan>
     </text>
   
     </g>
@@ -104,7 +104,7 @@
             
             
     <text x="72" y="44" fill="#f0fdf4" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Efficiency reduces operational costs and waste</tspan>
+      <tspan x="72" dy="0">Wasting less electricity, water, and raw material directly cut...</tspan>
     </text>
   
           </g>
@@ -125,7 +125,7 @@
             
             
     <text x="72" y="44" fill="#f0fdf4" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Top talent increasingly demands green employers</tspan>
+      <tspan x="72" dy="0">Customers increasingly choose brands that show genuine...</tspan>
     </text>
   
           </g>
@@ -146,7 +146,7 @@
             
             
     <text x="72" y="44" fill="#f0fdf4" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Clean energy is now the cheapest electricity in history</tspan>
+      <tspan x="72" dy="0">Clean energy technology is the largest infrastructure investme...</tspan>
     </text>
   
           </g>

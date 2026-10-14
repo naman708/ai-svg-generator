@@ -55,9 +55,9 @@
 
   <!-- Header -->
   <g transform="translate(80, 50)">
-    <rect x="0" y="0" width="252" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
-    <text x="126" y="20" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      RESOURCE CONSUMPTION
+    <rect x="0" y="0" width="186" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
+    <text x="93" y="20" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      RESOURCE LOOPS
     </text>
 
     
@@ -75,12 +75,12 @@
     <g transform="translate(35, 35)">
       <rect x="0" y="0" width="130" height="26" rx="6" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444" stroke-width="1" />
       <text x="65" y="18" fill="#f87171" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-        EXTRACTIVE &amp; FINITE
+        DEPLETING
       </text>
 
       
     <text x="0" y="65" fill="#f0fdf4" font-size="24" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Linear Economy</tspan>
+      <tspan x="0" dy="0">Take-Make-Waste</tspan>
     </text>
   
     </g>
@@ -103,7 +103,7 @@
   
             
     <text x="48" y="16" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Single-use consumption sending</tspan><tspan x="48" dy="22">materials to landfill</tspan>
+      <tspan x="48" dy="0">Raw resources extracted,</tspan><tspan x="48" dy="22">processed, and quickly...</tspan>
     </text>
   
           </g>
@@ -123,7 +123,7 @@
   
             
     <text x="48" y="16" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Accelerating toxic greenhouse</tspan><tspan x="48" dy="22">gas accumulation</tspan>
+      <tspan x="48" dy="0">Massive energy waste and toxic</tspan><tspan x="48" dy="22">runoff into local waterways</tspan>
     </text>
   
           </g>
@@ -143,7 +143,7 @@
   
             
     <text x="48" y="16" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Vulnerable to raw material</tspan><tspan x="48" dy="22">supply shocks and price spikes</tspan>
+      <tspan x="48" dy="0">Consumers forced to repurchase</tspan><tspan x="48" dy="22">cheap goods that break with...</tspan>
     </text>
   
           </g>
@@ -167,12 +167,12 @@
     <g transform="translate(35, 35)">
       <rect x="0" y="0" width="130" height="26" rx="6" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
       <text x="65" y="18" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-        RESTORATIVE &amp; SUSTAINABLE
+        SUSTAINABLE
       </text>
 
       
     <text x="0" y="65" fill="#f0fdf4" font-size="24" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Circular Economy</tspan>
+      <tspan x="0" dy="0">Circular Design</tspan>
     </text>
   
     </g>
@@ -194,7 +194,7 @@
   
             
     <text x="48" y="16" fill="#f0fdf4" font-size="15" font-weight="500" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Modular components engineered</tspan><tspan x="48" dy="22">for perpetual recycling</tspan>
+      <tspan x="48" dy="0">Products designed to be</tspan><tspan x="48" dy="22">disassembled, repaired, and...</tspan>
     </text>
   
           </g>
@@ -213,7 +213,7 @@
   
             
     <text x="48" y="16" fill="#f0fdf4" font-size="15" font-weight="500" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Drastically lowers virgin</tspan><tspan x="48" dy="22">resource mining and emissions</tspan>
+      <tspan x="48" dy="0">Non-toxic organic materials</tspan><tspan x="48" dy="22">that safely biodegrade back...</tspan>
     </text>
   
           </g>
@@ -232,7 +232,7 @@
   
             
     <text x="48" y="16" fill="#f0fdf4" font-size="15" font-weight="500" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Creates resilient domestic</tspan><tspan x="48" dy="22">secondary supply chains</tspan>
+      <tspan x="48" dy="0">Creates thriving repair</tspan><tspan x="48" dy="22">economies while preserving...</tspan>
     </text>
   
           </g>

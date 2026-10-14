@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Top-Quartile SaaS Metrics">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Key SaaS Growth Benchmarks">
   
     <defs>
       <!-- Base Background Linear Gradient -->
@@ -64,14 +64,14 @@
     <!-- Headline -->
     
     <text x="0" y="65" fill="#0f172a" font-size="40" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Top-Quartile SaaS Metrics</tspan>
+      <tspan x="0" dy="0">Key SaaS Growth Benchmarks</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
     <text x="0" y="110" fill="#64748b" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Industry benchmarks for high-performing subscription software enterprises.</tspan>
+      <tspan x="0" dy="0">Key operational benchmarks tracked by top-tier subscription software businesses.</tspan>
     </text>
   
   </g>
@@ -120,7 +120,7 @@
           <!-- Metric Description -->
           
     <text x="24" y="235" fill="#64748b" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">Expansion revenue outstripping</tspan><tspan x="24" dy="20">churn among enterprise tiers</tspan>
+      <tspan x="24" dy="0">Expansion from existing accounts</tspan><tspan x="24" dy="20">far outpaces customer churn</tspan>
     </text>
   
 
@@ -174,7 +174,7 @@
           <!-- Metric Description -->
           
     <text x="24" y="235" fill="#64748b" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">Cloud infrastructure efficiency</tspan><tspan x="24" dy="20">and software leverage</tspan>
+      <tspan x="24" dy="0">Strong software leverage with</tspan><tspan x="24" dy="20">lean hosting expenses</tspan>
     </text>
   
 
@@ -208,7 +208,7 @@
             <!-- Delta Pill -->
             <rect x="180" y="6" width="90" height="28" rx="14" fill="#4f46e5" fill-opacity="0.2" stroke="#4f46e5" stroke-width="1" />
             <text x="225" y="24" fill="#4f46e5" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-              -4 Mo Improvement
+              -4 Mo Gain
             </text>
           </g>
 
@@ -228,7 +228,7 @@
           <!-- Metric Description -->
           
     <text x="24" y="235" fill="#64748b" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">High velocity inbound pipeline</tspan><tspan x="24" dy="20">and product-led growth</tspan>
+      <tspan x="24" dy="0">Fast payback driven by</tspan><tspan x="24" dy="20">product-led word of mouth</tspan>
     </text>
   
 

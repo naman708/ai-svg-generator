@@ -3,20 +3,20 @@
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="quote-design_065-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#1c102b" />
-        <stop offset="100%" stop-color="#2e123d" />
+        <stop offset="0%" stop-color="#0f172a" />
+        <stop offset="100%" stop-color="#1e293b" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="quote-design_065-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#f97316" />
-        <stop offset="100%" stop-color="#ec4899" />
+        <stop offset="0%" stop-color="#3b82f6" />
+        <stop offset="100%" stop-color="#38bdf8" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="quote-design_065-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#38174a" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#38174a" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#1e293b" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="quote-design_065-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#f97316" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#3b82f6" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,30 +45,30 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="1080" cy="63" r="300" fill="#f97316" filter="url(#quote-design_065-glow)" />
-      <circle cx="60" cy="567" r="240" fill="#ec4899" filter="url(#quote-design_065-glow)" />
+      <circle cx="1080" cy="63" r="300" fill="#3b82f6" filter="url(#quote-design_065-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#38bdf8" filter="url(#quote-design_065-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#562270" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#334155" stroke-width="1" />
   
 
   <!-- Central Card -->
   <g transform="translate(100, 75)">
-    <rect x="0" y="0" width="1000" height="480" rx="24" fill="url(#quote-design_065-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#quote-design_065-shadow)" />
+    <rect x="0" y="0" width="1000" height="480" rx="24" fill="url(#quote-design_065-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#quote-design_065-shadow)" />
 
     <!-- Top Badge -->
     <g transform="translate(60, 50)">
-      <rect x="0" y="0" width="192" height="30" rx="15" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
-      <text x="15" y="20" fill="#f97316" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
-        CUSTOMER OBSESSION
+      <rect x="0" y="0" width="156" height="30" rx="15" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
+      <text x="15" y="20" fill="#3b82f6" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+        CUSTOMER FOCUS
       </text>
     </g>
 
     <!-- Large Decorative Quote Glyph -->
     <g transform="translate(60, 110)">
       
-    <g transform="translate(0, 0)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(0, 0)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="48" height="48" viewBox="0 0 24 24">
         
     <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
@@ -82,7 +82,7 @@
     <!-- Quote Body -->
     <g transform="translate(60, 180)">
       
-    <text x="0" y="20" fill="#ffffff" font-size="32" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+    <text x="0" y="20" fill="#f8fafc" font-size="32" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="0" dy="0">“If you make customers unhappy in the</tspan><tspan x="0" dy="44">physical world, they might tell 6 friends.</tspan><tspan x="0" dy="44">If you make them unhappy on the Internet,</tspan><tspan x="0" dy="44">they can each tell 6,000.”</tspan>
     </text>
   
@@ -91,17 +91,17 @@
     <!-- Author Profile Footer -->
     <g transform="translate(60, 390)">
       <!-- Avatar Circle with Initial -->
-      <circle cx="28" cy="28" r="28" fill="#f97316" />
+      <circle cx="28" cy="28" r="28" fill="#3b82f6" />
       <text x="28" y="37" fill="#ffffff" font-size="22" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
         J
       </text>
 
       <!-- Author Name & Verified Badge -->
-      <text x="75" y="24" fill="#ffffff" font-size="20" font-weight="700" font-family="Inter, sans-serif">
+      <text x="75" y="24" fill="#f8fafc" font-size="20" font-weight="700" font-family="Inter, sans-serif">
         Jeff Bezos
       </text>
       
-    <g transform="translate(195, 8)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(195, 8)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="18" height="18" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -112,8 +112,8 @@
   
 
       <!-- Role / Title -->
-      <text x="75" y="46" fill="#fbcfe8" font-size="14" font-family="Inter, sans-serif">
-        Founder, Amazon
+      <text x="75" y="46" fill="#94a3b8" font-size="14" font-family="Inter, sans-serif">
+        Founder &amp; E-Commerce Pioneer
       </text>
     </g>
   </g>

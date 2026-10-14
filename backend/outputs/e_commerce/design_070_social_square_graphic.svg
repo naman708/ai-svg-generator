@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Speed Is The Number One E-Commerce Feature">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Speed Is The Best Feature You Can Build">
   
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="social-design_070-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#1c102b" />
-        <stop offset="100%" stop-color="#2e123d" />
+        <stop offset="0%" stop-color="#0f172a" />
+        <stop offset="100%" stop-color="#1e1b4b" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="social-design_070-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#f97316" />
-        <stop offset="100%" stop-color="#ec4899" />
+        <stop offset="0%" stop-color="#6366f1" />
+        <stop offset="100%" stop-color="#c084fc" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="social-design_070-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#38174a" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#38174a" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="social-design_070-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#f97316" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#6366f1" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,23 +45,23 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="972" cy="108" r="270" fill="#f97316" filter="url(#social-design_070-glow)" />
-      <circle cx="54" cy="972" r="216" fill="#ec4899" filter="url(#social-design_070-glow)" />
+      <circle cx="972" cy="108" r="270" fill="#6366f1" filter="url(#social-design_070-glow)" />
+      <circle cx="54" cy="972" r="216" fill="#c084fc" filter="url(#social-design_070-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="1079" height="1079" rx="8" fill="none" stroke="#562270" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="1079" height="1079" rx="8" fill="none" stroke="#312e81" stroke-width="1" />
   
 
   <!-- Central Canvas Card -->
   <g transform="translate(80, 80)">
-    <rect x="0" y="0" width="920" height="920" rx="28" fill="url(#social-design_070-card-grad)" stroke="#562270" stroke-width="2" filter="url(#social-design_070-shadow)" />
+    <rect x="0" y="0" width="920" height="920" rx="28" fill="url(#social-design_070-card-grad)" stroke="#312e81" stroke-width="2" filter="url(#social-design_070-shadow)" />
 
     <!-- Top Badge Row -->
     <g transform="translate(60, 60)">
-      <rect x="0" y="0" width="175" height="32" rx="16" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
-      <text x="87.5" y="21" fill="#f97316" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-        RETAIL TRENDS
+      <rect x="0" y="0" width="186" height="32" rx="16" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
+      <text x="93" y="21" fill="#6366f1" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+        RETAIL LESSONS
       </text>
     </g>
 
@@ -69,7 +69,7 @@
     <g transform="translate(60, 120)">
       
     <text x="0" y="48" fill="#ffffff" font-size="44" font-weight="900" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Speed Is The Number One</tspan><tspan x="0" dy="54">E-Commerce Feature</tspan>
+      <tspan x="0" dy="0">Speed Is The Best Feature You</tspan><tspan x="0" dy="54">Can Build</tspan>
     </text>
   
     </g>
@@ -77,22 +77,22 @@
     <!-- Subtitle -->
     <g transform="translate(60, 310)">
       
-    <text x="0" y="20" fill="#fbcfe8" font-size="18" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Every 100ms delay in page load time costs an</tspan><tspan x="0" dy="28">e-commerce brand 1% in lost conversions.</tspan>
+    <text x="0" y="20" fill="#cbd5e1" font-size="18" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Why page speed and mobile usability matter more than</tspan><tspan x="0" dy="28">flashy animations for online stores.</tspan>
     </text>
   
     </g>
 
-    <line x1="60" y1="410" x2="860" y2="410" stroke="#562270" stroke-width="1.5" />
+    <line x1="60" y1="410" x2="860" y2="410" stroke="#312e81" stroke-width="1.5" />
 
     <!-- 3 Core Points -->
     <g transform="translate(60, 440)">
       
           <g transform="translate(0, 0)">
-            <rect x="0" y="0" width="800" height="74" rx="16" fill="#38174a" stroke="#562270" stroke-width="1" />
-            <circle cx="36" cy="37" r="18" fill="#f97316" fill-opacity="0.2" />
+            <rect x="0" y="0" width="800" height="74" rx="16" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
+            <circle cx="36" cy="37" r="18" fill="#6366f1" fill-opacity="0.2" />
             
-    <g transform="translate(26, 27)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(26, 27)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -104,16 +104,16 @@
             
             
     <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Optimize vector graphics and compress all media assets</tspan>
+      <tspan x="72" dy="0">Every 100 millisecond delay in page load cuts conversions by 1%</tspan>
     </text>
   
           </g>
         
           <g transform="translate(0, 95)">
-            <rect x="0" y="0" width="800" height="74" rx="16" fill="#38174a" stroke="#562270" stroke-width="1" />
-            <circle cx="36" cy="37" r="18" fill="#f97316" fill-opacity="0.2" />
+            <rect x="0" y="0" width="800" height="74" rx="16" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
+            <circle cx="36" cy="37" r="18" fill="#6366f1" fill-opacity="0.2" />
             
-    <g transform="translate(26, 27)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(26, 27)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -125,16 +125,16 @@
             
             
     <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Prefetch cart and checkout pages on the edge network</tspan>
+      <tspan x="72" dy="0">Over 70% of online purchases now happen on smartphone screens</tspan>
     </text>
   
           </g>
         
           <g transform="translate(0, 190)">
-            <rect x="0" y="0" width="800" height="74" rx="16" fill="#38174a" stroke="#562270" stroke-width="1" />
-            <circle cx="36" cy="37" r="18" fill="#f97316" fill-opacity="0.2" />
+            <rect x="0" y="0" width="800" height="74" rx="16" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
+            <circle cx="36" cy="37" r="18" fill="#6366f1" fill-opacity="0.2" />
             
-    <g transform="translate(26, 27)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(26, 27)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -146,7 +146,7 @@
             
             
     <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Frictionless payments win customer loyalty every time</tspan>
+      <tspan x="72" dy="0">A clean, fast checkout beats clever marketing gimmicks every time</tspan>
     </text>
   
           </g>
@@ -155,10 +155,10 @@
 
     <!-- Footer Branding -->
     <g transform="translate(60, 770)">
-      <rect x="0" y="0" width="800" height="80" rx="16" fill="url(#social-design_070-primary-grad)" fill-opacity="0.12" stroke="#f97316" stroke-width="1" />
+      <rect x="0" y="0" width="800" height="80" rx="16" fill="url(#social-design_070-primary-grad)" fill-opacity="0.12" stroke="#6366f1" stroke-width="1" />
       
       <!-- Brand Icon & Text -->
-      <circle cx="40" cy="40" r="20" fill="#f97316" />
+      <circle cx="40" cy="40" r="20" fill="#6366f1" />
       
     <g transform="translate(30, 30)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
@@ -173,7 +173,7 @@
         AI-Powered SVG Generation Engine
       </text>
 
-      <text x="770" y="46" fill="#f97316" font-size="14" font-weight="700" text-anchor="end" font-family="Inter, sans-serif">
+      <text x="770" y="46" fill="#6366f1" font-size="14" font-weight="700" text-anchor="end" font-family="Inter, sans-serif">
         GENAI-ASSESSMENT #2026
       </text>
     </g>

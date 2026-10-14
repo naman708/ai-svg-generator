@@ -3,20 +3,20 @@
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="edu-design_052-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#0f172a" />
-        <stop offset="100%" stop-color="#1e1b4b" />
+        <stop offset="0%" stop-color="#1c102b" />
+        <stop offset="100%" stop-color="#2e123d" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="edu-design_052-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#6366f1" />
-        <stop offset="100%" stop-color="#c084fc" />
+        <stop offset="0%" stop-color="#f97316" />
+        <stop offset="100%" stop-color="#ec4899" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="edu-design_052-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#38174a" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#38174a" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="edu-design_052-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#6366f1" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#f97316" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,19 +45,19 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="720" cy="120" r="200" fill="#6366f1" filter="url(#edu-design_052-glow)" />
-      <circle cx="40" cy="1080" r="160" fill="#c084fc" filter="url(#edu-design_052-glow)" />
+      <circle cx="720" cy="120" r="200" fill="#f97316" filter="url(#edu-design_052-glow)" />
+      <circle cx="40" cy="1080" r="160" fill="#ec4899" filter="url(#edu-design_052-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#312e81" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#562270" stroke-width="1" />
   
 
   <!-- Header Section -->
   <g transform="translate(60, 60)">
     <!-- Pill Badge -->
-    <rect x="0" y="0" width="156" height="30" rx="15" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
-    <text x="15" y="20" fill="#6366f1" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+    <rect x="0" y="0" width="156" height="30" rx="15" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
+    <text x="15" y="20" fill="#f97316" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
       PEDAGOGY GUIDE
     </text>
 
@@ -70,13 +70,13 @@
 
     <!-- Subtitle -->
     
-    <text x="0" y="165" fill="#cbd5e1" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">A progressive cognitive framework from baseline recall to</tspan><tspan x="0" dy="24">original synthesis and creation.</tspan>
+    <text x="0" y="165" fill="#fbcfe8" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">A clear pyramid showing how human understanding grows from simple</tspan><tspan x="0" dy="24">recall to original creative work.</tspan>
     </text>
   
     
     <!-- Dividing Accent Line -->
-    <line x1="0" y1="220" x2="680" y2="220" stroke="#312e81" stroke-width="1.5" stroke-dasharray="4 4" />
+    <line x1="0" y1="220" x2="680" y2="220" stroke="#562270" stroke-width="1.5" stroke-dasharray="4 4" />
   </g>
 
   <!-- Educational Concept Cards (4 Stacked) -->
@@ -84,20 +84,20 @@
     
         <g transform="translate(0, 0)">
           <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_052-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#edu-design_052-shadow)" />
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_052-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#edu-design_052-shadow)" />
           
           <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#6366f1" />
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f97316" />
           <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             01
           </text>
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Remember &amp; Understand
+            Remembering
           </text>
           
-    <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(615, 30)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
     <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
@@ -109,28 +109,62 @@
 
           <!-- Card Body Description -->
           
-    <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Recalling foundational facts and explaining concepts</tspan><tspan x="95" dy="24">in your own words.</tspan>
+    <text x="95" y="95" fill="#fbcfe8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Recognizing and recalling essential facts, terms,</tspan><tspan x="95" dy="24">and core concepts.</tspan>
     </text>
   
         </g>
       
         <g transform="translate(0, 195)">
           <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_052-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#edu-design_052-shadow)" />
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_052-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#edu-design_052-shadow)" />
           
           <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#6366f1" />
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f97316" />
           <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             02
           </text>
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Apply Knowledge
+            Understanding
           </text>
           
-    <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(615, 30)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
+    <path d="M9 18h6"/>
+    <path d="M10 22h4"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#fbcfe8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Explaining ideas in your own words and summarizing</tspan><tspan x="95" dy="24">key insights.</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(0, 390)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_052-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#edu-design_052-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f97316" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            03
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Applying
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
     <rect x="4" y="4" width="16" height="16" rx="2"/>
@@ -143,60 +177,28 @@
 
           <!-- Card Body Description -->
           
-    <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Executing learned rules and formulas to solve novel</tspan><tspan x="95" dy="24">unscripted scenarios.</tspan>
-    </text>
-  
-        </g>
-      
-        <g transform="translate(0, 390)">
-          <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_052-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#edu-design_052-shadow)" />
-          
-          <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#6366f1" />
-          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
-            03
-          </text>
-
-          <!-- Card Header & Icon -->
-          <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Analyze &amp; Critique
-          </text>
-          
-    <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <svg width="26" height="26" viewBox="0 0 24 24">
-        
-    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
-  
-      </svg>
-    </g>
-  
-
-          <!-- Card Body Description -->
-          
-    <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Deconstructing systems into components and detecting</tspan><tspan x="95" dy="24">underlying biases.</tspan>
+    <text x="95" y="95" fill="#fbcfe8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Using what you&apos;ve learned to solve novel, real-world</tspan><tspan x="95" dy="24">problems effectively.</tspan>
     </text>
   
         </g>
       
         <g transform="translate(0, 585)">
           <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_052-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#edu-design_052-shadow)" />
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_052-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#edu-design_052-shadow)" />
           
           <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#6366f1" />
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f97316" />
           <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             04
           </text>
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Synthesize &amp; Create
+            Creating
           </text>
           
-    <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(615, 30)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
     <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
@@ -207,8 +209,8 @@
 
           <!-- Card Body Description -->
           
-    <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Assembling diverse principles together to generate</tspan><tspan x="95" dy="24">novel original works.</tspan>
+    <text x="95" y="95" fill="#fbcfe8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Combining diverse insights to design original</tspan><tspan x="95" dy="24">projects and new solutions.</tspan>
     </text>
   
         </g>
@@ -217,11 +219,11 @@
 
   <!-- Footer Info -->
   <g transform="translate(60, 1130)">
-    <line x1="0" y1="0" x2="680" y2="0" stroke="#312e81" stroke-width="1" />
-    <text x="0" y="32" fill="#cbd5e1" font-size="13" font-family="Inter, sans-serif">
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#562270" stroke-width="1" />
+    <text x="0" y="32" fill="#fbcfe8" font-size="13" font-family="Inter, sans-serif">
       AI-Powered Vector Infographic Engine • Generated Visual Guide
     </text>
-    <text x="680" y="32" fill="#6366f1" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
+    <text x="680" y="32" fill="#f97316" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
       Open Standards • Production Ready
     </text>
   </g>

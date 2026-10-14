@@ -3,20 +3,20 @@
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="list-design_089-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#f8fafc" />
-        <stop offset="100%" stop-color="#e2e8f0" />
+        <stop offset="0%" stop-color="#1c102b" />
+        <stop offset="100%" stop-color="#2e123d" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="list-design_089-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#2563eb" />
-        <stop offset="100%" stop-color="#4f46e5" />
+        <stop offset="0%" stop-color="#f97316" />
+        <stop offset="100%" stop-color="#ec4899" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="list-design_089-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#ffffff" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#38174a" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#38174a" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="list-design_089-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#2563eb" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#f97316" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,46 +45,46 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="720" cy="120" r="200" fill="#2563eb" filter="url(#list-design_089-glow)" />
-      <circle cx="40" cy="1080" r="160" fill="#4f46e5" filter="url(#list-design_089-glow)" />
+      <circle cx="720" cy="120" r="200" fill="#f97316" filter="url(#list-design_089-glow)" />
+      <circle cx="40" cy="1080" r="160" fill="#ec4899" filter="url(#list-design_089-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#cbd5e1" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#562270" stroke-width="1" />
   
 
   <!-- Header Banner -->
   <g transform="translate(60, 60)">
-    <rect x="0" y="0" width="197" height="30" rx="15" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="1.5" />
-    <text x="98.5" y="20" fill="#2563eb" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      ROUTINE MASTERY
+    <rect x="0" y="0" width="164" height="30" rx="15" fill="#f97316" fill-opacity="0.15" stroke="#f97316" stroke-width="1.5" />
+    <text x="82" y="20" fill="#f97316" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      DAILY HABITS
     </text>
 
     <!-- Main Title -->
     
-    <text x="0" y="65" fill="#0f172a" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+    <text x="0" y="65" fill="#ffffff" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="0" dy="0">5 Micro-Habits for Elite Focus</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
-    <text x="0" y="165" fill="#64748b" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Daily environmental adjustments that protect your brain&apos;s most</tspan><tspan x="0" dy="24">valuable executive functions.</tspan>
+    <text x="0" y="165" fill="#fbcfe8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Five small daily changes that protect your attention and make</tspan><tspan x="0" dy="24">deep concentration feel effortless.</tspan>
     </text>
   
 
-    <line x1="0" y1="225" x2="680" y2="225" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 4" />
+    <line x1="0" y1="225" x2="680" y2="225" stroke="#562270" stroke-width="1.5" stroke-dasharray="4 4" />
   </g>
 
   <!-- 5 Sequential List Cards -->
   <g transform="translate(60, 315)">
     
         <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_089-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_089-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_089-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#list-design_089-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#f97316" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             1
           </text>
@@ -92,25 +92,25 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Put Your Phone In Another Room</tspan>
+    <text x="0" y="22" fill="#ffffff" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Keep Your Phone in Another Room</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Physical distance removes the cognitive friction of</tspan><tspan x="0" dy="22">resisting notification pings.</tspan>
+    <text x="0" y="54" fill="#fbcfe8" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Simply seeing your phone nearby drains mental focus</tspan><tspan x="0" dy="22">and willpower.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
-    <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+    <path d="m9 12 2 2 4-4"/>
   
       </svg>
     </g>
@@ -118,10 +118,10 @@
         </g>
       
         <g transform="translate(0, 155)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_089-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_089-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_089-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#list-design_089-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#f97316" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             2
           </text>
@@ -129,25 +129,25 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Define Tomorrow&apos;s Top 3 Tonight</tspan>
+    <text x="0" y="22" fill="#ffffff" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Plan Tomorrow Tonight</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Wake up with zero decision fatigue; sit down and</tspan><tspan x="0" dy="22">immediately execute.</tspan>
+    <text x="0" y="54" fill="#fbcfe8" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Writing down your top three tasks before bed</tspan><tspan x="0" dy="22">eliminates morning indecision.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-    <polyline points="22 4 12 14.01 9 11.01"/>
+    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
   
       </svg>
     </g>
@@ -155,10 +155,10 @@
         </g>
       
         <g transform="translate(0, 310)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_089-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_089-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_089-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#list-design_089-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#f97316" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             3
           </text>
@@ -166,21 +166,21 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Batch Communication Into 2 Windows</tspan>
+    <text x="0" y="22" fill="#ffffff" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Work in 90-Minute Bursts</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Check email and Slack strictly at 11 AM and 4 PM,</tspan><tspan x="0" dy="22">not continuously.</tspan>
+    <text x="0" y="54" fill="#fbcfe8" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Match your natural ultradian rhythm and take short</tspan><tspan x="0" dy="22">walking breaks.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <circle cx="12" cy="12" r="10"/>
@@ -192,10 +192,10 @@
         </g>
       
         <g transform="translate(0, 465)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_089-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_089-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_089-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#list-design_089-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#f97316" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             4
           </text>
@@ -203,57 +203,21 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Use The 2-Minute Rule</tspan>
+    <text x="0" y="22" fill="#ffffff" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Single-Tab Browsing</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">If a task takes less than 120 seconds to finish,</tspan><tspan x="0" dy="22">complete it immediately.</tspan>
+    <text x="0" y="54" fill="#fbcfe8" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Close unrelated browser tabs before starting on</tspan><tspan x="0" dy="22">important work.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <svg width="24" height="24" viewBox="0 0 24 24">
-        
-    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
-  
-      </svg>
-    </g>
-  
-        </g>
-      
-        <g transform="translate(0, 620)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_089-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_089-shadow)" />
-          
-          <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
-          <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
-            5
-          </text>
-
-          <!-- Row Content -->
-          <g transform="translate(90, 24)">
-            
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Perform A Weekly Review Reset</tspan>
-    </text>
-  
-
-            
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Empty digital inboxes, review active goals, and</tspan><tspan x="0" dy="22">clear your desk every Friday.</tspan>
-    </text>
-  
-          </g>
-
-          <!-- Right Icon -->
-          
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <polygon points="12 2 2 7 12 12 22 7 12 2"/>
@@ -265,15 +229,51 @@
   
         </g>
       
+        <g transform="translate(0, 620)">
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_089-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#list-design_089-shadow)" />
+          
+          <!-- Number Box -->
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#f97316" />
+          <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            5
+          </text>
+
+          <!-- Row Content -->
+          <g transform="translate(90, 24)">
+            
+    <text x="0" y="22" fill="#ffffff" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Protect the First Hour of the Day</tspan>
+    </text>
+  
+
+            
+    <text x="0" y="54" fill="#fbcfe8" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Avoid checking email or news first thing; invest</tspan><tspan x="0" dy="22">fresh energy in real work.</tspan>
+    </text>
+  
+          </g>
+
+          <!-- Right Icon -->
+          
+    <g transform="translate(620, 28)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+  
+      </svg>
+    </g>
+  
+        </g>
+      
   </g>
 
   <!-- Footer -->
   <g transform="translate(60, 1130)">
-    <line x1="0" y1="0" x2="680" y2="0" stroke="#cbd5e1" stroke-width="1" />
-    <text x="0" y="32" fill="#64748b" font-size="13" font-family="Inter, sans-serif">
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#562270" stroke-width="1" />
+    <text x="0" y="32" fill="#fbcfe8" font-size="13" font-family="Inter, sans-serif">
       Synthesized Vector Framework • Shri Genesis AI Technical Assessment
     </text>
-    <text x="680" y="32" fill="#2563eb" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
+    <text x="680" y="32" fill="#f97316" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
       100% Vector Scalable
     </text>
   </g>

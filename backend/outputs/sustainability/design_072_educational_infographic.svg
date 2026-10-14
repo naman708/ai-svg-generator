@@ -56,9 +56,9 @@
   <!-- Header Section -->
   <g transform="translate(60, 60)">
     <!-- Pill Badge -->
-    <rect x="0" y="0" width="183" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
+    <rect x="0" y="0" width="165" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
     <text x="15" y="20" fill="#10b981" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
-      ECOLOGICAL DESIGN
+      CIRCULAR DESIGN
     </text>
 
     <!-- Main Title -->
@@ -71,7 +71,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="165" fill="#a7f3d0" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Moving from extractive take-make-waste models to restorative</tspan><tspan x="0" dy="24">industrial cycles.</tspan>
+      <tspan x="0" dy="0">A clear model for shifting from a wasteful throwaway culture to</tspan><tspan x="0" dy="24">durable, restorative production.</tspan>
     </text>
   
     
@@ -94,7 +94,7 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#f0fdf4" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Design Out Waste
+            Design for Longevity
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -111,7 +111,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Products designed from the outset for disassembly</tspan><tspan x="95" dy="24">and closed-loop recycling.</tspan>
+      <tspan x="95" dy="0">Build products from modular parts that are easy to</tspan><tspan x="95" dy="24">repair and upgrade.</tspan>
     </text>
   
         </g>
@@ -128,14 +128,14 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#f0fdf4" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Maintain Products in Use
+            Clean Manufacturing
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
-    <circle cx="12" cy="12" r="10"/>
-    <polyline points="12 6 12 12 16 14"/>
+    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+    <path d="M2 21c0-3 1.85-5.36 5.08-6"/>
   
       </svg>
     </g>
@@ -144,7 +144,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Maximizing lifespan through modular repair,</tspan><tspan x="95" dy="24">refurbishment, and sharing.</tspan>
+      <tspan x="95" dy="0">Power factories with renewables and eliminate toxic</tspan><tspan x="95" dy="24">chemical effluents.</tspan>
     </text>
   
         </g>
@@ -161,14 +161,16 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#f0fdf4" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Regenerate Natural Systems
+            Reuse and Refurbish
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
-    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
-    <path d="M2 21c0-3 1.85-5.36 5.08-6"/>
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+    <circle cx="9" cy="7" r="4"/>
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
   
       </svg>
     </g>
@@ -177,7 +179,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Returning biological nutrients safely back to enrich</tspan><tspan x="95" dy="24">topsoil and oceans.</tspan>
+      <tspan x="95" dy="0">Keep working products in circulation through</tspan><tspan x="95" dy="24">certified trade-in programs.</tspan>
     </text>
   
         </g>
@@ -194,13 +196,15 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#f0fdf4" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Renewable Energy Transition
+            Full Material Recycling
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
-    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+    <circle cx="12" cy="12" r="10"/>
+    <circle cx="12" cy="12" r="6"/>
+    <circle cx="12" cy="12" r="2"/>
   
       </svg>
     </g>
@@ -209,7 +213,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Powering all manufacturing cycles purely through</tspan><tspan x="95" dy="24">wind, solar, and hydro.</tspan>
+      <tspan x="95" dy="0">Disassemble worn items so raw metals and fabrics</tspan><tspan x="95" dy="24">return into new goods.</tspan>
     </text>
   
         </g>

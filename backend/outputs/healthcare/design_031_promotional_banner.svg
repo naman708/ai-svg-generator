@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Personalized Genomic Therapeutics">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Personalized Genomic Care">
   
     <defs>
       <!-- Base Background Linear Gradient -->
@@ -70,25 +70,25 @@
     <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
     <text x="0" y="72" fill="#f0fdf4" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Personalized</tspan><tspan x="0" dy="46">Genomic</tspan><tspan x="0" dy="46">Therapeutics</tspan>
+      <tspan x="0" dy="0">Personalized</tspan><tspan x="0" dy="46">Genomic Care</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
     <text x="0" y="220" fill="#a7f3d0" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Harnessing AI protein folding and</tspan><tspan x="0" dy="24">sequencing to engineer targeted</tspan><tspan x="0" dy="24">treatments for complex conditions.</tspan>
+      <tspan x="0" dy="0">Using computational biology and</tspan><tspan x="0" dy="24">sequencing to design personalized</tspan><tspan x="0" dy="24">therapies for complex conditions.</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
     <g transform="translate(0, 325)" filter="url(#promo-design_031-shadow)">
-      <rect x="0" y="0" width="308" height="50" rx="25" fill="url(#promo-design_031-primary-grad)" />
-      <text x="138" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-        Explore Genomic Research
+      <rect x="0" y="0" width="224" height="50" rx="25" fill="url(#promo-design_031-primary-grad)" />
+      <text x="96" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+        Explore Research
       </text>
       
-    <g transform="translate(272, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(188, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -125,13 +125,13 @@
           
           <!-- Feature Title -->
           <text x="82" y="38" fill="#f0fdf4" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            Targeted Oncology
+            Targeted Therapies
           </text>
           
           <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a7f3d0" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">Custom RNA cancer vaccines</tspan>
+      <tspan x="82" dy="0">Custom treatments matched to patient</tspan><tspan x="82" dy="18">genetics</tspan>
     </text>
   
         </g>
@@ -153,13 +153,13 @@
           
           <!-- Feature Title -->
           <text x="82" y="38" fill="#f0fdf4" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            Sub-Second Variant Call
+            Fast Genome Profiling
           </text>
           
           <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a7f3d0" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">Whole genome processing in minutes</tspan>
+      <tspan x="82" dy="0">Whole genome sequencing insights</tspan><tspan x="82" dy="18">delivered in hours</tspan>
     </text>
   
         </g>
@@ -182,13 +182,13 @@
           
           <!-- Feature Title -->
           <text x="82" y="38" fill="#f0fdf4" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            Ethical Data Governance
+            Strict Patient Privacy
           </text>
           
           <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
     <text x="82" y="60" fill="#a7f3d0" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">HIPAA-certified privacy enclave</tspan>
+      <tspan x="82" dy="0">HIPAA-compliant secure enclaves</tspan><tspan x="82" dy="18">protect records</tspan>
     </text>
   
         </g>

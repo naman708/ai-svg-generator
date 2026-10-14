@@ -59,9 +59,9 @@
 
     <!-- Top Badge Row -->
     <g transform="translate(60, 60)">
-      <rect x="0" y="0" width="164" height="32" rx="16" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
-      <text x="82" y="21" fill="#f97316" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-        BRAND EQUITY
+      <rect x="0" y="0" width="153" height="32" rx="16" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
+      <text x="76.5" y="21" fill="#f97316" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+        BRAND TRUTH
       </text>
     </g>
 
@@ -78,7 +78,7 @@
     <g transform="translate(60, 310)">
       
     <text x="0" y="20" fill="#fbcfe8" font-size="18" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Why consistency, craft, and product quality build</tspan><tspan x="0" dy="28">stronger brands than massive advertising budgets.</tspan>
+      <tspan x="0" dy="0">Why thoughtful craftsmanship, honest support, and</tspan><tspan x="0" dy="28">consistent quality build stronger brands than big ad</tspan><tspan x="0" dy="28">budgets.</tspan>
     </text>
   
     </g>
@@ -104,7 +104,7 @@
             
             
     <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Craftsmanship in your visuals signals craftsmanship in your code</tspan>
+      <tspan x="72" dy="0">Your brand is what people say about you when you leave the room</tspan>
     </text>
   
           </g>
@@ -125,7 +125,7 @@
             
             
     <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Clear positioning makes you the only viable choice for ideal...</tspan>
+      <tspan x="72" dy="0">Every single customer interaction either builds trust or quiet...</tspan>
     </text>
   
           </g>
@@ -146,7 +146,7 @@
             
             
     <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Deliver 10x more value than you extract in transactions</tspan>
+      <tspan x="72" dy="0">Obsess over product quality first; great word-of-mouth natural...</tspan>
     </text>
   
           </g>

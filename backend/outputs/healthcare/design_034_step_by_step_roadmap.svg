@@ -55,9 +55,9 @@
 
   <!-- Header Section -->
   <g transform="translate(80, 65)">
-    <rect x="0" y="0" width="285" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
-    <text x="142.5" y="20" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      PHARMACEUTICAL PIPELINE
+    <rect x="0" y="0" width="208" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
+    <text x="104" y="20" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      DRUG DEVELOPMENT
     </text>
 
     <!-- Main Title -->
@@ -70,7 +70,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="110" fill="#a7f3d0" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">The 4 essential phases required to bring novel chemical entities from laboratory</tspan><tspan x="0" dy="24">to global healthcare.</tspan>
+      <tspan x="0" dy="0">The 4 essential phases required to bring novel treatments from research labs to</tspan><tspan x="0" dy="24">global pharmacies.</tspan>
     </text>
   
   </g>
@@ -107,14 +107,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#f0fdf4" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">In-Silico...</tspan>
+      <tspan x="20" dy="0">Target Screening</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Virtual simulation of</tspan><tspan x="20" dy="22">billions of</tspan><tspan x="20" dy="22">ligand-protein binding</tspan><tspan x="20" dy="22">affinities.</tspan>
+      <tspan x="20" dy="0">Simulate millions of</tspan><tspan x="20" dy="22">candidate compounds to</tspan><tspan x="20" dy="22">identify promising</tspan><tspan x="20" dy="22">binders.</tspan>
     </text>
   
           </g>
@@ -153,7 +153,7 @@
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Safety profiling and</tspan><tspan x="20" dy="22">pharmacokinetics in</tspan><tspan x="20" dy="22">certified laboratory</tspan><tspan x="20" dy="22">assays.</tspan>
+      <tspan x="20" dy="0">Verify safety profiles</tspan><tspan x="20" dy="22">and dosage</tspan><tspan x="20" dy="22">pharmacokinetics in</tspan><tspan x="20" dy="22">certified labs.</tspan>
     </text>
   
           </g>
@@ -193,7 +193,7 @@
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Rigorous double-blind</tspan><tspan x="20" dy="22">efficacy studies</tspan><tspan x="20" dy="22">across patient</tspan><tspan x="20" dy="22">cohorts.</tspan>
+      <tspan x="20" dy="0">Conduct double-blind</tspan><tspan x="20" dy="22">efficacy studies</tspan><tspan x="20" dy="22">across diverse patient</tspan><tspan x="20" dy="22">groups.</tspan>
     </text>
   
           </g>
@@ -233,7 +233,7 @@
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">FDA &amp; EMA submission</tspan><tspan x="20" dy="22">with post-market</tspan><tspan x="20" dy="22">surveillance</tspan><tspan x="20" dy="22">protocols.</tspan>
+      <tspan x="20" dy="0">Submit complete</tspan><tspan x="20" dy="22">clinical trials to</tspan><tspan x="20" dy="22">regulatory bodies for</tspan><tspan x="20" dy="22">public rollout.</tspan>
     </text>
   
           </g>

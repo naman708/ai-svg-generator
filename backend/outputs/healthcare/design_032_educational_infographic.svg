@@ -71,7 +71,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="165" fill="#a7f3d0" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">A visual walkthrough of cellular immune response generation</tspan><tspan x="0" dy="24">without using live pathogens.</tspan>
+      <tspan x="0" dy="0">A clear visual walkthrough of how mRNA vaccines train the human</tspan><tspan x="0" dy="24">immune system safely.</tspan>
     </text>
   
     
@@ -94,7 +94,7 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#f0fdf4" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Lipid Nanoparticle Delivery
+            Lipid Carrier Delivery
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -111,7 +111,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Protects delicate mRNA molecules and enables</tspan><tspan x="95" dy="24">cellular fusion.</tspan>
+      <tspan x="95" dy="0">Microscopic lipid spheres protect the delicate mRNA</tspan><tspan x="95" dy="24">and fuse with host cells.</tspan>
     </text>
   
         </g>
@@ -128,7 +128,7 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#f0fdf4" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Ribosomal Translation
+            Protein Blueprint
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -145,7 +145,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Host cellular machinery reads mRNA instructions to</tspan><tspan x="95" dy="24">synthesize spike protein.</tspan>
+      <tspan x="95" dy="0">Cellular ribosomes read the mRNA code to build</tspan><tspan x="95" dy="24">harmless surface spike proteins.</tspan>
     </text>
   
         </g>
@@ -162,7 +162,7 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#f0fdf4" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Antigen Presentation
+            Immune Recognition
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -179,7 +179,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Spike protein fragments displayed on cell surface to</tspan><tspan x="95" dy="24">trigger T-cells.</tspan>
+      <tspan x="95" dy="0">Spike proteins appear on cell surfaces, alerting</tspan><tspan x="95" dy="24">helper T-cells to investigate.</tspan>
     </text>
   
         </g>
@@ -196,7 +196,7 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#f0fdf4" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Immune Memory Synthesis
+            Long-Term Antibodies
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -212,7 +212,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">B-cells produce neutralizing antibodies establishing</tspan><tspan x="95" dy="24">lasting defense.</tspan>
+      <tspan x="95" dy="0">Specialized B-cells generate neutralizing antibodies</tspan><tspan x="95" dy="24">ready for future exposures.</tspan>
     </text>
   
         </g>

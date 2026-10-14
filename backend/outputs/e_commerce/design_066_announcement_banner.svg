@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Global Flash Sale: Up To 60% Off">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Annual Holiday Event: Up To 50% Off">
   
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="announce-design_066-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#1c102b" />
-        <stop offset="100%" stop-color="#2e123d" />
+        <stop offset="0%" stop-color="#180c0e" />
+        <stop offset="100%" stop-color="#2d1217" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="announce-design_066-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#f97316" />
-        <stop offset="100%" stop-color="#ec4899" />
+        <stop offset="0%" stop-color="#ef4444" />
+        <stop offset="100%" stop-color="#fbbf24" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="announce-design_066-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#38174a" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#38174a" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#3f141c" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#3f141c" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="announce-design_066-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#f97316" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#ef4444" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,26 +45,26 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="1080" cy="63" r="300" fill="#f97316" filter="url(#announce-design_066-glow)" />
-      <circle cx="60" cy="567" r="240" fill="#ec4899" filter="url(#announce-design_066-glow)" />
+      <circle cx="1080" cy="63" r="300" fill="#ef4444" filter="url(#announce-design_066-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#fbbf24" filter="url(#announce-design_066-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#562270" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#5b1d28" stroke-width="1" />
   
 
   <!-- Central Announcement Board -->
   <g transform="translate(80, 60)">
     <!-- Header Meta Row: Badge & Date Tag -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="198" height="28" rx="6" fill="#f97316" />
-      <text x="99" y="19" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-        MEGA ANNUAL EVENT
+      <rect x="0" y="0" width="158" height="28" rx="6" fill="#ef4444" />
+      <text x="79" y="19" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+        LIMITED EVENT
       </text>
 
-      <rect x="214" y="0" width="248" height="28" rx="6" fill="#38174a" stroke="#562270" stroke-width="1" />
-      <text x="338" y="19" fill="#ec4899" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-        LIMITED 48-HOUR ACCESS
+      <rect x="174" y="0" width="228" height="28" rx="6" fill="#3f141c" stroke="#5b1d28" stroke-width="1" />
+      <text x="288" y="19" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+        STOREWIDE FLASH SALE
       </text>
     </g>
 
@@ -72,7 +72,7 @@
     <g transform="translate(0, 50)">
       
     <text x="0" y="40" fill="#ffffff" font-size="42" font-weight="900" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Global Flash Sale: Up To 60% Off</tspan>
+      <tspan x="0" dy="0">Annual Holiday Event: Up To 50%</tspan><tspan x="0" dy="52">Off</tspan>
     </text>
   
     </g>
@@ -80,8 +80,8 @@
     <!-- Description -->
     <g transform="translate(0, 160)">
       
-    <text x="0" y="20" fill="#fbcfe8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Exclusive enterprise discounts across all software licenses,</tspan><tspan x="0" dy="26">hardware tools, and developer subscriptions.</tspan>
+    <text x="0" y="20" fill="#fecaca" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Storewide holiday savings across premium apparel, home goods, and</tspan><tspan x="0" dy="26">tech accessories with free priority shipping.</tspan>
     </text>
   
     </g>
@@ -90,10 +90,10 @@
     <g transform="translate(0, 240)">
       
           <g transform="translate(0, 0)">
-            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_066-card-grad)" stroke="#562270" stroke-width="1" />
-            <circle cx="28" cy="24" r="12" fill="#f97316" fill-opacity="0.2" />
+            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_066-card-grad)" stroke="#5b1d28" stroke-width="1" />
+            <circle cx="28" cy="24" r="12" fill="#ef4444" fill-opacity="0.2" />
             
-    <g transform="translate(18, 14)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(18, 14)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -104,16 +104,16 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Instant coupon redemption at checkout</tspan>
+      <tspan x="54" dy="0">Free priority shipping on all domestic orders over $50</tspan>
     </text>
   
           </g>
         
           <g transform="translate(0, 60)">
-            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_066-card-grad)" stroke="#562270" stroke-width="1" />
-            <circle cx="28" cy="24" r="12" fill="#f97316" fill-opacity="0.2" />
+            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_066-card-grad)" stroke="#5b1d28" stroke-width="1" />
+            <circle cx="28" cy="24" r="12" fill="#ef4444" fill-opacity="0.2" />
             
-    <g transform="translate(18, 14)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(18, 14)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -124,16 +124,16 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Free expedited global shipping on all hardware</tspan>
+      <tspan x="54" dy="0">Extended 60-day hassle-free returns on all holiday gifts</tspan>
     </text>
   
           </g>
         
           <g transform="translate(0, 120)">
-            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_066-card-grad)" stroke="#562270" stroke-width="1" />
-            <circle cx="28" cy="24" r="12" fill="#f97316" fill-opacity="0.2" />
+            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_066-card-grad)" stroke="#5b1d28" stroke-width="1" />
+            <circle cx="28" cy="24" r="12" fill="#ef4444" fill-opacity="0.2" />
             
-    <g transform="translate(18, 14)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(18, 14)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -144,7 +144,7 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Priority 24/7 dedicated onboarding support</tspan>
+      <tspan x="54" dy="0">Complimentary gift packaging included on qualifying orders</tspan>
     </text>
   
           </g>
@@ -154,13 +154,13 @@
 
   <!-- Right Visual Emblem Card -->
   <g transform="translate(850, 110)">
-    <rect x="0" y="0" width="270" height="420" rx="20" fill="url(#announce-design_066-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#announce-design_066-shadow)" />
+    <rect x="0" y="0" width="270" height="420" rx="20" fill="url(#announce-design_066-card-grad)" stroke="#5b1d28" stroke-width="1.5" filter="url(#announce-design_066-shadow)" />
     
     <!-- Central Icon Glow Motif -->
-    <circle cx="135" cy="150" r="70" fill="#f97316" fill-opacity="0.15" />
-    <circle cx="135" cy="150" r="50" fill="#f97316" fill-opacity="0.25" />
+    <circle cx="135" cy="150" r="70" fill="#ef4444" fill-opacity="0.15" />
+    <circle cx="135" cy="150" r="50" fill="#ef4444" fill-opacity="0.25" />
     
-    <g transform="translate(107, 122)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(107, 122)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="56" height="56" viewBox="0 0 24 24">
         
     <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
@@ -175,7 +175,7 @@
     <text x="135" y="270" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
       Official Release
     </text>
-    <text x="135" y="300" fill="#fbcfe8" font-size="14" text-anchor="middle" font-family="Inter, sans-serif">
+    <text x="135" y="300" fill="#fecaca" font-size="14" text-anchor="middle" font-family="Inter, sans-serif">
       Production Build Verified
     </text>
 

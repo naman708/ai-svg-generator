@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Assume Breach: The Modern Security Posture">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Assume Breach: The Modern Posture">
   
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="social-design_030-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#09090b" />
-        <stop offset="100%" stop-color="#18181b" />
+        <stop offset="0%" stop-color="#180c0e" />
+        <stop offset="100%" stop-color="#2d1217" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="social-design_030-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#06b6d4" />
-        <stop offset="100%" stop-color="#f43f5e" />
+        <stop offset="0%" stop-color="#ef4444" />
+        <stop offset="100%" stop-color="#fbbf24" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="social-design_030-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#18181b" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#18181b" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#3f141c" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#3f141c" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="social-design_030-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#06b6d4" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#ef4444" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,31 +45,31 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="972" cy="108" r="270" fill="#06b6d4" filter="url(#social-design_030-glow)" />
-      <circle cx="54" cy="972" r="216" fill="#f43f5e" filter="url(#social-design_030-glow)" />
+      <circle cx="972" cy="108" r="270" fill="#ef4444" filter="url(#social-design_030-glow)" />
+      <circle cx="54" cy="972" r="216" fill="#fbbf24" filter="url(#social-design_030-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="1079" height="1079" rx="8" fill="none" stroke="#27272a" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="1079" height="1079" rx="8" fill="none" stroke="#5b1d28" stroke-width="1" />
   
 
   <!-- Central Canvas Card -->
   <g transform="translate(80, 80)">
-    <rect x="0" y="0" width="920" height="920" rx="28" fill="url(#social-design_030-card-grad)" stroke="#27272a" stroke-width="2" filter="url(#social-design_030-shadow)" />
+    <rect x="0" y="0" width="920" height="920" rx="28" fill="url(#social-design_030-card-grad)" stroke="#5b1d28" stroke-width="2" filter="url(#social-design_030-shadow)" />
 
     <!-- Top Badge Row -->
     <g transform="translate(60, 60)">
-      <rect x="0" y="0" width="219" height="32" rx="16" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
-      <text x="109.5" y="21" fill="#06b6d4" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-        DEFENSE PRINCIPLE
+      <rect x="0" y="0" width="208" height="32" rx="16" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444" stroke-width="1.5" />
+      <text x="104" y="21" fill="#ef4444" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+        SECURITY MINDSET
       </text>
     </g>
 
     <!-- Main Title -->
     <g transform="translate(60, 120)">
       
-    <text x="0" y="48" fill="#fafafa" font-size="44" font-weight="900" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Assume Breach: The Modern</tspan><tspan x="0" dy="54">Security Posture</tspan>
+    <text x="0" y="48" fill="#ffffff" font-size="44" font-weight="900" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Assume Breach: The Modern</tspan><tspan x="0" dy="54">Posture</tspan>
     </text>
   
     </g>
@@ -77,22 +77,22 @@
     <!-- Subtitle -->
     <g transform="translate(60, 310)">
       
-    <text x="0" y="20" fill="#a1a1aa" font-size="18" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Why resilient organizations design systems under the</tspan><tspan x="0" dy="28">constant assumption that an attacker is already</tspan><tspan x="0" dy="28">inside.</tspan>
+    <text x="0" y="20" fill="#fecaca" font-size="18" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Why resilient security teams design systems under the</tspan><tspan x="0" dy="28">practical assumption that an attacker is already</tspan><tspan x="0" dy="28">inside.</tspan>
     </text>
   
     </g>
 
-    <line x1="60" y1="410" x2="860" y2="410" stroke="#27272a" stroke-width="1.5" />
+    <line x1="60" y1="410" x2="860" y2="410" stroke="#5b1d28" stroke-width="1.5" />
 
     <!-- 3 Core Points -->
     <g transform="translate(60, 440)">
       
           <g transform="translate(0, 0)">
-            <rect x="0" y="0" width="800" height="74" rx="16" fill="#18181b" stroke="#27272a" stroke-width="1" />
-            <circle cx="36" cy="37" r="18" fill="#06b6d4" fill-opacity="0.2" />
+            <rect x="0" y="0" width="800" height="74" rx="16" fill="#3f141c" stroke="#5b1d28" stroke-width="1" />
+            <circle cx="36" cy="37" r="18" fill="#ef4444" fill-opacity="0.2" />
             
-    <g transform="translate(26, 27)" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(26, 27)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -103,17 +103,17 @@
   
             
             
-    <text x="72" y="44" fill="#fafafa" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Minimize blast radius through aggressive segmentation</tspan>
+    <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="72" dy="0">Limit blast radius by isolating production environments</tspan>
     </text>
   
           </g>
         
           <g transform="translate(0, 95)">
-            <rect x="0" y="0" width="800" height="74" rx="16" fill="#18181b" stroke="#27272a" stroke-width="1" />
-            <circle cx="36" cy="37" r="18" fill="#06b6d4" fill-opacity="0.2" />
+            <rect x="0" y="0" width="800" height="74" rx="16" fill="#3f141c" stroke="#5b1d28" stroke-width="1" />
+            <circle cx="36" cy="37" r="18" fill="#ef4444" fill-opacity="0.2" />
             
-    <g transform="translate(26, 27)" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(26, 27)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -124,17 +124,17 @@
   
             
             
-    <text x="72" y="44" fill="#fafafa" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Continuously audit internal service-to-service calls</tspan>
+    <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="72" dy="0">Segment sensitive data so one compromise doesn&apos;t reveal all</tspan>
     </text>
   
           </g>
         
           <g transform="translate(0, 190)">
-            <rect x="0" y="0" width="800" height="74" rx="16" fill="#18181b" stroke="#27272a" stroke-width="1" />
-            <circle cx="36" cy="37" r="18" fill="#06b6d4" fill-opacity="0.2" />
+            <rect x="0" y="0" width="800" height="74" rx="16" fill="#3f141c" stroke="#5b1d28" stroke-width="1" />
+            <circle cx="36" cy="37" r="18" fill="#ef4444" fill-opacity="0.2" />
             
-    <g transform="translate(26, 27)" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(26, 27)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -145,8 +145,8 @@
   
             
             
-    <text x="72" y="44" fill="#fafafa" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Trust is a vulnerability; verify every single packet</tspan>
+    <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="72" dy="0">Invest as heavily in fast detection as in outer walls</tspan>
     </text>
   
           </g>
@@ -155,10 +155,10 @@
 
     <!-- Footer Branding -->
     <g transform="translate(60, 770)">
-      <rect x="0" y="0" width="800" height="80" rx="16" fill="url(#social-design_030-primary-grad)" fill-opacity="0.12" stroke="#06b6d4" stroke-width="1" />
+      <rect x="0" y="0" width="800" height="80" rx="16" fill="url(#social-design_030-primary-grad)" fill-opacity="0.12" stroke="#ef4444" stroke-width="1" />
       
       <!-- Brand Icon & Text -->
-      <circle cx="40" cy="40" r="20" fill="#06b6d4" />
+      <circle cx="40" cy="40" r="20" fill="#ef4444" />
       
     <g transform="translate(30, 30)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
@@ -169,11 +169,11 @@
     </g>
   
       
-      <text x="75" y="46" fill="#fafafa" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+      <text x="75" y="46" fill="#ffffff" font-size="16" font-weight="700" font-family="Inter, sans-serif">
         AI-Powered SVG Generation Engine
       </text>
 
-      <text x="770" y="46" fill="#06b6d4" font-size="14" font-weight="700" text-anchor="end" font-family="Inter, sans-serif">
+      <text x="770" y="46" fill="#ef4444" font-size="14" font-weight="700" text-anchor="end" font-family="Inter, sans-serif">
         GENAI-ASSESSMENT #2026
       </text>
     </g>

@@ -3,20 +3,20 @@
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="edu-design_062-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#1c102b" />
-        <stop offset="100%" stop-color="#2e123d" />
+        <stop offset="0%" stop-color="#0f172a" />
+        <stop offset="100%" stop-color="#1e293b" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="edu-design_062-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#f97316" />
-        <stop offset="100%" stop-color="#ec4899" />
+        <stop offset="0%" stop-color="#3b82f6" />
+        <stop offset="100%" stop-color="#38bdf8" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="edu-design_062-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#38174a" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#38174a" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#1e293b" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="edu-design_062-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#f97316" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#3b82f6" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,38 +45,38 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="720" cy="120" r="200" fill="#f97316" filter="url(#edu-design_062-glow)" />
-      <circle cx="40" cy="1080" r="160" fill="#ec4899" filter="url(#edu-design_062-glow)" />
+      <circle cx="720" cy="120" r="200" fill="#3b82f6" filter="url(#edu-design_062-glow)" />
+      <circle cx="40" cy="1080" r="160" fill="#38bdf8" filter="url(#edu-design_062-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#562270" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#334155" stroke-width="1" />
   
 
   <!-- Header Section -->
   <g transform="translate(60, 60)">
     <!-- Pill Badge -->
-    <rect x="0" y="0" width="201" height="30" rx="15" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
-    <text x="15" y="20" fill="#f97316" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
-      FUNNEL OPTIMIZATION
+    <rect x="0" y="0" width="183" height="30" rx="15" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
+    <text x="15" y="20" fill="#3b82f6" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+      CONVERSION DESIGN
     </text>
 
     <!-- Main Title -->
     
-    <text x="0" y="65" fill="#ffffff" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+    <text x="0" y="65" fill="#f8fafc" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="0" dy="0">Anatomy of a High-Converting</tspan><tspan x="0" dy="44">Funnel</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
-    <text x="0" y="165" fill="#fbcfe8" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">A step-by-step breakdown of how visitors transition from</tspan><tspan x="0" dy="24">discovery to lifetime brand champions.</tspan>
+    <text x="0" y="165" fill="#94a3b8" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">A clear breakdown of how first-time store visitors turn into</tspan><tspan x="0" dy="24">loyal, repeat customers.</tspan>
     </text>
   
     
     <!-- Dividing Accent Line -->
-    <line x1="0" y1="220" x2="680" y2="220" stroke="#562270" stroke-width="1.5" stroke-dasharray="4 4" />
+    <line x1="0" y1="220" x2="680" y2="220" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4" />
   </g>
 
   <!-- Educational Concept Cards (4 Stacked) -->
@@ -84,20 +84,54 @@
     
         <g transform="translate(0, 0)">
           <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_062-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#edu-design_062-shadow)" />
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_062-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#edu-design_062-shadow)" />
           
           <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f97316" />
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#3b82f6" />
           <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             01
           </text>
 
           <!-- Card Header & Icon -->
-          <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Discovery &amp; PDP Traffic
+          <text x="95" y="54" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Discovery
           </text>
           
-    <g transform="translate(615, 30)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(615, 30)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24">
+        
+    <circle cx="12" cy="12" r="10"/>
+    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+    <path d="M2 12h20"/>
+  
+      </svg>
+    </g>
+  
+
+          <!-- Card Body Description -->
+          
+    <text x="95" y="95" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Engaging social content or search results bring</tspan><tspan x="95" dy="24">curious shoppers to your store.</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(0, 195)">
+          <!-- Card Container -->
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_062-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#edu-design_062-shadow)" />
+          
+          <!-- Number Badge -->
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#3b82f6" />
+          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            02
+          </text>
+
+          <!-- Card Header & Icon -->
+          <text x="95" y="54" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Exploration
+          </text>
+          
+    <g transform="translate(615, 30)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
     <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
@@ -108,28 +142,28 @@
 
           <!-- Card Body Description -->
           
-    <text x="95" y="95" fill="#fbcfe8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Crisp high-resolution vector visuals and social</tspan><tspan x="95" dy="24">proof badges drive landing intent.</tspan>
+    <text x="95" y="95" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Crisp product photos, clear sizing guides, and</tspan><tspan x="95" dy="24">honest reviews build trust.</tspan>
     </text>
   
         </g>
       
-        <g transform="translate(0, 195)">
+        <g transform="translate(0, 390)">
           <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_062-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#edu-design_062-shadow)" />
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_062-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#edu-design_062-shadow)" />
           
           <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f97316" />
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#3b82f6" />
           <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
-            02
+            03
           </text>
 
           <!-- Card Header & Icon -->
-          <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Cart Add &amp; Dynamic Bundling
+          <text x="95" y="54" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Purchase
           </text>
           
-    <g transform="translate(615, 30)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(615, 30)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
     <circle cx="8" cy="21" r="1"/>
@@ -142,64 +176,32 @@
 
           <!-- Card Body Description -->
           
-    <text x="95" y="95" fill="#fbcfe8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Smart cross-sells and free-shipping threshold bars</tspan><tspan x="95" dy="24">lift Average Order Value.</tspan>
-    </text>
-  
-        </g>
-      
-        <g transform="translate(0, 390)">
-          <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_062-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#edu-design_062-shadow)" />
-          
-          <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f97316" />
-          <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
-            03
-          </text>
-
-          <!-- Card Header & Icon -->
-          <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Frictionless One-Page Checkout
-          </text>
-          
-    <g transform="translate(615, 30)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <svg width="26" height="26" viewBox="0 0 24 24">
-        
-    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
-  
-      </svg>
-    </g>
-  
-
-          <!-- Card Body Description -->
-          
-    <text x="95" y="95" fill="#fbcfe8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Express wallets (Apple Pay, Google Pay) eliminate</tspan><tspan x="95" dy="24">form abandonment.</tspan>
+    <text x="95" y="95" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">A clean, distraction-free checkout with transparent</tspan><tspan x="95" dy="24">shipping costs upfront.</tspan>
     </text>
   
         </g>
       
         <g transform="translate(0, 585)">
           <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_062-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#edu-design_062-shadow)" />
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_062-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#edu-design_062-shadow)" />
           
           <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#f97316" />
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#3b82f6" />
           <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             04
           </text>
 
           <!-- Card Header & Icon -->
-          <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Post-Purchase Loyalty
+          <text x="95" y="54" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Retention
           </text>
           
-    <g transform="translate(615, 30)" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(615, 30)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
-    <circle cx="12" cy="8" r="6"/>
-    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+    <path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/>
   
       </svg>
     </g>
@@ -207,8 +209,8 @@
 
           <!-- Card Body Description -->
           
-    <text x="95" y="95" fill="#fbcfe8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Automated shipment telemetry and VIP rewards turn</tspan><tspan x="95" dy="24">buyers into advocates.</tspan>
+    <text x="95" y="95" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Helpful tracking updates and thoughtful</tspan><tspan x="95" dy="24">post-purchase care keep buyers coming back.</tspan>
     </text>
   
         </g>
@@ -217,11 +219,11 @@
 
   <!-- Footer Info -->
   <g transform="translate(60, 1130)">
-    <line x1="0" y1="0" x2="680" y2="0" stroke="#562270" stroke-width="1" />
-    <text x="0" y="32" fill="#fbcfe8" font-size="13" font-family="Inter, sans-serif">
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#334155" stroke-width="1" />
+    <text x="0" y="32" fill="#94a3b8" font-size="13" font-family="Inter, sans-serif">
       AI-Powered Vector Infographic Engine • Generated Visual Guide
     </text>
-    <text x="680" y="32" fill="#f97316" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
+    <text x="680" y="32" fill="#3b82f6" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
       Open Standards • Production Ready
     </text>
   </g>

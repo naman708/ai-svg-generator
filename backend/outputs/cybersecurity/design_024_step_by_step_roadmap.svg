@@ -55,9 +55,9 @@
 
   <!-- Header Section -->
   <g transform="translate(80, 65)">
-    <rect x="0" y="0" width="307" height="30" rx="15" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
-    <text x="153.5" y="20" fill="#6366f1" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      ZERO TRUST IMPLEMENTATION
+    <rect x="0" y="0" width="208" height="30" rx="15" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
+    <text x="104" y="20" fill="#6366f1" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      SECURITY ROADMAP
     </text>
 
     <!-- Main Title -->
@@ -70,7 +70,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="110" fill="#cbd5e1" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">A practical roadmap to eliminate implicit trust and secure hybrid cloud estates.</tspan>
+      <tspan x="0" dy="0">A practical roadmap to eliminate implicit trust and secure hybrid cloud</tspan><tspan x="0" dy="24">infrastructure.</tspan>
     </text>
   
   </g>
@@ -108,14 +108,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Identity...</tspan>
+      <tspan x="20" dy="0">Centralize...</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#cbd5e1" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Centralize identity</tspan><tspan x="20" dy="22">with hardware FIDO2</tspan><tspan x="20" dy="22">MFA tokens.</tspan>
+      <tspan x="20" dy="0">Enforce hardware MFA</tspan><tspan x="20" dy="22">and single sign-on</tspan><tspan x="20" dy="22">across all internal</tspan><tspan x="20" dy="22">tools.</tspan>
     </text>
   
           </g>
@@ -156,7 +156,7 @@
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#cbd5e1" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Continuous device</tspan><tspan x="20" dy="22">health attestation</tspan><tspan x="20" dy="22">before network grant.</tspan>
+      <tspan x="20" dy="0">Verify system patches</tspan><tspan x="20" dy="22">and disk encryption</tspan><tspan x="20" dy="22">before granting</tspan><tspan x="20" dy="22">access.</tspan>
     </text>
   
           </g>
@@ -197,7 +197,7 @@
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#cbd5e1" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Isolate east-west</tspan><tspan x="20" dy="22">network traffic</tspan><tspan x="20" dy="22">between microservices.</tspan>
+      <tspan x="20" dy="0">Block direct</tspan><tspan x="20" dy="22">server-to-server</tspan><tspan x="20" dy="22">traffic between</tspan><tspan x="20" dy="22">distinct...</tspan>
     </text>
   
           </g>
@@ -230,14 +230,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Continuous Risk</tspan>
+      <tspan x="20" dy="0">Adaptive Access</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#cbd5e1" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Dynamic session</tspan><tspan x="20" dy="22">revocation based on</tspan><tspan x="20" dy="22">real-time anomaly</tspan><tspan x="20" dy="22">scores.</tspan>
+      <tspan x="20" dy="0">Revoke sessions</tspan><tspan x="20" dy="22">automatically when</tspan><tspan x="20" dy="22">unusual behavior is</tspan><tspan x="20" dy="22">spotted.</tspan>
     </text>
   
           </g>

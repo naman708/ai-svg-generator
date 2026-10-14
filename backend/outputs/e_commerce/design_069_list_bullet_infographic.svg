@@ -3,20 +3,20 @@
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="list-design_069-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#f8fafc" />
-        <stop offset="100%" stop-color="#e2e8f0" />
+        <stop offset="0%" stop-color="#1c1917" />
+        <stop offset="100%" stop-color="#292524" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="list-design_069-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#2563eb" />
-        <stop offset="100%" stop-color="#4f46e5" />
+        <stop offset="0%" stop-color="#f59e0b" />
+        <stop offset="100%" stop-color="#fde68a" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="list-design_069-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#ffffff" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#292524" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#292524" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="list-design_069-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#2563eb" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#f59e0b" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,46 +45,46 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="720" cy="120" r="200" fill="#2563eb" filter="url(#list-design_069-glow)" />
-      <circle cx="40" cy="1080" r="160" fill="#4f46e5" filter="url(#list-design_069-glow)" />
+      <circle cx="720" cy="120" r="200" fill="#f59e0b" filter="url(#list-design_069-glow)" />
+      <circle cx="40" cy="1080" r="160" fill="#fde68a" filter="url(#list-design_069-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#cbd5e1" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#44403c" stroke-width="1" />
   
 
   <!-- Header Banner -->
   <g transform="translate(60, 60)">
-    <rect x="0" y="0" width="263" height="30" rx="15" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="1.5" />
-    <text x="131.5" y="20" fill="#2563eb" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      CHECKOUT OPTIMIZATION
+    <rect x="0" y="0" width="186" height="30" rx="15" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="1.5" />
+    <text x="93" y="20" fill="#f59e0b" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      CHECKOUT FIXES
     </text>
 
     <!-- Main Title -->
     
-    <text x="0" y="65" fill="#0f172a" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+    <text x="0" y="65" fill="#fafaf9" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="0" dy="0">5 Fixes for Cart Abandonment</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
-    <text x="0" y="165" fill="#64748b" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Tactical checkout adjustments that immediately recover lost</tspan><tspan x="0" dy="24">revenue across digital stores.</tspan>
+    <text x="0" y="165" fill="#d6d3d1" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Five quick fixes that recover lost shoppers and turn abandoned</tspan><tspan x="0" dy="24">carts into completed orders.</tspan>
     </text>
   
 
-    <line x1="0" y1="225" x2="680" y2="225" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 4" />
+    <line x1="0" y1="225" x2="680" y2="225" stroke="#44403c" stroke-width="1.5" stroke-dasharray="4 4" />
   </g>
 
   <!-- 5 Sequential List Cards -->
   <g transform="translate(60, 315)">
     
         <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_069-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_069-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_069-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#list-design_069-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#f59e0b" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             1
           </text>
@@ -92,21 +92,21 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Eliminate Hidden Shipping Fees</tspan>
+    <text x="0" y="22" fill="#fafaf9" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Show Shipping Costs Early</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Display clear all-inclusive costs directly on the</tspan><tspan x="0" dy="22">product detail page.</tspan>
+    <text x="0" y="54" fill="#d6d3d1" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Unexpected shipping fees are the number one reason</tspan><tspan x="0" dy="22">shoppers leave.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <line x1="12" x2="12" y1="2" y2="22"/>
@@ -118,10 +118,10 @@
         </g>
       
         <g transform="translate(0, 155)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_069-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_069-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_069-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#list-design_069-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#f59e0b" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             2
           </text>
@@ -129,21 +129,21 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Support Guest Checkout Mode</tspan>
+    <text x="0" y="22" fill="#fafaf9" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Enable Guest Checkout</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Never force mandatory account creation prior to</tspan><tspan x="0" dy="22">order completion.</tspan>
+    <text x="0" y="54" fill="#d6d3d1" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Never force customers to create an account before</tspan><tspan x="0" dy="22">making a purchase.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
@@ -157,10 +157,10 @@
         </g>
       
         <g transform="translate(0, 310)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_069-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_069-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_069-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#list-design_069-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#f59e0b" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             3
           </text>
@@ -168,24 +168,25 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Enable Instant Express Wallets</tspan>
+    <text x="0" y="22" fill="#fafaf9" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Send Timely Recovery Emails</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Apple Pay, Google Pay, and Shop Pay eliminate</tspan><tspan x="0" dy="22">tedious typing.</tspan>
+    <text x="0" y="54" fill="#d6d3d1" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">A friendly reminder sent after 2 hours recovers up</tspan><tspan x="0" dy="22">to 15% of carts.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+    <circle cx="12" cy="12" r="10"/>
+    <polyline points="12 6 12 12 16 14"/>
   
       </svg>
     </g>
@@ -193,10 +194,10 @@
         </g>
       
         <g transform="translate(0, 465)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_069-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_069-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_069-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#list-design_069-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#f59e0b" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             4
           </text>
@@ -204,21 +205,21 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Display Prominent Trust Seals</tspan>
+    <text x="0" y="22" fill="#fafaf9" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Add Trusted Payment Badges</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Highlight money-back guarantees and secure SSL</tspan><tspan x="0" dy="22">credentials.</tspan>
+    <text x="0" y="54" fill="#d6d3d1" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Display recognizable security logos next to the</tspan><tspan x="0" dy="22">payment button.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
@@ -230,10 +231,10 @@
         </g>
       
         <g transform="translate(0, 620)">
-          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_069-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#list-design_069-shadow)" />
+          <rect x="0" y="0" width="680" height="135" rx="16" fill="url(#list-design_069-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#list-design_069-shadow)" />
           
           <!-- Number Box -->
-          <rect x="24" y="24" width="46" height="46" rx="12" fill="#2563eb" />
+          <rect x="24" y="24" width="46" height="46" rx="12" fill="#f59e0b" />
           <text x="47" y="53" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             5
           </text>
@@ -241,25 +242,25 @@
           <!-- Row Content -->
           <g transform="translate(90, 24)">
             
-    <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Trigger Timely Abandoned Cart...</tspan>
+    <text x="0" y="22" fill="#fafaf9" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Keep Form Fields Minimal</tspan>
     </text>
   
 
             
-    <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Send automated SMS/email reminders within 60 minutes</tspan><tspan x="0" dy="22">of abandonment.</tspan>
+    <text x="0" y="54" fill="#d6d3d1" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Only ask for essential shipping details to reduce</tspan><tspan x="0" dy="22">checkout fatigue.</tspan>
     </text>
   
           </g>
 
           <!-- Right Icon -->
           
-    <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(620, 28)" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <circle cx="12" cy="12" r="10"/>
-    <polyline points="12 6 12 12 16 14"/>
+    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+    <polyline points="22 4 12 14.01 9 11.01"/>
   
       </svg>
     </g>
@@ -270,11 +271,11 @@
 
   <!-- Footer -->
   <g transform="translate(60, 1130)">
-    <line x1="0" y1="0" x2="680" y2="0" stroke="#cbd5e1" stroke-width="1" />
-    <text x="0" y="32" fill="#64748b" font-size="13" font-family="Inter, sans-serif">
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#44403c" stroke-width="1" />
+    <text x="0" y="32" fill="#d6d3d1" font-size="13" font-family="Inter, sans-serif">
       Synthesized Vector Framework • Shri Genesis AI Technical Assessment
     </text>
-    <text x="680" y="32" fill="#2563eb" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
+    <text x="680" y="32" fill="#f59e0b" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
       100% Vector Scalable
     </text>
   </g>

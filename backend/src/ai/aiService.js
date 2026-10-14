@@ -94,110 +94,110 @@ export function generateSyntheticDesign({ topic = "Artificial Intelligence Syste
   const baseContent = {
     badge,
     title: topic,
-    subtitle: `Comprehensive visual breakdown and tactical implementation guide for ${topic.toLowerCase()}.`
+    subtitle: `Practical strategies, core principles, and key takeaways for ${topic.toLowerCase()}.`
   };
 
   switch (selectedTemplate) {
     case "promotional_banner":
-      baseContent.cta = "Discover Solutions";
+      baseContent.cta = "Explore the Guide";
       baseContent.features = [
-        { title: "Peak Performance", description: "Engineered for maximum scale & reliability", icon: "zap" },
-        { title: "Bank-Grade Security", description: "Zero trust architecture and encryption", icon: "shield" },
-        { title: "Next-Gen Intelligence", description: "Powered by autonomous foundation models", icon: "sparkles" }
+        { title: "Fast Execution", description: "Built for speed and responsive everyday performance", icon: "zap" },
+        { title: "Reliable by Design", description: "Battle-tested safeguards you can depend on", icon: "shield" },
+        { title: "Clean Architecture", description: "Modular structure that adapts as your needs grow", icon: "sparkles" }
       ];
       break;
 
     case "educational_infographic":
       baseContent.sections = [
-        { title: "Core Fundamentals", description: `Understanding baseline mechanics and principles governing ${topic.toLowerCase()}.`, icon: "book-open" },
-        { title: "Architectural Pipeline", description: "High-throughput data transformations and structured processing layers.", icon: "layers" },
-        { title: "Operational Execution", description: "Deploying automated execution workflows with deterministic guarantees.", icon: "cpu" },
-        { title: "Long-Term Impact", description: "Measurable strategic returns and continuous capability enhancement.", icon: "target" }
+        { title: "The Core Foundation", description: `Understand the baseline concepts that make ${topic.toLowerCase()} work.`, icon: "book-open" },
+        { title: "Key Mechanisms", description: "How components connect and pass information under the hood.", icon: "layers" },
+        { title: "Practical Application", description: "Putting theory into practice with repeatable, tested workflows.", icon: "cpu" },
+        { title: "Long-Term Value", description: "Building lasting habits and sustainable results over time.", icon: "target" }
       ];
       break;
 
     case "statistics_metrics":
       baseContent.metrics = [
-        { value: "99.8%", label: "Operational Reliability", delta: "+12.4%", desc: "Continuous uptime SLA verified under enterprise load", icon: "activity" },
-        { value: "5.2x", label: "Productivity Velocity", delta: "+420%", desc: "Accelerated development delivery cycle efficiency", icon: "zap" },
-        { value: "$18.4M", label: "Annual Cost Reduction", delta: "+55% YoY", icon: "dollar-sign" }
+        { value: "99.4%", label: "System Reliability", delta: "+8.2% YoY", desc: "Consistent uptime verified under real peak workloads", icon: "activity" },
+        { value: "3.8x", label: "Workflow Speedup", delta: "3.8x Faster", desc: "Less manual friction and faster turnaround times", icon: "zap" },
+        { value: "45%", label: "Lower Overhead", delta: "Sustained Margin", desc: "Streamlined processes that cut unnecessary recurring spend", icon: "dollar-sign" }
       ];
       break;
 
     case "step_by_step_roadmap":
       baseContent.steps = [
-        { number: "01", title: "Assessment", desc: "Conducting initial diagnostic and systems discovery.", icon: "search" },
-        { number: "02", title: "Prototyping", desc: "Synthesizing vector templates and workflow pipelines.", icon: "layers" },
-        { number: "03", title: "Integration", desc: "Enforcing rigorous validation and contract testing.", icon: "check-circle" },
-        { number: "04", title: "Full Scale", desc: "Global distribution across automated endpoints.", icon: "rocket" }
+        { number: "01", title: "Discovery", desc: "Audit existing workflows and identify key friction points.", icon: "search" },
+        { number: "02", title: "Blueprint", desc: "Draft a clean implementation plan with clear ownership.", icon: "layers" },
+        { number: "03", title: "Validation", desc: "Run practical tests and gather direct feedback early.", icon: "check-circle" },
+        { number: "04", title: "Scale", desc: "Roll out systematically across teams with continuous monitoring.", icon: "rocket" }
       ];
       break;
 
     case "quote_thought_leadership":
-      baseContent.quote = `Transforming ${topic.toLowerCase()} requires pairing human creative direction with automated vector precision.`;
-      baseContent.author = "Dr. Maya Patel";
-      baseContent.role = "Chief AI Architect & Systems Strategist";
+      baseContent.quote = `The best solutions don't overcomplicate things—they clear the noise so people can do their best work.`;
+      baseContent.author = "Elena Vance";
+      baseContent.role = "Design Director & Systems Architect";
       break;
 
     case "announcement_banner":
-      baseContent.date = "RELEASE 4.0 ACTIVE";
-      baseContent.description = `The new benchmark for ${topic.toLowerCase()} is here with zero latency and high-fidelity output.`;
+      baseContent.date = "VERSION 3.0 READY";
+      baseContent.description = `A faster, cleaner, and more intuitive approach to ${topic.toLowerCase()} is now live.`;
       baseContent.highlights = [
-        "Fully automated vector rendering pipeline",
-        "Deterministic WCAG accessibility compliance",
-        "Open-source modular component library"
+        "Lightweight, responsive layouts across all screens",
+        "Refined visual clarity with zero unnecessary bloat",
+        "Built-in accessibility and high-contrast compliance"
       ];
       break;
 
     case "comparison_layout":
       baseContent.sideA = {
-        title: "Traditional Methods",
+        title: "Traditional Approach",
         tag: "OUTDATED",
         items: [
-          "Manual and error-prone asset generation",
-          "High rendering costs and browser overhead",
-          "Inconsistent typography and broken viewBoxes"
+          "Manual steps that invite avoidable errors",
+          "Slow feedback loops that delay decisions",
+          "Scattered documentation and unpredictable results"
         ]
       };
       baseContent.sideB = {
-        title: "Autonomous Engine",
-        tag: "NEXT-GEN",
+        title: "Modern Approach",
+        tag: "STREAMLINED",
         items: [
-          "Sub-second procedural vector compilation",
-          "Strict XML schema validation and linting",
-          "100% scalable vector output across devices"
+          "Automated pipelines with instant validation",
+          "Clear real-time visibility across every stage",
+          "Consistent, high-quality deliverables every time"
         ]
       };
       break;
 
     case "feature_highlights":
       baseContent.heroFeature = {
-        title: `Next-Gen ${topic}`,
-        tag: "FLAGSHIP CAPABILITY",
-        desc: `Built ground-up to redefine how organizations interact with ${topic.toLowerCase()}, ensuring resilience, modularity, and speed.`,
+        title: `Rethinking ${topic}`,
+        tag: "CORE CAPABILITY",
+        desc: `A fresh approach designed to help teams master ${topic.toLowerCase()} with greater clarity, speed, and confidence.`,
         icon: "sparkles"
       };
       baseContent.sideFeatures = [
-        { title: "Deterministic Output", desc: "Guaranteed valid SVG syntax and responsive viewBox compliance.", icon: "shield" },
-        { title: "Reusable Vector Tokens", desc: "Configurable palettes, fonts, and licensed vector icons.", icon: "layers" }
+        { title: "Instant Clarity", desc: "Crisp visual hierarchies that surface what matters most.", icon: "shield" },
+        { title: "Modular Toolkit", desc: "Flexible components designed to fit smoothly into your workflow.", icon: "layers" }
       ];
       break;
 
     case "list_bullet_infographic":
       baseContent.items = [
-        { title: "Define Deterministic Contracts", desc: "Anchor creative outputs with structured schema enforcement.", icon: "shield" },
-        { title: "Eliminate External Couplings", desc: "Bundle vector primitives inline to prevent asset load failures.", icon: "layers" },
-        { title: "Ensure Universal Accessibility", desc: "Maintain WCAG AAA color contrast ratios across all templates.", icon: "target" },
-        { title: "Implement Automated Testing", desc: "Verify XML syntax, element geometry, and boundary checks.", icon: "activity" },
-        { title: "Commit to Ethical Transparency", desc: "Clean metadata and verify open-source asset licensing.", icon: "lock" }
+        { title: "Start with Clear Goals", desc: "Define what success looks like before jumping into execution.", icon: "shield" },
+        { title: "Cut Unnecessary Complexity", desc: "Simpler architectures are easier to maintain, debug, and scale.", icon: "layers" },
+        { title: "Prioritize Human Usability", desc: "Make interfaces intuitive, legible, and accessible to everyone.", icon: "target" },
+        { title: "Automate Routine Tasks", desc: "Free up mental bandwidth by letting machines handle the busywork.", icon: "activity" },
+        { title: "Review and Refine Often", desc: "Small regular improvements consistently beat infrequent massive rewrites.", icon: "lock" }
       ];
       break;
 
     case "social_square_graphic":
       baseContent.points = [
-        `Instant programmatic generation for ${topic.toLowerCase()}`,
-        "Scalable from mobile feeds to billboard displays",
-        "Zero AI prompt leakage or unnecessary metadata"
+        `Actionable, real-world principles for ${topic.toLowerCase()}`,
+        "Focused on speed, clarity, and dependable results",
+        "Clean vector design with zero visual clutter"
       ];
       break;
   }

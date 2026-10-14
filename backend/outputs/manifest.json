@@ -13,8 +13,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8793,
-    "durationMs": 4,
+    "sizeBytes": 8875,
+    "durationMs": 5,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -32,8 +32,8 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 10217,
-    "durationMs": 3,
+    "sizeBytes": 10283,
+    "durationMs": 4,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -51,8 +51,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11255,
-    "durationMs": 2,
+    "sizeBytes": 11340,
+    "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -70,7 +70,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11557,
+    "sizeBytes": 11617,
     "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
@@ -89,8 +89,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 5337,
-    "durationMs": 3,
+    "sizeBytes": 5315,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -108,8 +108,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8374,
-    "durationMs": 2,
+    "sizeBytes": 8406,
+    "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -127,8 +127,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 10087,
-    "durationMs": 3,
+    "sizeBytes": 10148,
+    "durationMs": 4,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -146,8 +146,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 7717,
-    "durationMs": 3,
+    "sizeBytes": 7647,
+    "durationMs": 6,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -165,8 +165,8 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 11843,
-    "durationMs": 3,
+    "sizeBytes": 11927,
+    "durationMs": 7,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -184,8 +184,8 @@
       "height": 1080
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
-    "sizeBytes": 7756,
-    "durationMs": 2,
+    "sizeBytes": 7760,
+    "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -203,7 +203,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8737,
+    "sizeBytes": 8851,
     "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
@@ -222,8 +222,8 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 10287,
-    "durationMs": 2,
+    "sizeBytes": 10264,
+    "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -241,7 +241,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11183,
+    "sizeBytes": 11178,
     "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
@@ -260,8 +260,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11293,
-    "durationMs": 2,
+    "sizeBytes": 11317,
+    "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -279,8 +279,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 5291,
-    "durationMs": 2,
+    "sizeBytes": 5313,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -298,8 +298,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8369,
-    "durationMs": 1,
+    "sizeBytes": 8412,
+    "durationMs": 4,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -317,8 +317,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 10092,
-    "durationMs": 1,
+    "sizeBytes": 10130,
+    "durationMs": 4,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -336,8 +336,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 7569,
-    "durationMs": 2,
+    "sizeBytes": 7607,
+    "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -355,8 +355,8 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 11872,
-    "durationMs": 2,
+    "sizeBytes": 11902,
+    "durationMs": 4,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -374,8 +374,8 @@
       "height": 1080
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
-    "sizeBytes": 7757,
-    "durationMs": 2,
+    "sizeBytes": 7754,
+    "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -393,8 +393,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8666,
-    "durationMs": 2,
+    "sizeBytes": 8808,
+    "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -431,8 +431,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11223,
-    "durationMs": 2,
+    "sizeBytes": 11316,
+    "durationMs": 3,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -450,8 +450,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11295,
-    "durationMs": 2,
+    "sizeBytes": 11433,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -469,7 +469,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 5344,
+    "sizeBytes": 5324,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -488,7 +488,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8400,
+    "sizeBytes": 8417,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -507,8 +507,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 10123,
-    "durationMs": 1,
+    "sizeBytes": 10141,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -518,7 +518,7 @@
     "category": "Cybersecurity",
     "topic": "Next-Gen Threat Intelligence Cloud",
     "template": "feature_highlights",
-    "theme": "crimson-energy",
+    "theme": "cyberpunk-tech",
     "file": "outputs/cybersecurity/design_028_feature_highlights.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_028_feature_highlights.svg",
     "dimensions": {
@@ -526,8 +526,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 7539,
-    "durationMs": 1,
+    "sizeBytes": 7655,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -545,7 +545,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 11972,
+    "sizeBytes": 12034,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -556,7 +556,7 @@
     "category": "Cybersecurity",
     "topic": "Security Is Not A Destination",
     "template": "social_square_graphic",
-    "theme": "cyberpunk-tech",
+    "theme": "crimson-energy",
     "file": "outputs/cybersecurity/design_030_social_square_graphic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\cybersecurity\\design_030_social_square_graphic.svg",
     "dimensions": {
@@ -564,7 +564,7 @@
       "height": 1080
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
-    "sizeBytes": 7797,
+    "sizeBytes": 7793,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -583,8 +583,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8747,
-    "durationMs": 1,
+    "sizeBytes": 8830,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -602,7 +602,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 10113,
+    "sizeBytes": 10135,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -621,7 +621,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11474,
+    "sizeBytes": 11580,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -640,7 +640,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11570,
+    "sizeBytes": 11577,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -659,7 +659,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 5367,
+    "sizeBytes": 5361,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -678,7 +678,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8367,
+    "sizeBytes": 8406,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -697,7 +697,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 10125,
+    "sizeBytes": 10124,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -708,7 +708,7 @@
     "category": "Healthcare",
     "topic": "Decentralized Clinical Trials Cloud",
     "template": "feature_highlights",
-    "theme": "royal-indigo",
+    "theme": "modern-corporate",
     "file": "outputs/healthcare/design_038_feature_highlights.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_038_feature_highlights.svg",
     "dimensions": {
@@ -716,7 +716,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 7687,
+    "sizeBytes": 7752,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -727,7 +727,7 @@
     "category": "Healthcare",
     "topic": "5 Pillars of Human Longevity",
     "template": "list_bullet_infographic",
-    "theme": "clean-minimal-light",
+    "theme": "emerald-eco",
     "file": "outputs/healthcare/design_039_list_bullet_infographic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_039_list_bullet_infographic.svg",
     "dimensions": {
@@ -735,7 +735,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 12092,
+    "sizeBytes": 12203,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -746,7 +746,7 @@
     "category": "Healthcare",
     "topic": "Health As An Everyday System",
     "template": "social_square_graphic",
-    "theme": "emerald-eco",
+    "theme": "sunset-vibrant",
     "file": "outputs/healthcare/design_040_social_square_graphic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\healthcare\\design_040_social_square_graphic.svg",
     "dimensions": {
@@ -754,7 +754,7 @@
       "height": 1080
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
-    "sizeBytes": 7778,
+    "sizeBytes": 7815,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -773,8 +773,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8696,
-    "durationMs": 1,
+    "sizeBytes": 8846,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -784,7 +784,7 @@
     "category": "Finance",
     "topic": "Understanding Modern Bond Yields",
     "template": "educational_infographic",
-    "theme": "modern-corporate",
+    "theme": "royal-indigo",
     "file": "outputs/finance/design_042_educational_infographic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_042_educational_infographic.svg",
     "dimensions": {
@@ -792,8 +792,8 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 10132,
-    "durationMs": 1,
+    "sizeBytes": 10079,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -803,7 +803,7 @@
     "category": "Finance",
     "topic": "Hedge Fund Performance & Alpha",
     "template": "statistics_metrics",
-    "theme": "amber-warmth",
+    "theme": "modern-corporate",
     "file": "outputs/finance/design_043_statistics_metrics.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_043_statistics_metrics.svg",
     "dimensions": {
@@ -811,8 +811,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11254,
-    "durationMs": 1,
+    "sizeBytes": 11419,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -822,7 +822,7 @@
     "category": "Finance",
     "topic": "Personal Financial Independence Roadmap",
     "template": "step_by_step_roadmap",
-    "theme": "clean-minimal-light",
+    "theme": "amber-warmth",
     "file": "outputs/finance/design_044_step_by_step_roadmap.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_044_step_by_step_roadmap.svg",
     "dimensions": {
@@ -830,7 +830,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11278,
+    "sizeBytes": 11376,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -849,8 +849,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 5275,
-    "durationMs": 1,
+    "sizeBytes": 5277,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -860,7 +860,7 @@
     "category": "Finance",
     "topic": "Zero-Fee Institutional Brokerage Launch",
     "template": "announcement_banner",
-    "theme": "modern-corporate",
+    "theme": "royal-indigo",
     "file": "outputs/finance/design_046_announcement_banner.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_046_announcement_banner.svg",
     "dimensions": {
@@ -868,7 +868,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8379,
+    "sizeBytes": 8431,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -879,7 +879,7 @@
     "category": "Finance",
     "topic": "Active Stock Picking vs Low-Cost Indexing",
     "template": "comparison_layout",
-    "theme": "amber-warmth",
+    "theme": "clean-minimal-light",
     "file": "outputs/finance/design_047_comparison_layout.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_047_comparison_layout.svg",
     "dimensions": {
@@ -887,7 +887,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 10148,
+    "sizeBytes": 10162,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -906,8 +906,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 7608,
-    "durationMs": 2,
+    "sizeBytes": 7519,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -917,7 +917,7 @@
     "category": "Finance",
     "topic": "5 Golden Rules of Sound Portfolio Construction",
     "template": "list_bullet_infographic",
-    "theme": "clean-minimal-light",
+    "theme": "amber-warmth",
     "file": "outputs/finance/design_049_list_bullet_infographic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_049_list_bullet_infographic.svg",
     "dimensions": {
@@ -925,7 +925,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 11922,
+    "sizeBytes": 11995,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -936,7 +936,7 @@
     "category": "Finance",
     "topic": "Investing In What You Understand",
     "template": "social_square_graphic",
-    "theme": "amber-warmth",
+    "theme": "royal-indigo",
     "file": "outputs/finance/design_050_social_square_graphic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\finance\\design_050_social_square_graphic.svg",
     "dimensions": {
@@ -944,7 +944,7 @@
       "height": 1080
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
-    "sizeBytes": 7766,
+    "sizeBytes": 7787,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -955,7 +955,7 @@
     "category": "Education",
     "topic": "Adaptive AI Tutoring Platform",
     "template": "promotional_banner",
-    "theme": "royal-indigo",
+    "theme": "clean-minimal-light",
     "file": "outputs/education/design_051_promotional_banner.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_051_promotional_banner.svg",
     "dimensions": {
@@ -963,8 +963,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8846,
-    "durationMs": 0,
+    "sizeBytes": 8948,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -974,7 +974,7 @@
     "category": "Education",
     "topic": "Bloom's Revised Cognitive Taxonomy",
     "template": "educational_infographic",
-    "theme": "royal-indigo",
+    "theme": "sunset-vibrant",
     "file": "outputs/education/design_052_educational_infographic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_052_educational_infographic.svg",
     "dimensions": {
@@ -982,8 +982,8 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 10235,
-    "durationMs": 1,
+    "sizeBytes": 10217,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -993,7 +993,7 @@
     "category": "Education",
     "topic": "Global Online Education Outcomes",
     "template": "statistics_metrics",
-    "theme": "clean-minimal-light",
+    "theme": "emerald-eco",
     "file": "outputs/education/design_053_statistics_metrics.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_053_statistics_metrics.svg",
     "dimensions": {
@@ -1001,8 +1001,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11431,
-    "durationMs": 1,
+    "sizeBytes": 11520,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1012,7 +1012,7 @@
     "category": "Education",
     "topic": "Accelerated Skill Mastery Framework",
     "template": "step_by_step_roadmap",
-    "theme": "sunset-vibrant",
+    "theme": "amber-warmth",
     "file": "outputs/education/design_054_step_by_step_roadmap.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_054_step_by_step_roadmap.svg",
     "dimensions": {
@@ -1020,8 +1020,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11334,
-    "durationMs": 2,
+    "sizeBytes": 11357,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1031,7 +1031,7 @@
     "category": "Education",
     "topic": "The Ultimate Purpose of Education",
     "template": "quote_thought_leadership",
-    "theme": "royal-indigo",
+    "theme": "clean-minimal-light",
     "file": "outputs/education/design_055_quote_thought_leadership.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_055_quote_thought_leadership.svg",
     "dimensions": {
@@ -1039,7 +1039,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 5246,
+    "sizeBytes": 5290,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1050,7 +1050,7 @@
     "category": "Education",
     "topic": "Open STEM Curriculum Initiative",
     "template": "announcement_banner",
-    "theme": "modern-corporate",
+    "theme": "emerald-eco",
     "file": "outputs/education/design_056_announcement_banner.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_056_announcement_banner.svg",
     "dimensions": {
@@ -1058,8 +1058,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8388,
-    "durationMs": 1,
+    "sizeBytes": 8421,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1069,7 +1069,7 @@
     "category": "Education",
     "topic": "Passive Lectures vs Active Retrieval Practice",
     "template": "comparison_layout",
-    "theme": "clean-minimal-light",
+    "theme": "sunset-vibrant",
     "file": "outputs/education/design_057_comparison_layout.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_057_comparison_layout.svg",
     "dimensions": {
@@ -1077,8 +1077,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 10156,
-    "durationMs": 1,
+    "sizeBytes": 10140,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1088,7 +1088,7 @@
     "category": "Education",
     "topic": "Next-Gen Virtual Science Lab",
     "template": "feature_highlights",
-    "theme": "emerald-eco",
+    "theme": "royal-indigo",
     "file": "outputs/education/design_058_feature_highlights.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_058_feature_highlights.svg",
     "dimensions": {
@@ -1096,8 +1096,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 7676,
-    "durationMs": 2,
+    "sizeBytes": 7618,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1107,7 +1107,7 @@
     "category": "Education",
     "topic": "5 Proven Habits of Elite Learners",
     "template": "list_bullet_infographic",
-    "theme": "clean-minimal-light",
+    "theme": "amber-warmth",
     "file": "outputs/education/design_059_list_bullet_infographic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_059_list_bullet_infographic.svg",
     "dimensions": {
@@ -1115,7 +1115,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 12047,
+    "sizeBytes": 12178,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1126,7 +1126,7 @@
     "category": "Education",
     "topic": "Learning Is A Lifelong Compounding Game",
     "template": "social_square_graphic",
-    "theme": "royal-indigo",
+    "theme": "emerald-eco",
     "file": "outputs/education/design_060_social_square_graphic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\education\\design_060_social_square_graphic.svg",
     "dimensions": {
@@ -1134,7 +1134,7 @@
       "height": 1080
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
-    "sizeBytes": 7774,
+    "sizeBytes": 7792,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1153,7 +1153,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8768,
+    "sizeBytes": 8856,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1164,7 +1164,7 @@
     "category": "E-commerce",
     "topic": "E-Commerce Conversion Funnel Anatomy",
     "template": "educational_infographic",
-    "theme": "sunset-vibrant",
+    "theme": "modern-corporate",
     "file": "outputs/e_commerce/design_062_educational_infographic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_062_educational_infographic.svg",
     "dimensions": {
@@ -1172,7 +1172,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 10170,
+    "sizeBytes": 10282,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1191,8 +1191,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11305,
-    "durationMs": 1,
+    "sizeBytes": 11342,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1202,7 +1202,7 @@
     "category": "E-commerce",
     "topic": "Direct-to-Consumer Scaling Roadmap",
     "template": "step_by_step_roadmap",
-    "theme": "modern-corporate",
+    "theme": "sunset-vibrant",
     "file": "outputs/e_commerce/design_064_step_by_step_roadmap.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_064_step_by_step_roadmap.svg",
     "dimensions": {
@@ -1210,7 +1210,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11329,
+    "sizeBytes": 11427,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1221,7 +1221,7 @@
     "category": "E-commerce",
     "topic": "Obsessing Over Customer Experience",
     "template": "quote_thought_leadership",
-    "theme": "sunset-vibrant",
+    "theme": "modern-corporate",
     "file": "outputs/e_commerce/design_065_quote_thought_leadership.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_065_quote_thought_leadership.svg",
     "dimensions": {
@@ -1229,7 +1229,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 5330,
+    "sizeBytes": 5343,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1240,7 +1240,7 @@
     "category": "E-commerce",
     "topic": "Global Cyber Monday Flash Sale",
     "template": "announcement_banner",
-    "theme": "sunset-vibrant",
+    "theme": "crimson-energy",
     "file": "outputs/e_commerce/design_066_announcement_banner.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_066_announcement_banner.svg",
     "dimensions": {
@@ -1248,7 +1248,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8335,
+    "sizeBytes": 8412,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1259,7 +1259,7 @@
     "category": "E-commerce",
     "topic": "Monolithic E-Commerce vs Headless Architecture",
     "template": "comparison_layout",
-    "theme": "sunset-vibrant",
+    "theme": "clean-minimal-light",
     "file": "outputs/e_commerce/design_067_comparison_layout.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_067_comparison_layout.svg",
     "dimensions": {
@@ -1267,7 +1267,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 10139,
+    "sizeBytes": 10141,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1278,7 +1278,7 @@
     "category": "E-commerce",
     "topic": "AI-Powered Visual Search Recommender",
     "template": "feature_highlights",
-    "theme": "modern-corporate",
+    "theme": "sunset-vibrant",
     "file": "outputs/e_commerce/design_068_feature_highlights.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_068_feature_highlights.svg",
     "dimensions": {
@@ -1286,7 +1286,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 7661,
+    "sizeBytes": 7686,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1297,7 +1297,7 @@
     "category": "E-commerce",
     "topic": "5 Ways to Combat Shopping Cart Abandonment",
     "template": "list_bullet_infographic",
-    "theme": "clean-minimal-light",
+    "theme": "amber-warmth",
     "file": "outputs/e_commerce/design_069_list_bullet_infographic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_069_list_bullet_infographic.svg",
     "dimensions": {
@@ -1305,7 +1305,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 11905,
+    "sizeBytes": 11914,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1316,7 +1316,7 @@
     "category": "E-commerce",
     "topic": "The Future of Digital Commerce",
     "template": "social_square_graphic",
-    "theme": "sunset-vibrant",
+    "theme": "royal-indigo",
     "file": "outputs/e_commerce/design_070_social_square_graphic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\e_commerce\\design_070_social_square_graphic.svg",
     "dimensions": {
@@ -1324,8 +1324,8 @@
       "height": 1080
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
-    "sizeBytes": 7743,
-    "durationMs": 1,
+    "sizeBytes": 7770,
+    "durationMs": 0,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1343,7 +1343,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8729,
+    "sizeBytes": 8847,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1362,7 +1362,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 10076,
+    "sizeBytes": 10217,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1373,7 +1373,7 @@
     "category": "Sustainability",
     "topic": "Global Clean Energy Transition Metrics",
     "template": "statistics_metrics",
-    "theme": "emerald-eco",
+    "theme": "clean-minimal-light",
     "file": "outputs/sustainability/design_073_statistics_metrics.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_073_statistics_metrics.svg",
     "dimensions": {
@@ -1381,7 +1381,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11342,
+    "sizeBytes": 11402,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1400,7 +1400,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11339,
+    "sizeBytes": 11426,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1419,8 +1419,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 5370,
-    "durationMs": 0,
+    "sizeBytes": 5363,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1430,7 +1430,7 @@
     "category": "Sustainability",
     "topic": "Next-Gen Solid State Battery Rollout",
     "template": "announcement_banner",
-    "theme": "emerald-eco",
+    "theme": "amber-warmth",
     "file": "outputs/sustainability/design_076_announcement_banner.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_076_announcement_banner.svg",
     "dimensions": {
@@ -1438,8 +1438,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8402,
-    "durationMs": 0,
+    "sizeBytes": 8398,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1457,8 +1457,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 10153,
-    "durationMs": 0,
+    "sizeBytes": 10135,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1468,7 +1468,7 @@
     "category": "Sustainability",
     "topic": "Smart Microgrid Optimization System",
     "template": "feature_highlights",
-    "theme": "emerald-eco",
+    "theme": "cyberpunk-tech",
     "file": "outputs/sustainability/design_078_feature_highlights.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\sustainability\\design_078_feature_highlights.svg",
     "dimensions": {
@@ -1476,8 +1476,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 7554,
-    "durationMs": 0,
+    "sizeBytes": 7561,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1495,7 +1495,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 11941,
+    "sizeBytes": 11929,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1514,7 +1514,7 @@
       "height": 1080
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
-    "sizeBytes": 7770,
+    "sizeBytes": 7771,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1533,8 +1533,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8607,
-    "durationMs": 1,
+    "sizeBytes": 8822,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1544,7 +1544,7 @@
     "category": "Productivity",
     "topic": "The Eisenhower Decision Matrix",
     "template": "educational_infographic",
-    "theme": "royal-indigo",
+    "theme": "modern-corporate",
     "file": "outputs/productivity/design_082_educational_infographic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_082_educational_infographic.svg",
     "dimensions": {
@@ -1552,7 +1552,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 10254,
+    "sizeBytes": 10014,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1563,7 +1563,7 @@
     "category": "Productivity",
     "topic": "Deep Work Metrics and Focus Velocity",
     "template": "statistics_metrics",
-    "theme": "modern-corporate",
+    "theme": "sunset-vibrant",
     "file": "outputs/productivity/design_083_statistics_metrics.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_083_statistics_metrics.svg",
     "dimensions": {
@@ -1571,7 +1571,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11176,
+    "sizeBytes": 11279,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1582,7 +1582,7 @@
     "category": "Productivity",
     "topic": "Getting Things Done (GTD) Workflow",
     "template": "step_by_step_roadmap",
-    "theme": "sunset-vibrant",
+    "theme": "amber-warmth",
     "file": "outputs/productivity/design_084_step_by_step_roadmap.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_084_step_by_step_roadmap.svg",
     "dimensions": {
@@ -1590,8 +1590,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11481,
-    "durationMs": 1,
+    "sizeBytes": 11390,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1601,7 +1601,7 @@
     "category": "Productivity",
     "topic": "Cal Newport on Deep Focus",
     "template": "quote_thought_leadership",
-    "theme": "royal-indigo",
+    "theme": "clean-minimal-light",
     "file": "outputs/productivity/design_085_quote_thought_leadership.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_085_quote_thought_leadership.svg",
     "dimensions": {
@@ -1628,7 +1628,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8368,
+    "sizeBytes": 8381,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1639,7 +1639,7 @@
     "category": "Productivity",
     "topic": "Multitasking vs Single-Task Deep Focus",
     "template": "comparison_layout",
-    "theme": "clean-minimal-light",
+    "theme": "crimson-energy",
     "file": "outputs/productivity/design_087_comparison_layout.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_087_comparison_layout.svg",
     "dimensions": {
@@ -1647,7 +1647,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 10148,
+    "sizeBytes": 10157,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1666,8 +1666,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 7620,
-    "durationMs": 1,
+    "sizeBytes": 7631,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1677,7 +1677,7 @@
     "category": "Productivity",
     "topic": "5 Micro-Habits for Peak Focus",
     "template": "list_bullet_infographic",
-    "theme": "clean-minimal-light",
+    "theme": "sunset-vibrant",
     "file": "outputs/productivity/design_089_list_bullet_infographic.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\productivity\\design_089_list_bullet_infographic.svg",
     "dimensions": {
@@ -1685,7 +1685,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 11914,
+    "sizeBytes": 11869,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1704,7 +1704,7 @@
       "height": 1080
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
-    "sizeBytes": 7749,
+    "sizeBytes": 7772,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1723,8 +1723,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8794,
-    "durationMs": 0,
+    "sizeBytes": 8816,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1742,7 +1742,7 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 10194,
+    "sizeBytes": 10213,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1761,8 +1761,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11269,
-    "durationMs": 1,
+    "sizeBytes": 11409,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1780,7 +1780,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 11539,
+    "sizeBytes": 11674,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1810,7 +1810,7 @@
     "category": "Marketing",
     "topic": "AI Brand Asset Cloud Launch",
     "template": "announcement_banner",
-    "theme": "crimson-energy",
+    "theme": "royal-indigo",
     "file": "outputs/marketing/design_096_announcement_banner.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_096_announcement_banner.svg",
     "dimensions": {
@@ -1818,8 +1818,8 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 8370,
-    "durationMs": 1,
+    "sizeBytes": 8394,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1829,7 +1829,7 @@
     "category": "Marketing",
     "topic": "Vanity Metrics vs Real Growth Drivers",
     "template": "comparison_layout",
-    "theme": "sunset-vibrant",
+    "theme": "crimson-energy",
     "file": "outputs/marketing/design_097_comparison_layout.svg",
     "absolutePath": "C:\\Users\\praba\\ai-svg-generator\\backend\\outputs\\marketing\\design_097_comparison_layout.svg",
     "dimensions": {
@@ -1837,7 +1837,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 10115,
+    "sizeBytes": 10146,
     "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
@@ -1856,7 +1856,7 @@
       "height": 630
     },
     "aspectRatio": "1200x630 (1.91:1 Landscape)",
-    "sizeBytes": 7564,
+    "sizeBytes": 7640,
     "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
@@ -1875,8 +1875,8 @@
       "height": 1200
     },
     "aspectRatio": "800x1200 (2:3 Portrait)",
-    "sizeBytes": 12041,
-    "durationMs": 1,
+    "sizeBytes": 12150,
+    "durationMs": 2,
     "validationStatus": "passed",
     "warnings": []
   },
@@ -1894,8 +1894,8 @@
       "height": 1080
     },
     "aspectRatio": "1080x1080 (1:1 Square)",
-    "sizeBytes": 7777,
-    "durationMs": 0,
+    "sizeBytes": 7829,
+    "durationMs": 1,
     "validationStatus": "passed",
     "warnings": []
   }

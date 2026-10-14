@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Why Vector Graphics Trump Pixel Bitmaps">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Why Vector Graphics Beat Pixel Bitmaps">
   
     <defs>
       <!-- Base Background Linear Gradient -->
@@ -59,9 +59,9 @@
 
     <!-- Top Badge Row -->
     <g transform="translate(60, 60)">
-      <rect x="0" y="0" width="274" height="32" rx="16" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
-      <text x="137" y="21" fill="#6366f1" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-        ENGINEERING PHILOSOPHY
+      <rect x="0" y="0" width="219" height="32" rx="16" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
+      <text x="109.5" y="21" fill="#6366f1" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+        DESIGN PHILOSOPHY
       </text>
     </g>
 
@@ -69,7 +69,7 @@
     <g transform="translate(60, 120)">
       
     <text x="0" y="48" fill="#ffffff" font-size="44" font-weight="900" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Why Vector Graphics Trump</tspan><tspan x="0" dy="54">Pixel Bitmaps</tspan>
+      <tspan x="0" dy="0">Why Vector Graphics Beat Pixel</tspan><tspan x="0" dy="54">Bitmaps</tspan>
     </text>
   
     </g>
@@ -78,7 +78,7 @@
     <g transform="translate(60, 310)">
       
     <text x="0" y="20" fill="#cbd5e1" font-size="18" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Why modern generative applications are embracing pure</tspan><tspan x="0" dy="28">procedural SVG instead of brittle raster images.</tspan>
+      <tspan x="0" dy="0">Why modern applications use procedural SVGs instead of</tspan><tspan x="0" dy="28">heavy, inflexible image files.</tspan>
     </text>
   
     </g>
@@ -104,7 +104,7 @@
             
             
     <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Infinite crisp scaling from 16px to billboard 4K</tspan>
+      <tspan x="72" dy="0">Crisp scaling at any resolution, from tiny icons to 4K displays</tspan>
     </text>
   
           </g>
@@ -125,7 +125,7 @@
             
             
     <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Human-readable, inspectable, and version-controllable</tspan>
+      <tspan x="72" dy="0">Clean, human-readable code that can be tracked in Git</tspan>
     </text>
   
           </g>
@@ -146,7 +146,7 @@
             
             
     <text x="72" y="44" fill="#ffffff" font-size="16" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="72" dy="0">Zero pixelation blur with sub-kilobyte payload sizes</tspan>
+      <tspan x="72" dy="0">Tiny file sizes that load instantly without consuming bandwidth</tspan>
     </text>
   
           </g>

@@ -57,13 +57,13 @@
   <g transform="translate(80, 60)">
     <!-- Header Meta Row: Badge & Date Tag -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="198" height="28" rx="6" fill="#3b82f6" />
-      <text x="99" y="19" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-        COMPANY MILESTONE
+      <rect x="0" y="0" width="168" height="28" rx="6" fill="#3b82f6" />
+      <text x="84" y="19" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+        COMPANY UPDATE
       </text>
 
-      <rect x="214" y="0" width="228" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
-      <text x="328" y="19" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+      <rect x="184" y="0" width="228" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="298" y="19" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
         OCTOBER 2026 CLOSING
       </text>
     </g>
@@ -81,7 +81,7 @@
     <g transform="translate(0, 160)">
       
     <text x="0" y="20" fill="#94a3b8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Led by Sequoia Horizon to accelerate autonomous enterprise</tspan><tspan x="0" dy="26">workflows and expand global infrastructure.</tspan>
+      <tspan x="0" dy="0">Led by Sequoia Horizon to expand engineering teams, speed up</tspan><tspan x="0" dy="26">customer onboarding, and strengthen global reliability.</tspan>
     </text>
   
     </g>
@@ -104,7 +104,7 @@
   
             
     <text x="54" y="29" fill="#f8fafc" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Expanded engineering hubs in SF and London</tspan>
+      <tspan x="54" dy="0">New engineering offices opened in San Francisco and London</tspan>
     </text>
   
           </g>
@@ -124,7 +124,7 @@
   
             
     <text x="54" y="29" fill="#f8fafc" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Scaling multi-agent orchestration infrastructure</tspan>
+      <tspan x="54" dy="0">Doubling capacity for automated customer workflows</tspan>
     </text>
   
           </g>
@@ -144,7 +144,7 @@
   
             
     <text x="54" y="29" fill="#f8fafc" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Zero-latency enterprise SLA guarantees</tspan>
+      <tspan x="54" dy="0">Guaranteed 99.9% uptime SLAs across enterprise plans</tspan>
     </text>
   
           </g>

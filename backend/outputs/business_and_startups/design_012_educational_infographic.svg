@@ -56,9 +56,9 @@
   <!-- Header Section -->
   <g transform="translate(60, 60)">
     <!-- Pill Badge -->
-    <rect x="0" y="0" width="174" height="30" rx="15" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-width="1.5" />
+    <rect x="0" y="0" width="147" height="30" rx="15" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-width="1.5" />
     <text x="15" y="20" fill="#f59e0b" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
-      FOUNDER PLAYBOOK
+      FOUNDER GUIDE
     </text>
 
     <!-- Main Title -->
@@ -71,7 +71,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="165" fill="#d6d3d1" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Navigating equity dilution, milestone benchmarks, and investor</tspan><tspan x="0" dy="24">alignment from idea to IPO.</tspan>
+      <tspan x="0" dy="0">Understanding equity dilution, valuation milestones, and investor</tspan><tspan x="0" dy="24">expectations from idea to exit.</tspan>
     </text>
   
     
@@ -111,7 +111,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Prototyping MVP and proving customer</tspan><tspan x="95" dy="24">problem-solution alignment.</tspan>
+      <tspan x="95" dy="0">Building the initial prototype and proving real</tspan><tspan x="95" dy="24">customer interest.</tspan>
     </text>
   
         </g>
@@ -146,7 +146,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Initial go-to-market traction and repeatability of</tspan><tspan x="95" dy="24">customer acquisition.</tspan>
+      <tspan x="95" dy="0">Finding early traction and proving repeat buyer</tspan><tspan x="95" dy="24">demand.</tspan>
     </text>
   
         </g>
@@ -179,7 +179,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Optimizing unit economics and scaling customer</tspan><tspan x="95" dy="24">lifetime value.</tspan>
+      <tspan x="95" dy="0">Fine-tuning unit economics and expanding sales</tspan><tspan x="95" dy="24">teams.</tspan>
     </text>
   
         </g>
@@ -212,7 +212,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#d6d3d1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Institutional governance, defensible moats, and</tspan><tspan x="95" dy="24">liquidity events.</tspan>
+      <tspan x="95" dy="0">Strong governance, durable moats, and preparing for</tspan><tspan x="95" dy="24">liquidity.</tspan>
     </text>
   
         </g>

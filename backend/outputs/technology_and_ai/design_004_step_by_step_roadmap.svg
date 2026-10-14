@@ -57,7 +57,7 @@
   <g transform="translate(80, 65)">
     <rect x="0" y="0" width="186" height="30" rx="15" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
     <text x="93" y="20" fill="#f97316" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      MLOPS WORKFLOW
+      MLOPS PLAYBOOK
     </text>
 
     <!-- Main Title -->
@@ -70,7 +70,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="110" fill="#fbcfe8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Four systematic phases to reliably deploy foundation models into</tspan><tspan x="0" dy="24">mission-critical production.</tspan>
+      <tspan x="0" dy="0">Four practical stages to move foundation models from experimental research to</tspan><tspan x="0" dy="24">live production safely.</tspan>
     </text>
   
   </g>
@@ -116,7 +116,7 @@
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">RLHF and direct</tspan><tspan x="20" dy="22">preference</tspan><tspan x="20" dy="22">optimization on golden</tspan><tspan x="20" dy="22">dataset.</tspan>
+      <tspan x="20" dy="0">Fine-tune with human</tspan><tspan x="20" dy="22">preferences and</tspan><tspan x="20" dy="22">domain-specific golden</tspan><tspan x="20" dy="22">data.</tspan>
     </text>
   
           </g>
@@ -150,14 +150,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Quantization</tspan>
+      <tspan x="20" dy="0">Optimization</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Model compression and</tspan><tspan x="20" dy="22">kernel specialization</tspan><tspan x="20" dy="22">for target hardware.</tspan>
+      <tspan x="20" dy="0">Compress weights and</tspan><tspan x="20" dy="22">tune inference kernels</tspan><tspan x="20" dy="22">for target hardware.</tspan>
     </text>
   
           </g>
@@ -197,7 +197,7 @@
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Automated adversarial</tspan><tspan x="20" dy="22">probing for safety and</tspan><tspan x="20" dy="22">vulnerability checks.</tspan>
+      <tspan x="20" dy="0">Run automated tests to</tspan><tspan x="20" dy="22">uncover edge cases and</tspan><tspan x="20" dy="22">prompt injection</tspan><tspan x="20" dy="22">risks.</tspan>
     </text>
   
           </g>
@@ -232,14 +232,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Edge Rollout</tspan>
+      <tspan x="20" dy="0">Canary Rollout</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Progressive canary</tspan><tspan x="20" dy="22">deployment across</tspan><tspan x="20" dy="22">distributed edge</tspan><tspan x="20" dy="22">nodes.</tspan>
+      <tspan x="20" dy="0">Gradually shift</tspan><tspan x="20" dy="22">production traffic</tspan><tspan x="20" dy="22">while tracking latency</tspan><tspan x="20" dy="22">and accuracy.</tspan>
     </text>
   
           </g>

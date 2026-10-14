@@ -55,9 +55,9 @@
 
   <!-- Header Banner -->
   <g transform="translate(60, 60)">
-    <rect x="0" y="0" width="263" height="30" rx="15" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="1.5" />
-    <text x="131.5" y="20" fill="#2563eb" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      RETENTION MASTERCLASS
+    <rect x="0" y="0" width="230" height="30" rx="15" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="1.5" />
+    <text x="115" y="20" fill="#2563eb" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      RETENTION PLAYBOOK
     </text>
 
     <!-- Main Title -->
@@ -70,7 +70,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="165" fill="#64748b" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Tactical levers used by premier enterprise software companies to</tspan><tspan x="0" dy="24">expand existing accounts.</tspan>
+      <tspan x="0" dy="0">Five practical tactics software companies use to keep customers</tspan><tspan x="0" dy="24">growing, happy, and renewing.</tspan>
     </text>
   
 
@@ -93,13 +93,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Value-Metric Pricing Alignment</tspan>
+      <tspan x="0" dy="0">Align Price with Value</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Tie pricing directly to the metric customers gain</tspan><tspan x="0" dy="22">value from.</tspan>
+      <tspan x="0" dy="0">Tie pricing tiers directly to the metrics your</tspan><tspan x="0" dy="22">customers care about most.</tspan>
     </text>
   
           </g>
@@ -130,13 +130,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Proactive Executive Business Reviews</tspan>
+      <tspan x="0" dy="0">Regular Business Reviews</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Quantify ROI to stakeholders every 90 days.</tspan>
+      <tspan x="0" dy="0">Showcase tangible ROI to executive buyers every</tspan><tspan x="0" dy="22">quarter.</tspan>
     </text>
   
           </g>
@@ -167,13 +167,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">In-Product Usage Alerts</tspan>
+      <tspan x="0" dy="0">Helpful Usage Alerts</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Trigger contextual upgrade prompts when consumption</tspan><tspan x="0" dy="22">peaks.</tspan>
+      <tspan x="0" dy="0">Nudge teams when they approach capacity limits with</tspan><tspan x="0" dy="22">easy upgrades.</tspan>
     </text>
   
           </g>
@@ -203,13 +203,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Cross-Functional Expansion</tspan>
+      <tspan x="0" dy="0">Expand Across Teams</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Bridge single-department tools into company-wide</tspan><tspan x="0" dy="22">workflows.</tspan>
+      <tspan x="0" dy="0">Help adjacent departments adopt the tools their</tspan><tspan x="0" dy="22">colleagues love.</tspan>
     </text>
   
           </g>
@@ -242,13 +242,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Frictionless Multi-Year Renewals</tspan>
+      <tspan x="0" dy="0">Smooth Multi-Year Plans</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Incentivize multi-year commitments with strategic</tspan><tspan x="0" dy="22">discounts.</tspan>
+      <tspan x="0" dy="0">Reward long-term customer commitments with</tspan><tspan x="0" dy="22">straightforward terms.</tspan>
     </text>
   
           </g>

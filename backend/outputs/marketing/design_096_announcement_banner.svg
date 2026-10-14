@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Generative Brand Identity Engine">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Unified Brand Identity Platform">
   
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="announce-design_096-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#180c0e" />
-        <stop offset="100%" stop-color="#2d1217" />
+        <stop offset="0%" stop-color="#0f172a" />
+        <stop offset="100%" stop-color="#1e1b4b" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="announce-design_096-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#ef4444" />
-        <stop offset="100%" stop-color="#fbbf24" />
+        <stop offset="0%" stop-color="#6366f1" />
+        <stop offset="100%" stop-color="#c084fc" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="announce-design_096-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#3f141c" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#3f141c" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="announce-design_096-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#ef4444" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#6366f1" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,26 +45,26 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="1080" cy="63" r="300" fill="#ef4444" filter="url(#announce-design_096-glow)" />
-      <circle cx="60" cy="567" r="240" fill="#fbbf24" filter="url(#announce-design_096-glow)" />
+      <circle cx="1080" cy="63" r="300" fill="#6366f1" filter="url(#announce-design_096-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#c084fc" filter="url(#announce-design_096-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#5b1d28" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#312e81" stroke-width="1" />
   
 
   <!-- Central Announcement Board -->
   <g transform="translate(80, 60)">
     <!-- Header Meta Row: Badge & Date Tag -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="168" height="28" rx="6" fill="#ef4444" />
-      <text x="84" y="19" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-        CREATIVE CLOUD
+      <rect x="0" y="0" width="178" height="28" rx="6" fill="#6366f1" />
+      <text x="89" y="19" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+        DESIGN PLATFORM
       </text>
 
-      <rect x="184" y="0" width="238" height="28" rx="6" fill="#3f141c" stroke="#5b1d28" stroke-width="1" />
-      <text x="303" y="19" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-        OCTOBER 2026 DEPLOYED
+      <rect x="194" y="0" width="228" height="28" rx="6" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
+      <text x="308" y="19" fill="#c084fc" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+        OCTOBER 2026 RELEASE
       </text>
     </g>
 
@@ -72,7 +72,7 @@
     <g transform="translate(0, 50)">
       
     <text x="0" y="40" fill="#ffffff" font-size="42" font-weight="900" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Generative Brand Identity Engine</tspan>
+      <tspan x="0" dy="0">Unified Brand Identity Platform</tspan>
     </text>
   
     </g>
@@ -80,8 +80,8 @@
     <!-- Description -->
     <g transform="translate(0, 160)">
       
-    <text x="0" y="20" fill="#fecaca" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Instantly generate enterprise brand guidelines, scalable vector</tspan><tspan x="0" dy="26">typography, and responsive color palettes with a single prompt.</tspan>
+    <text x="0" y="20" fill="#cbd5e1" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Generate unified brand guidelines, accessible color palettes, and</tspan><tspan x="0" dy="26">scalable vector typography with clean, consistent rules.</tspan>
     </text>
   
     </g>
@@ -90,10 +90,10 @@
     <g transform="translate(0, 240)">
       
           <g transform="translate(0, 0)">
-            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_096-card-grad)" stroke="#5b1d28" stroke-width="1" />
-            <circle cx="28" cy="24" r="12" fill="#ef4444" fill-opacity="0.2" />
+            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_096-card-grad)" stroke="#312e81" stroke-width="1" />
+            <circle cx="28" cy="24" r="12" fill="#6366f1" fill-opacity="0.2" />
             
-    <g transform="translate(18, 14)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(18, 14)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -104,16 +104,16 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">100% vector SVG design system generation</tspan>
+      <tspan x="54" dy="0">Instant export to SVG, PDF, and CSS design tokens</tspan>
     </text>
   
           </g>
         
           <g transform="translate(0, 60)">
-            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_096-card-grad)" stroke="#5b1d28" stroke-width="1" />
-            <circle cx="28" cy="24" r="12" fill="#ef4444" fill-opacity="0.2" />
+            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_096-card-grad)" stroke="#312e81" stroke-width="1" />
+            <circle cx="28" cy="24" r="12" fill="#6366f1" fill-opacity="0.2" />
             
-    <g transform="translate(18, 14)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(18, 14)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -124,16 +124,16 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Deterministic WCAG AAA color contrast verification</tspan>
+      <tspan x="54" dy="0">Automated contrast ratio checks for WCAG AAA accessibility</tspan>
     </text>
   
           </g>
         
           <g transform="translate(0, 120)">
-            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_096-card-grad)" stroke="#5b1d28" stroke-width="1" />
-            <circle cx="28" cy="24" r="12" fill="#ef4444" fill-opacity="0.2" />
+            <rect x="0" y="0" width="700" height="48" rx="12" fill="url(#announce-design_096-card-grad)" stroke="#312e81" stroke-width="1" />
+            <circle cx="28" cy="24" r="12" fill="#6366f1" fill-opacity="0.2" />
             
-    <g transform="translate(18, 14)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(18, 14)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -144,7 +144,7 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Instant export to Figma, Illustrator, and React code</tspan>
+      <tspan x="54" dy="0">Centralized asset library shared across design and marketing teams</tspan>
     </text>
   
           </g>
@@ -154,13 +154,13 @@
 
   <!-- Right Visual Emblem Card -->
   <g transform="translate(850, 110)">
-    <rect x="0" y="0" width="270" height="420" rx="20" fill="url(#announce-design_096-card-grad)" stroke="#5b1d28" stroke-width="1.5" filter="url(#announce-design_096-shadow)" />
+    <rect x="0" y="0" width="270" height="420" rx="20" fill="url(#announce-design_096-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#announce-design_096-shadow)" />
     
     <!-- Central Icon Glow Motif -->
-    <circle cx="135" cy="150" r="70" fill="#ef4444" fill-opacity="0.15" />
-    <circle cx="135" cy="150" r="50" fill="#ef4444" fill-opacity="0.25" />
+    <circle cx="135" cy="150" r="70" fill="#6366f1" fill-opacity="0.15" />
+    <circle cx="135" cy="150" r="50" fill="#6366f1" fill-opacity="0.25" />
     
-    <g transform="translate(107, 122)" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(107, 122)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="56" height="56" viewBox="0 0 24 24">
         
     <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
@@ -175,7 +175,7 @@
     <text x="135" y="270" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
       Official Release
     </text>
-    <text x="135" y="300" fill="#fecaca" font-size="14" text-anchor="middle" font-family="Inter, sans-serif">
+    <text x="135" y="300" fill="#cbd5e1" font-size="14" text-anchor="middle" font-family="Inter, sans-serif">
       Production Build Verified
     </text>
 

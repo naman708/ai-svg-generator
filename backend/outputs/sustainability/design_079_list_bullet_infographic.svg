@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200" role="img" aria-label="5 Ways to Cut Software Carbon Emissions">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200" role="img" aria-label="5 Ways to Cut Software Emissions">
   
     <defs>
       <!-- Base Background Linear Gradient -->
@@ -63,14 +63,14 @@
     <!-- Main Title -->
     
     <text x="0" y="65" fill="#0f172a" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">5 Ways to Cut Software Carbon</tspan><tspan x="0" dy="44">Emissions</tspan>
+      <tspan x="0" dy="0">5 Ways to Cut Software</tspan><tspan x="0" dy="44">Emissions</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
     <text x="0" y="165" fill="#64748b" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Software engineering techniques that minimize server electricity</tspan><tspan x="0" dy="24">consumption and environmental impact.</tspan>
+      <tspan x="0" dy="0">Practical engineering choices that reduce server power draw and</tspan><tspan x="0" dy="24">cut cloud carbon footprints.</tspan>
     </text>
   
 
@@ -93,13 +93,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Adopt Lightweight Vector SVGs</tspan>
+      <tspan x="0" dy="0">Choose Green Cloud Regions</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Replace heavy raster images with scalable math-based</tspan><tspan x="0" dy="22">vector files.</tspan>
+      <tspan x="0" dy="0">Host workloads in data centers powered primarily by</tspan><tspan x="0" dy="22">renewable energy.</tspan>
     </text>
   
           </g>
@@ -109,8 +109,8 @@
     <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <polyline points="16 18 22 12 16 6"/>
-    <polyline points="8 6 2 12 8 18"/>
+    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+    <path d="M2 21c0-3 1.85-5.36 5.08-6"/>
   
       </svg>
     </g>
@@ -130,13 +130,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Colocate Compute with Clean Grids</tspan>
+      <tspan x="0" dy="0">Optimize Heavy Queries</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Schedule non-urgent batch workloads in regions with</tspan><tspan x="0" dy="22">excess green power.</tspan>
+      <tspan x="0" dy="0">Fewer inefficient queries mean fewer CPU cycles and</tspan><tspan x="0" dy="22">less wasted power.</tspan>
     </text>
   
           </g>
@@ -146,9 +146,9 @@
     <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <circle cx="12" cy="12" r="10"/>
-    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
-    <path d="M2 12h20"/>
+    <ellipse cx="12" cy="5" rx="9" ry="3"/>
+    <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
+    <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/>
   
       </svg>
     </g>
@@ -168,13 +168,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Implement Aggressive Caching</tspan>
+      <tspan x="0" dy="0">Compress Images and Code</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Prevent unnecessary compute cycles by caching</tspan><tspan x="0" dy="22">responses at the edge.</tspan>
+      <tspan x="0" dy="0">Smaller payload transfers reduce electricity used</tspan><tspan x="0" dy="22">across network cables.</tspan>
     </text>
   
           </g>
@@ -184,9 +184,8 @@
     <g transform="translate(620, 28)" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <ellipse cx="12" cy="5" rx="9" ry="3"/>
-    <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
-    <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/>
+    <polyline points="16 18 22 12 16 6"/>
+    <polyline points="8 6 2 12 8 18"/>
   
       </svg>
     </g>
@@ -206,13 +205,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Prune Stale Cloud Storage</tspan>
+      <tspan x="0" dy="0">Turn Off Idle Resources</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Delete orphan database backups and unused</tspan><tspan x="0" dy="22">development clusters.</tspan>
+      <tspan x="0" dy="0">Automatically spin down staging servers and test</tspan><tspan x="0" dy="22">databases on weekends.</tspan>
     </text>
   
           </g>
@@ -243,13 +242,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Optimize Code Algorithms</tspan>
+      <tspan x="0" dy="0">Build Lightweight Frontends</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Refactor quadratic O(n^2) routines to linear O(n)</tspan><tspan x="0" dy="22">execution times.</tspan>
+      <tspan x="0" dy="0">Fast websites require less battery power to render</tspan><tspan x="0" dy="22">on user devices.</tspan>
     </text>
   
           </g>

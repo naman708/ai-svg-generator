@@ -57,14 +57,14 @@
   <g transform="translate(80, 60)">
     <!-- Header Meta Row: Badge & Date Tag -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="178" height="28" rx="6" fill="#6366f1" />
-      <text x="89" y="19" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-        NIST COMPLIANCE
+      <rect x="0" y="0" width="198" height="28" rx="6" fill="#6366f1" />
+      <text x="99" y="19" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+        COMPLIANCE NOTICE
       </text>
 
-      <rect x="194" y="0" width="228" height="28" rx="6" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
-      <text x="308" y="19" fill="#c084fc" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-        IMMEDIATELY ENFORCED
+      <rect x="214" y="0" width="198" height="28" rx="6" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
+      <text x="313" y="19" fill="#c084fc" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+        ACTIVE COMPLIANCE
       </text>
     </g>
 
@@ -81,7 +81,7 @@
     <g transform="translate(0, 160)">
       
     <text x="0" y="20" fill="#cbd5e1" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Upgrading all corporate transport and storage layers to</tspan><tspan x="0" dy="26">NIST-standardized lattice-based encryption algorithms.</tspan>
+      <tspan x="0" dy="0">Upgrading core transport layers to NIST-standard lattice</tspan><tspan x="0" dy="26">algorithms to protect data against emerging quantum threats.</tspan>
     </text>
   
     </g>
@@ -104,7 +104,7 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Kyber &amp; Dilithium lattice algorithm integration</tspan>
+      <tspan x="54" dy="0">Implementation of NIST-approved lattice cryptography</tspan>
     </text>
   
           </g>
@@ -124,7 +124,7 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Resistant to Shor&apos;s quantum factorization attacks</tspan>
+      <tspan x="54" dy="0">Guards sensitive customer archives against future decryption</tspan>
     </text>
   
           </g>
@@ -144,7 +144,7 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Seamless zero-downtime key rotation protocol</tspan>
+      <tspan x="54" dy="0">Zero-downtime key rotation rolled out seamlessly</tspan>
     </text>
   
           </g>

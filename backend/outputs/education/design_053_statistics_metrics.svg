@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Interactive Learning Benchmarks">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Active Learning vs Passive Lectures">
   
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="stats-design_053-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#f8fafc" />
-        <stop offset="100%" stop-color="#e2e8f0" />
+        <stop offset="0%" stop-color="#06281e" />
+        <stop offset="100%" stop-color="#0b3d2e" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="stats-design_053-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#2563eb" />
-        <stop offset="100%" stop-color="#4f46e5" />
+        <stop offset="0%" stop-color="#10b981" />
+        <stop offset="100%" stop-color="#a7f3d0" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="stats-design_053-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#ffffff" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#0e4a38" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#0e4a38" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="stats-design_053-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#2563eb" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#10b981" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,33 +45,33 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="1080" cy="63" r="300" fill="#2563eb" filter="url(#stats-design_053-glow)" />
-      <circle cx="60" cy="567" r="240" fill="#4f46e5" filter="url(#stats-design_053-glow)" />
+      <circle cx="1080" cy="63" r="300" fill="#10b981" filter="url(#stats-design_053-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#a7f3d0" filter="url(#stats-design_053-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#cbd5e1" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#145a44" stroke-width="1" />
   
 
   <!-- Header Banner -->
   <g transform="translate(80, 70)">
     <!-- Pill Badge -->
-    <rect x="0" y="0" width="174" height="30" rx="15" fill="#2563eb" fill-opacity="0.2" stroke="#2563eb" stroke-width="1.5" />
-    <text x="15" y="20" fill="#2563eb" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
-      STUDENT OUTCOMES
+    <rect x="0" y="0" width="147" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
+    <text x="15" y="20" fill="#10b981" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+      STUDY RESULTS
     </text>
 
     <!-- Headline -->
     
-    <text x="0" y="65" fill="#0f172a" font-size="40" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Interactive Learning Benchmarks</tspan>
+    <text x="0" y="65" fill="#f0fdf4" font-size="40" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Active Learning vs Passive Lectures</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
-    <text x="0" y="110" fill="#64748b" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Empirical study evaluating mastery learning cohorts against conventional lecture</tspan><tspan x="0" dy="24">pedagogy.</tspan>
+    <text x="0" y="110" fill="#a7f3d0" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Research outcomes comparing active, project-based learning with traditional</tspan><tspan x="0" dy="24">classroom lectures.</tspan>
     </text>
   
   </g>
@@ -81,67 +81,68 @@
     
         <g transform="translate(0, 0)">
           <!-- Card Backdrop -->
-          <rect x="0" y="0" width="320" height="320" rx="20" fill="url(#stats-design_053-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#stats-design_053-shadow)" />
+          <rect x="0" y="0" width="320" height="320" rx="20" fill="url(#stats-design_053-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#stats-design_053-shadow)" />
           
           <!-- Card Header: Icon & Delta Pill -->
           <g transform="translate(24, 24)">
-            <rect x="0" y="0" width="46" height="46" rx="12" fill="#2563eb" fill-opacity="0.2" stroke="#2563eb" stroke-width="1" />
+            <rect x="0" y="0" width="46" height="46" rx="12" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
             
-    <g transform="translate(11, 11)" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(11, 11)" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <circle cx="12" cy="8" r="6"/>
-    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+    <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/>
+    <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/>
+    <path d="M12 5v14"/>
   
       </svg>
     </g>
   
             
             <!-- Delta Pill -->
-            <rect x="180" y="6" width="90" height="28" rx="14" fill="#4f46e5" fill-opacity="0.2" stroke="#4f46e5" stroke-width="1" />
-            <text x="225" y="24" fill="#4f46e5" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-              +200% Gain
+            <rect x="180" y="6" width="90" height="28" rx="14" fill="#a7f3d0" fill-opacity="0.2" stroke="#a7f3d0" stroke-width="1" />
+            <text x="225" y="24" fill="#a7f3d0" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+              Tested at 6 Months
             </text>
           </g>
 
           <!-- Big Metric Value -->
-          <text x="24" y="145" fill="#0f172a" font-size="48" font-weight="900" font-family="Inter, sans-serif" letter-spacing="-1">
-            2.1 Sigma
+          <text x="24" y="145" fill="#f0fdf4" font-size="48" font-weight="900" font-family="Inter, sans-serif" letter-spacing="-1">
+            3.4x
           </text>
 
           <!-- Metric Label -->
-          <text x="24" y="185" fill="#2563eb" font-size="18" font-weight="700" font-family="Inter, sans-serif">
-            Student Learning Gain
+          <text x="24" y="185" fill="#10b981" font-size="18" font-weight="700" font-family="Inter, sans-serif">
+            Concept Retention
           </text>
 
           <!-- Divider Line -->
-          <line x1="24" y1="210" x2="296" y2="210" stroke="#cbd5e1" stroke-width="1" />
+          <line x1="24" y1="210" x2="296" y2="210" stroke="#145a44" stroke-width="1" />
 
           <!-- Metric Description -->
           
-    <text x="24" y="235" fill="#64748b" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">Mastery achieved comparable to</tspan><tspan x="24" dy="20">Bloom&apos;s 2-sigma tutorial study</tspan>
+    <text x="24" y="235" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="24" dy="0">Students who build real hands-on</tspan><tspan x="24" dy="20">projects retain core ideas far</tspan><tspan x="24" dy="20">longer</tspan>
     </text>
   
 
           <!-- Mini Vector Sparkline/Bar Visual -->
           <g transform="translate(24, 290)">
-            <rect x="0" y="0" width="40" height="6" rx="3" fill="#2563eb" fill-opacity="0.3" />
-            <rect x="50" y="0" width="55" height="6" rx="3" fill="#2563eb" fill-opacity="0.5" />
-            <rect x="115" y="0" width="70" height="6" rx="3" fill="#2563eb" fill-opacity="0.7" />
-            <rect x="195" y="0" width="80" height="6" rx="3" fill="#4f46e5" />
+            <rect x="0" y="0" width="40" height="6" rx="3" fill="#10b981" fill-opacity="0.3" />
+            <rect x="50" y="0" width="55" height="6" rx="3" fill="#10b981" fill-opacity="0.5" />
+            <rect x="115" y="0" width="70" height="6" rx="3" fill="#10b981" fill-opacity="0.7" />
+            <rect x="195" y="0" width="80" height="6" rx="3" fill="#a7f3d0" />
           </g>
         </g>
       
         <g transform="translate(360, 0)">
           <!-- Card Backdrop -->
-          <rect x="0" y="0" width="320" height="320" rx="20" fill="url(#stats-design_053-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#stats-design_053-shadow)" />
+          <rect x="0" y="0" width="320" height="320" rx="20" fill="url(#stats-design_053-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#stats-design_053-shadow)" />
           
           <!-- Card Header: Icon & Delta Pill -->
           <g transform="translate(24, 24)">
-            <rect x="0" y="0" width="46" height="46" rx="12" fill="#2563eb" fill-opacity="0.2" stroke="#2563eb" stroke-width="1" />
+            <rect x="0" y="0" width="46" height="46" rx="12" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
             
-    <g transform="translate(11, 11)" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(11, 11)" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -152,92 +153,92 @@
   
             
             <!-- Delta Pill -->
-            <rect x="180" y="6" width="90" height="28" rx="14" fill="#4f46e5" fill-opacity="0.2" stroke="#4f46e5" stroke-width="1" />
-            <text x="225" y="24" fill="#4f46e5" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-              +65% vs MOOCs
+            <rect x="180" y="6" width="90" height="28" rx="14" fill="#a7f3d0" fill-opacity="0.2" stroke="#a7f3d0" stroke-width="1" />
+            <text x="225" y="24" fill="#a7f3d0" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+              +45% vs Average
             </text>
           </g>
 
           <!-- Big Metric Value -->
-          <text x="24" y="145" fill="#0f172a" font-size="48" font-weight="900" font-family="Inter, sans-serif" letter-spacing="-1">
-            88%
+          <text x="24" y="145" fill="#f0fdf4" font-size="48" font-weight="900" font-family="Inter, sans-serif" letter-spacing="-1">
+            68%
           </text>
 
           <!-- Metric Label -->
-          <text x="24" y="185" fill="#2563eb" font-size="18" font-weight="700" font-family="Inter, sans-serif">
-            Course Completion Rate
+          <text x="24" y="185" fill="#10b981" font-size="18" font-weight="700" font-family="Inter, sans-serif">
+            Course Completion
           </text>
 
           <!-- Divider Line -->
-          <line x1="24" y1="210" x2="296" y2="210" stroke="#cbd5e1" stroke-width="1" />
+          <line x1="24" y1="210" x2="296" y2="210" stroke="#145a44" stroke-width="1" />
 
           <!-- Metric Description -->
           
-    <text x="24" y="235" fill="#64748b" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">Interactive feedback loops</tspan><tspan x="24" dy="20">eliminating student dropout</tspan><tspan x="24" dy="20">dropoff</tspan>
+    <text x="24" y="235" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="24" dy="0">Interactive cohorts finish</tspan><tspan x="24" dy="20">courses at significantly higher</tspan><tspan x="24" dy="20">rates</tspan>
     </text>
   
 
           <!-- Mini Vector Sparkline/Bar Visual -->
           <g transform="translate(24, 290)">
-            <rect x="0" y="0" width="40" height="6" rx="3" fill="#2563eb" fill-opacity="0.3" />
-            <rect x="50" y="0" width="55" height="6" rx="3" fill="#2563eb" fill-opacity="0.5" />
-            <rect x="115" y="0" width="70" height="6" rx="3" fill="#2563eb" fill-opacity="0.7" />
-            <rect x="195" y="0" width="80" height="6" rx="3" fill="#4f46e5" />
+            <rect x="0" y="0" width="40" height="6" rx="3" fill="#10b981" fill-opacity="0.3" />
+            <rect x="50" y="0" width="55" height="6" rx="3" fill="#10b981" fill-opacity="0.5" />
+            <rect x="115" y="0" width="70" height="6" rx="3" fill="#10b981" fill-opacity="0.7" />
+            <rect x="195" y="0" width="80" height="6" rx="3" fill="#a7f3d0" />
           </g>
         </g>
       
         <g transform="translate(720, 0)">
           <!-- Card Backdrop -->
-          <rect x="0" y="0" width="320" height="320" rx="20" fill="url(#stats-design_053-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#stats-design_053-shadow)" />
+          <rect x="0" y="0" width="320" height="320" rx="20" fill="url(#stats-design_053-card-grad)" stroke="#145a44" stroke-width="1.5" filter="url(#stats-design_053-shadow)" />
           
           <!-- Card Header: Icon & Delta Pill -->
           <g transform="translate(24, 24)">
-            <rect x="0" y="0" width="46" height="46" rx="12" fill="#2563eb" fill-opacity="0.2" stroke="#2563eb" stroke-width="1" />
+            <rect x="0" y="0" width="46" height="46" rx="12" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
             
-    <g transform="translate(11, 11)" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(11, 11)" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="M21.42 10.922a1 1 0 0 0-.019-.838L12.83 3.18a2 2 0 0 0-1.66 0L2.6 10.084a1 1 0 0 0 0 1.832l8.57 6.908a2 2 0 0 0 1.66 0l6.71-5.409a1 1 0 0 0 .39-.693v-1.8"/>
-    <path d="M6 12v5c0 2 3 3 6 3s6-1 6-3v-5"/>
+    <circle cx="12" cy="8" r="6"/>
+    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
   
       </svg>
     </g>
   
             
             <!-- Delta Pill -->
-            <rect x="180" y="6" width="90" height="28" rx="14" fill="#4f46e5" fill-opacity="0.2" stroke="#4f46e5" stroke-width="1" />
-            <text x="225" y="24" fill="#4f46e5" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-              Across 90 Nations
+            <rect x="180" y="6" width="90" height="28" rx="14" fill="#a7f3d0" fill-opacity="0.2" stroke="#a7f3d0" stroke-width="1" />
+            <text x="225" y="24" fill="#a7f3d0" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+              Surveyed Cohorts
             </text>
           </g>
 
           <!-- Big Metric Value -->
-          <text x="24" y="145" fill="#0f172a" font-size="48" font-weight="900" font-family="Inter, sans-serif" letter-spacing="-1">
-            450K+
+          <text x="24" y="145" fill="#f0fdf4" font-size="48" font-weight="900" font-family="Inter, sans-serif" letter-spacing="-1">
+            92%
           </text>
 
           <!-- Metric Label -->
-          <text x="24" y="185" fill="#2563eb" font-size="18" font-weight="700" font-family="Inter, sans-serif">
-            STEM Degrees Awarded
+          <text x="24" y="185" fill="#10b981" font-size="18" font-weight="700" font-family="Inter, sans-serif">
+            Student Confidence
           </text>
 
           <!-- Divider Line -->
-          <line x1="24" y1="210" x2="296" y2="210" stroke="#cbd5e1" stroke-width="1" />
+          <line x1="24" y1="210" x2="296" y2="210" stroke="#145a44" stroke-width="1" />
 
           <!-- Metric Description -->
           
-    <text x="24" y="235" fill="#64748b" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">Accredited credentials certified</tspan><tspan x="24" dy="20">via proctored vector exams</tspan>
+    <text x="24" y="235" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="24" dy="0">Learners feel prepared to apply</tspan><tspan x="24" dy="20">their skills in practical</tspan><tspan x="24" dy="20">workplace tasks</tspan>
     </text>
   
 
           <!-- Mini Vector Sparkline/Bar Visual -->
           <g transform="translate(24, 290)">
-            <rect x="0" y="0" width="40" height="6" rx="3" fill="#2563eb" fill-opacity="0.3" />
-            <rect x="50" y="0" width="55" height="6" rx="3" fill="#2563eb" fill-opacity="0.5" />
-            <rect x="115" y="0" width="70" height="6" rx="3" fill="#2563eb" fill-opacity="0.7" />
-            <rect x="195" y="0" width="80" height="6" rx="3" fill="#4f46e5" />
+            <rect x="0" y="0" width="40" height="6" rx="3" fill="#10b981" fill-opacity="0.3" />
+            <rect x="50" y="0" width="55" height="6" rx="3" fill="#10b981" fill-opacity="0.5" />
+            <rect x="115" y="0" width="70" height="6" rx="3" fill="#10b981" fill-opacity="0.7" />
+            <rect x="195" y="0" width="80" height="6" rx="3" fill="#a7f3d0" />
           </g>
         </g>
       

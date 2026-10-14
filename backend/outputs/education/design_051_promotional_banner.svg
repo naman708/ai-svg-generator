@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Adaptive 1-on-1 AI Tutoring">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Personalized Tutoring for Every Student">
   
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="promo-design_051-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#0f172a" />
-        <stop offset="100%" stop-color="#1e1b4b" />
+        <stop offset="0%" stop-color="#f8fafc" />
+        <stop offset="100%" stop-color="#e2e8f0" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="promo-design_051-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#6366f1" />
-        <stop offset="100%" stop-color="#c084fc" />
+        <stop offset="0%" stop-color="#2563eb" />
+        <stop offset="100%" stop-color="#4f46e5" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="promo-design_051-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="promo-design_051-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#6366f1" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#2563eb" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -51,44 +51,44 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="1080" cy="63" r="300" fill="#6366f1" filter="url(#promo-design_051-glow)" />
-      <circle cx="60" cy="567" r="240" fill="#c084fc" filter="url(#promo-design_051-glow)" />
+      <circle cx="1080" cy="63" r="300" fill="#2563eb" filter="url(#promo-design_051-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#4f46e5" filter="url(#promo-design_051-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#312e81" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#cbd5e1" stroke-width="1" />
   
 
   <!-- Left Content Column with strict clipPath boundary -->
   <g transform="translate(80, 85)" clip-path="url(#promo-design_051-left-clip)">
     <!-- Category Badge (Dynamic width with safe padding) -->
-    <rect x="0" y="0" width="206" height="32" rx="16" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
-    <text x="18" y="21" fill="#6366f1" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
-      NEXT-GEN LEARNING
+    <rect x="0" y="0" width="206" height="32" rx="16" fill="#2563eb" fill-opacity="0.2" stroke="#2563eb" stroke-width="1.5" />
+    <text x="18" y="21" fill="#2563eb" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.2">
+      ADAPTIVE LEARNING
     </text>
 
     <!-- Main Headline (Tight maxChars: 19 guarantees zero collision with right card) -->
     
-    <text x="0" y="72" fill="#ffffff" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Adaptive 1-on-1 AI</tspan><tspan x="0" dy="46">Tutoring</tspan>
+    <text x="0" y="72" fill="#0f172a" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Personalized</tspan><tspan x="0" dy="46">Tutoring for Every</tspan><tspan x="0" dy="46">Student</tspan>
     </text>
   
 
     <!-- Subtitle / Body Copy -->
     
-    <text x="0" y="220" fill="#cbd5e1" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Master complex STEM subjects through</tspan><tspan x="0" dy="24">conversational Socratic dialogue that</tspan><tspan x="0" dy="24">calibrates in real-time to your...</tspan>
+    <text x="0" y="220" fill="#64748b" font-size="15" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Master challenging topics through</tspan><tspan x="0" dy="24">friendly, conversational dialogue that</tspan><tspan x="0" dy="24">adapts to your natural learning speed.</tspan>
     </text>
   
 
     <!-- CTA Button (Dynamic width & calculated icon spacing) -->
     <g transform="translate(0, 325)" filter="url(#promo-design_051-shadow)">
-      <rect x="0" y="0" width="310" height="50" rx="25" fill="url(#promo-design_051-primary-grad)" />
-      <text x="139" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-        Start Free Learning Session
+      <rect x="0" y="0" width="255.5" height="50" rx="25" fill="url(#promo-design_051-primary-grad)" />
+      <text x="111.75" y="31" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
+        Start Learning Free
       </text>
       
-    <g transform="translate(274, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(219.5, 15)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <svg width="20" height="20" viewBox="0 0 24 24">
         
     <line x1="5" x2="19" y1="12" y2="12"/>
@@ -103,47 +103,76 @@
   <!-- Right Visual / Feature Cards Bento -->
   <g transform="translate(680, 105)">
     <!-- Big Decorative Backing Card -->
-    <rect x="0" y="0" width="440" height="415" rx="20" fill="url(#promo-design_051-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#promo-design_051-shadow)" />
+    <rect x="0" y="0" width="440" height="415" rx="20" fill="url(#promo-design_051-card-grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#promo-design_051-shadow)" />
     
     <!-- Feature items -->
     
         <g transform="translate(25, 24)">
-          <rect x="0" y="0" width="390" height="104" rx="14" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
           
           <!-- Icon Bubble -->
-          <rect x="18" y="27" width="50" height="50" rx="12" fill="#6366f1" fill-opacity="0.15" />
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#2563eb" fill-opacity="0.15" />
           
-    <g transform="translate(31, 40)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(31, 40)" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/>
-    <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/>
-    <path d="M12 5v14"/>
+    <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
+    <path d="M9 18h6"/>
+    <path d="M10 22h4"/>
   
       </svg>
     </g>
   
           
           <!-- Feature Title -->
-          <text x="82" y="38" fill="#ffffff" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            Socratic Method
+          <text x="82" y="38" fill="#0f172a" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            Socratic Guidance
           </text>
           
           <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
-    <text x="82" y="60" fill="#cbd5e1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">Guided inquiry over passive answers</tspan>
+    <text x="82" y="60" fill="#64748b" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Asks thoughtful questions to help</tspan><tspan x="82" dy="18">you find answers yourself</tspan>
     </text>
   
         </g>
       
         <g transform="translate(25, 148)">
-          <rect x="0" y="0" width="390" height="104" rx="14" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
           
           <!-- Icon Bubble -->
-          <rect x="18" y="27" width="50" height="50" rx="12" fill="#6366f1" fill-opacity="0.15" />
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#2563eb" fill-opacity="0.15" />
           
-    <g transform="translate(31, 40)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(31, 40)" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+  
+      </svg>
+    </g>
+  
+          
+          <!-- Feature Title -->
+          <text x="82" y="38" fill="#0f172a" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            Instant Practice
+          </text>
+          
+          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
+          
+    <text x="82" y="60" fill="#64748b" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Generates custom exercises matched</tspan><tspan x="82" dy="18">to your current skill level</tspan>
+    </text>
+  
+        </g>
+      
+        <g transform="translate(25, 272)">
+          <rect x="0" y="0" width="390" height="104" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+          
+          <!-- Icon Bubble -->
+          <rect x="18" y="27" width="50" height="50" rx="12" fill="#2563eb" fill-opacity="0.15" />
+          
+    <g transform="translate(31, 40)" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -154,44 +183,14 @@
   
           
           <!-- Feature Title -->
-          <text x="82" y="38" fill="#ffffff" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            Mastery Based
+          <text x="82" y="38" fill="#0f172a" font-size="16" font-weight="700" font-family="Inter, sans-serif">
+            Zero Frustration
           </text>
           
           <!-- Feature Description (Wrapped dynamically to stay inside card) -->
           
-    <text x="82" y="60" fill="#cbd5e1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">Progress only after true conceptual</tspan><tspan x="82" dy="18">grasp</tspan>
-    </text>
-  
-        </g>
-      
-        <g transform="translate(25, 272)">
-          <rect x="0" y="0" width="390" height="104" rx="14" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
-          
-          <!-- Icon Bubble -->
-          <rect x="18" y="27" width="50" height="50" rx="12" fill="#6366f1" fill-opacity="0.15" />
-          
-    <g transform="translate(31, 40)" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <svg width="24" height="24" viewBox="0 0 24 24">
-        
-    <polygon points="12 2 2 7 12 12 22 7 12 2"/>
-    <polyline points="2 17 12 22 22 17"/>
-    <polyline points="2 12 12 17 22 12"/>
-  
-      </svg>
-    </g>
-  
-          
-          <!-- Feature Title -->
-          <text x="82" y="38" fill="#ffffff" font-size="16" font-weight="700" font-family="Inter, sans-serif">
-            Multi-Modal Visuals
-          </text>
-          
-          <!-- Feature Description (Wrapped dynamically to stay inside card) -->
-          
-    <text x="82" y="60" fill="#cbd5e1" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="82" dy="0">Instant dynamic diagrams and plots</tspan>
+    <text x="82" y="60" fill="#64748b" font-size="12" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="82" dy="0">Breaks down tricky concepts into</tspan><tspan x="82" dy="18">manageable, easy pieces</tspan>
     </text>
   
         </g>

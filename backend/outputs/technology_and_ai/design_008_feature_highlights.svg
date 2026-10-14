@@ -55,9 +55,9 @@
 
   <!-- Top Header -->
   <g transform="translate(80, 50)">
-    <rect x="0" y="0" width="183" height="30" rx="15" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
+    <rect x="0" y="0" width="138" height="30" rx="15" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1.5" />
     <text x="15" y="20" fill="#06b6d4" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
-      DATA ARCHITECTURE
+      DATA SYSTEMS
     </text>
 
     
@@ -93,13 +93,13 @@
 
     <!-- Hero Title -->
     <text x="40" y="160" fill="#fafafa" font-size="28" font-weight="800" font-family="Inter, sans-serif">
-      Sub-Millisecond HNSW Index
+      Sub-Millisecond HNSW Search
     </text>
 
     <!-- Hero Body -->
     
     <text x="40" y="200" fill="#a1a1aa" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="40" dy="0">Hierarchical Navigable Small World</tspan><tspan x="40" dy="28">graphs partitioned across GPU memory</tspan><tspan x="40" dy="28">for instantaneous high-dimensional</tspan><tspan x="40" dy="28">vector similarity retrieval.</tspan>
+      <tspan x="40" dy="0">Graph-based indexing running directly</tspan><tspan x="40" dy="28">in GPU memory for instantaneous</tspan><tspan x="40" dy="28">high-dimensional similarity retrieval.</tspan>
     </text>
   
 
@@ -134,13 +134,13 @@
 
           <!-- Title -->
           <text x="95" y="60" fill="#fafafa" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Dynamic Metadata Filtering
+            Fast Metadata Filtering
           </text>
 
           <!-- Description -->
           
     <text x="30" y="110" fill="#a1a1aa" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="30" dy="0">Filter billions of records in single-pass</tspan><tspan x="30" dy="24">vector scans.</tspan>
+      <tspan x="30" dy="0">Filter millions of records in a single</tspan><tspan x="30" dy="24">retrieval pass.</tspan>
     </text>
   
         </g>
@@ -162,13 +162,13 @@
 
           <!-- Title -->
           <text x="95" y="60" fill="#fafafa" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Zero Data Stale Cycles
+            Live Incremental Updates
           </text>
 
           <!-- Description -->
           
     <text x="30" y="110" fill="#a1a1aa" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="30" dy="0">Real-time incremental index updates without</tspan><tspan x="30" dy="24">re-indexing downtime.</tspan>
+      <tspan x="30" dy="0">Add new vectors on the fly without stopping</tspan><tspan x="30" dy="24">your cluster.</tspan>
     </text>
   
         </g>

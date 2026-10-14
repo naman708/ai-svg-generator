@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200" role="img" aria-label="Anatomy of Modern LLMs">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200" role="img" aria-label="How Large Language Models Work">
   
     <defs>
       <!-- Base Background Linear Gradient -->
@@ -56,22 +56,22 @@
   <!-- Header Section -->
   <g transform="translate(60, 60)">
     <!-- Pill Badge -->
-    <rect x="0" y="0" width="201" height="30" rx="15" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
+    <rect x="0" y="0" width="174" height="30" rx="15" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
     <text x="15" y="20" fill="#6366f1" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
-      DEEP LEARNING GUIDE
+      MACHINE LEARNING
     </text>
 
     <!-- Main Title -->
     
     <text x="0" y="65" fill="#ffffff" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Anatomy of Modern LLMs</tspan>
+      <tspan x="0" dy="0">How Large Language Models</tspan><tspan x="0" dy="44">Work</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
     <text x="0" y="165" fill="#cbd5e1" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Key computational layers driving state-of-the-art generative</tspan><tspan x="0" dy="24">transformer models.</tspan>
+      <tspan x="0" dy="0">A step-by-step look at how neural layers transform prompts into</tspan><tspan x="0" dy="24">accurate, coherent responses.</tspan>
     </text>
   
     
@@ -94,7 +94,7 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Token Embedding
+            Input Embeddings
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -111,7 +111,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">High-dimensional geometric projection of</tspan><tspan x="95" dy="24">unstructured text tokens.</tspan>
+      <tspan x="95" dy="0">Converts words into numerical vector tokens that</tspan><tspan x="95" dy="24">computers can calculate with.</tspan>
     </text>
   
         </g>
@@ -128,7 +128,7 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Multi-Head Attention
+            Attention Layers
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -145,7 +145,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Simultaneous contextual correlation across broad</tspan><tspan x="95" dy="24">sequence windows.</tspan>
+      <tspan x="95" dy="0">Connects related words across long prompts so</tspan><tspan x="95" dy="24">context is never lost.</tspan>
     </text>
   
         </g>
@@ -162,7 +162,7 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Feedforward Dense Blocks
+            Feedforward Blocks
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -179,7 +179,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Non-linear neural projections storing world</tspan><tspan x="95" dy="24">knowledge parameters.</tspan>
+      <tspan x="95" dy="0">Evaluates patterns against learned facts stored</tspan><tspan x="95" dy="24">across billions of parameters.</tspan>
     </text>
   
         </g>
@@ -196,7 +196,7 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Softmax Probability Matrix
+            Next-Token Output
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -213,7 +213,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Decoding continuous hidden activations into precise</tspan><tspan x="95" dy="24">output tokens.</tspan>
+      <tspan x="95" dy="0">Scores candidate words to output the most accurate,</tspan><tspan x="95" dy="24">natural phrasing.</tspan>
     </text>
   
         </g>

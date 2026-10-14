@@ -32,10 +32,15 @@ Available Color Themes:
 Available Vector Icons (select appropriate icons):
 cpu, brain, sparkles, zap, shield, lock, rocket, target, trending-up, bar-chart, database, cloud, code, globe, users, briefcase, dollar-sign, shopping-cart, leaf, heart-pulse, graduation-cap, book-open, award, lightbulb, clock, check-circle, alert-circle, layers, quote, star, arrow-right.
 
-Guidelines:
-- Return ONLY valid JSON.
-- Maintain strong visual hierarchy: headlines must be concise, informative, and impactful.
-- Never output unescaped special characters.
+Guidelines for Natural, Human Copy & Visual Design (CRITICAL):
+- Sound completely natural, authentic, and human. Write like an experienced human creative director, technical writer, or editorial designer.
+- NEVER sound like generic AI-generated filler or textbook regurgitation.
+- STRICTLY FORBIDDEN AI clichés and buzzwords: "delve", "tapestry", "testament", "revolutionize", "pivotal", "unleash", "elevate", "beacon", "game-changer", "supercharge", "dynamic synergy", "seamlessly orchestrate", "in today's fast-paced digital world", "transformative journey", "paradigm shift".
+- Use crisp, active, conversational language. Focus on concrete specifics, real-world utility, and clear benefits rather than abstract theoretical claims.
+- Maintain strong visual hierarchy: headlines must be punchy (3-6 words), subtitles direct and clear (10-18 words).
+- Feature descriptions, roadmap steps, and list items must be practical, actionable, and easy to read at a glance.
+- Never output meta-commentary about AI engines, prompts, or vector pipelines unless the topic itself is specifically about that subject.
+- Return ONLY valid JSON matching the exact schema. Never output unescaped special characters.
 - Ensure all text fits comfortably in designated boundaries.
 `;
 

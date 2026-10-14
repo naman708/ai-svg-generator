@@ -57,14 +57,14 @@
   <g transform="translate(80, 60)">
     <!-- Header Meta Row: Badge & Date Tag -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="148" height="28" rx="6" fill="#6366f1" />
-      <text x="74" y="19" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-        MAJOR UPDATE
+      <rect x="0" y="0" width="138" height="28" rx="6" fill="#6366f1" />
+      <text x="69" y="19" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+        APP RELEASE
       </text>
 
-      <rect x="164" y="0" width="258" height="28" rx="6" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
-      <text x="293" y="19" fill="#c084fc" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-        OCTOBER 2026 DEPLOYMENT
+      <rect x="154" y="0" width="218" height="28" rx="6" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
+      <text x="263" y="19" fill="#c084fc" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+        OCTOBER 2026 UPDATE
       </text>
     </g>
 
@@ -81,7 +81,7 @@
     <g transform="translate(0, 160)">
       
     <text x="0" y="20" fill="#cbd5e1" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Reimagined note-taking, vector search, and project management</tspan><tspan x="0" dy="26">unified into a blazingly fast local-first app.</tspan>
+      <tspan x="0" dy="0">A fast, local-first workspace combining clean markdown notes,</tspan><tspan x="0" dy="26">task tracking, and lightning-fast search.</tspan>
     </text>
   
     </g>
@@ -104,7 +104,7 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">100% local-first markdown with end-to-end encryption</tspan>
+      <tspan x="54" dy="0">Instant local storage with zero lag and offline editing</tspan>
     </text>
   
           </g>
@@ -124,7 +124,7 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Instant bidirectional links and graph visualization</tspan>
+      <tspan x="54" dy="0">Clean bidirectional linking between notes and project tasks</tspan>
     </text>
   
           </g>
@@ -144,7 +144,7 @@
   
             
     <text x="54" y="29" fill="#ffffff" font-size="15" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="54" dy="0">Sub-10 millisecond global search across 50,000 files</tspan>
+      <tspan x="54" dy="0">End-to-end encrypted sync across your desktop and mobile devices</tspan>
     </text>
   
           </g>

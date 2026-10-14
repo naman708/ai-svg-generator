@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Startups don&apos;t die of starvation; they die of indigestion. Focus on solving one burning customer pain with obsessive craft.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Startups rarely fail from lack of ideas; they fail from lack of focus. Solve one burning customer problem exceptionally well.">
   
     <defs>
       <!-- Base Background Linear Gradient -->
@@ -61,7 +61,7 @@
     <g transform="translate(60, 50)">
       <rect x="0" y="0" width="156" height="30" rx="15" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
       <text x="15" y="20" fill="#6366f1" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
-        VENTURE WISDOM
+        FOUNDER ADVICE
       </text>
     </g>
 
@@ -83,7 +83,7 @@
     <g transform="translate(60, 180)">
       
     <text x="0" y="20" fill="#ffffff" font-size="32" font-weight="600" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">“Startups don&apos;t die of starvation; they die</tspan><tspan x="0" dy="44">of indigestion. Focus on solving one burning</tspan><tspan x="0" dy="44">customer pain with obsessive craft.”</tspan>
+      <tspan x="0" dy="0">“Startups rarely fail from lack of ideas;</tspan><tspan x="0" dy="44">they fail from lack of focus. Solve one</tspan><tspan x="0" dy="44">burning customer problem exceptionally</tspan><tspan x="0" dy="44">well.”</tspan>
     </text>
   
     </g>

@@ -3,20 +3,20 @@
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="steps-design_064-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#0f172a" />
-        <stop offset="100%" stop-color="#1e293b" />
+        <stop offset="0%" stop-color="#1c102b" />
+        <stop offset="100%" stop-color="#2e123d" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="steps-design_064-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#3b82f6" />
-        <stop offset="100%" stop-color="#38bdf8" />
+        <stop offset="0%" stop-color="#f97316" />
+        <stop offset="100%" stop-color="#ec4899" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="steps-design_064-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#1e293b" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#38174a" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#38174a" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="steps-design_064-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#3b82f6" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#f97316" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,60 +45,61 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="1080" cy="63" r="300" fill="#3b82f6" filter="url(#steps-design_064-glow)" />
-      <circle cx="60" cy="567" r="240" fill="#38bdf8" filter="url(#steps-design_064-glow)" />
+      <circle cx="1080" cy="63" r="300" fill="#f97316" filter="url(#steps-design_064-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#ec4899" filter="url(#steps-design_064-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#334155" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#562270" stroke-width="1" />
   
 
   <!-- Header Section -->
   <g transform="translate(80, 65)">
-    <rect x="0" y="0" width="164" height="30" rx="15" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
-    <text x="82" y="20" fill="#3b82f6" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      D2C PLAYBOOK
+    <rect x="0" y="0" width="153" height="30" rx="15" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
+    <text x="76.5" y="20" fill="#f97316" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      D2C ROADMAP
     </text>
 
     <!-- Main Title -->
     
-    <text x="0" y="65" fill="#f8fafc" font-size="38" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+    <text x="0" y="65" fill="#ffffff" font-size="38" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="0" dy="0">Scaling A Brand From 0 To $10M ARR</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
-    <text x="0" y="110" fill="#94a3b8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Strategic roadmap for direct-to-consumer founders to achieve profitable scale.</tspan>
+    <text x="0" y="110" fill="#fbcfe8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">A practical roadmap for brand founders to scale revenue from first customer to</tspan><tspan x="0" dy="24">sustainable profitability.</tspan>
     </text>
   
   </g>
 
   <!-- Horizontal Connector Line between Nodes -->
-  <line x1="180" y1="260" x2="1020" y2="260" stroke="#3b82f6" stroke-width="3" stroke-dasharray="6 6" opacity="0.6" />
+  <line x1="180" y1="260" x2="1020" y2="260" stroke="#f97316" stroke-width="3" stroke-dasharray="6 6" opacity="0.6" />
 
   <!-- 4 Step Cards -->
   <g transform="translate(80, 210)">
     
         <g transform="translate(0, 0)">
           <!-- Circular Node Pin on the connecting line -->
-          <circle cx="115" cy="50" r="28" fill="#0f172a" stroke="#3b82f6" stroke-width="3" filter="url(#steps-design_064-shadow)" />
-          <text x="115" y="56" fill="#3b82f6" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_064-shadow)" />
+          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             01
           </text>
 
           <!-- Step Card Container below the node -->
           <g transform="translate(0, 100)">
-            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_064-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#steps-design_064-shadow)" />
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_064-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_064-shadow)" />
             
             <!-- Icon Wrapper -->
-            <rect x="20" y="20" width="44" height="44" rx="10" fill="#3b82f6" fill-opacity="0.15" />
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
             
-    <g transform="translate(30, 30)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+    <circle cx="12" cy="8" r="6"/>
+    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
   
       </svg>
     </g>
@@ -106,15 +107,15 @@
 
             <!-- Step Title (Safely bounded) -->
             
-    <text x="20" y="95" fill="#f8fafc" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Hero Product...</tspan>
+    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Product Market Fit</tspan>
     </text>
   
 
             <!-- Step Description -->
             
-    <text x="20" y="125" fill="#94a3b8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Perfect one hero SKU</tspan><tspan x="20" dy="22">with exceptional</tspan><tspan x="20" dy="22">customer reviews.</tspan>
+    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Prove customers</tspan><tspan x="20" dy="22">genuinely love your</tspan><tspan x="20" dy="22">product and leave</tspan><tspan x="20" dy="22">5-star reviews.</tspan>
     </text>
   
           </g>
@@ -122,22 +123,23 @@
       
         <g transform="translate(265, 0)">
           <!-- Circular Node Pin on the connecting line -->
-          <circle cx="115" cy="50" r="28" fill="#0f172a" stroke="#3b82f6" stroke-width="3" filter="url(#steps-design_064-shadow)" />
-          <text x="115" y="56" fill="#3b82f6" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_064-shadow)" />
+          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             02
           </text>
 
           <!-- Step Card Container below the node -->
           <g transform="translate(0, 100)">
-            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_064-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#steps-design_064-shadow)" />
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_064-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_064-shadow)" />
             
             <!-- Icon Wrapper -->
-            <rect x="20" y="20" width="44" height="44" rx="10" fill="#3b82f6" fill-opacity="0.15" />
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
             
-    <g transform="translate(30, 30)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
+    <polyline points="16 7 22 7 22 13"/>
   
       </svg>
     </g>
@@ -145,15 +147,15 @@
 
             <!-- Step Title (Safely bounded) -->
             
-    <text x="20" y="95" fill="#f8fafc" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Creative Engine</tspan>
+    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Dial In Channels</tspan>
     </text>
   
 
             <!-- Step Description -->
             
-    <text x="20" y="125" fill="#94a3b8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Scale authentic UGC</tspan><tspan x="20" dy="22">and targeted</tspan><tspan x="20" dy="22">performance creative</tspan><tspan x="20" dy="22">loops.</tspan>
+    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Find one or two</tspan><tspan x="20" dy="22">profitable customer</tspan><tspan x="20" dy="22">acquisition channels</tspan><tspan x="20" dy="22">that scale.</tspan>
     </text>
   
           </g>
@@ -161,23 +163,24 @@
       
         <g transform="translate(530, 0)">
           <!-- Circular Node Pin on the connecting line -->
-          <circle cx="115" cy="50" r="28" fill="#0f172a" stroke="#3b82f6" stroke-width="3" filter="url(#steps-design_064-shadow)" />
-          <text x="115" y="56" fill="#3b82f6" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_064-shadow)" />
+          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             03
           </text>
 
           <!-- Step Card Container below the node -->
           <g transform="translate(0, 100)">
-            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_064-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#steps-design_064-shadow)" />
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_064-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_064-shadow)" />
             
             <!-- Icon Wrapper -->
-            <rect x="20" y="20" width="44" height="44" rx="10" fill="#3b82f6" fill-opacity="0.15" />
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
             
-    <g transform="translate(30, 30)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <circle cx="12" cy="12" r="10"/>
-    <polyline points="12 6 12 12 16 14"/>
+    <circle cx="8" cy="21" r="1"/>
+    <circle cx="19" cy="21" r="1"/>
+    <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
   
       </svg>
     </g>
@@ -185,15 +188,15 @@
 
             <!-- Step Title (Safely bounded) -->
             
-    <text x="20" y="95" fill="#f8fafc" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Retention...</tspan>
+    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Repeat Purchases</tspan>
     </text>
   
 
             <!-- Step Description -->
             
-    <text x="20" y="125" fill="#94a3b8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Email and SMS</tspan><tspan x="20" dy="22">automated lifecycle</tspan><tspan x="20" dy="22">flows to maximize</tspan><tspan x="20" dy="22">repeat buys.</tspan>
+    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Introduce subscription</tspan><tspan x="20" dy="22">refills and thoughtful</tspan><tspan x="20" dy="22">email follow-ups.</tspan>
     </text>
   
           </g>
@@ -201,19 +204,19 @@
       
         <g transform="translate(795, 0)">
           <!-- Circular Node Pin on the connecting line -->
-          <circle cx="115" cy="50" r="28" fill="#0f172a" stroke="#3b82f6" stroke-width="3" filter="url(#steps-design_064-shadow)" />
-          <text x="115" y="56" fill="#3b82f6" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_064-shadow)" />
+          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             04
           </text>
 
           <!-- Step Card Container below the node -->
           <g transform="translate(0, 100)">
-            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_064-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#steps-design_064-shadow)" />
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_064-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_064-shadow)" />
             
             <!-- Icon Wrapper -->
-            <rect x="20" y="20" width="44" height="44" rx="10" fill="#3b82f6" fill-opacity="0.15" />
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
             
-    <g transform="translate(30, 30)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <circle cx="12" cy="12" r="10"/>
@@ -226,15 +229,15 @@
 
             <!-- Step Title (Safely bounded) -->
             
-    <text x="20" y="95" fill="#f8fafc" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Omnichannel...</tspan>
+    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Retail Expansion</tspan>
     </text>
   
 
             <!-- Step Description -->
             
-    <text x="20" y="125" fill="#94a3b8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Expand to retail</tspan><tspan x="20" dy="22">wholesale partners and</tspan><tspan x="20" dy="22">international</tspan><tspan x="20" dy="22">marketplaces.</tspan>
+    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Expand into specialty</tspan><tspan x="20" dy="22">retail stores and</tspan><tspan x="20" dy="22">international</tspan><tspan x="20" dy="22">distribution.</tspan>
     </text>
   
           </g>

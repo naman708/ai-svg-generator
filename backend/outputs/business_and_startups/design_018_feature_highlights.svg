@@ -55,9 +55,9 @@
 
   <!-- Top Header -->
   <g transform="translate(80, 50)">
-    <rect x="0" y="0" width="174" height="30" rx="15" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
+    <rect x="0" y="0" width="183" height="30" rx="15" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
     <text x="15" y="20" fill="#3b82f6" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
-      OPERATING SYSTEM
+      WORKFLOW PLATFORM
     </text>
 
     
@@ -87,18 +87,18 @@
     <!-- Tag Pill -->
     <rect x="120" y="58" width="130" height="26" rx="13" fill="#3b82f6" fill-opacity="0.15" />
     <text x="185" y="75" fill="#3b82f6" font-size="11" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-      FLAGSHIP
+      CORE TOOL
     </text>
 
     <!-- Hero Title -->
     <text x="40" y="160" fill="#f8fafc" font-size="28" font-weight="800" font-family="Inter, sans-serif">
-      Autonomous Cash Flow Engine
+      Automated Financial Clarity
     </text>
 
     <!-- Hero Body -->
     
     <text x="40" y="200" fill="#94a3b8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="40" dy="0">Real-time visibility across banking</tspan><tspan x="40" dy="28">rails, subscriptions, and vendor</tspan><tspan x="40" dy="28">payables with automated tax</tspan><tspan x="40" dy="28">compliance.</tspan>
+      <tspan x="40" dy="0">Live visibility across company bank</tspan><tspan x="40" dy="28">accounts, SaaS subscriptions, and</tspan><tspan x="40" dy="28">invoices with automated tax</tspan><tspan x="40" dy="28">bookkeeping.</tspan>
     </text>
   
 
@@ -132,13 +132,13 @@
 
           <!-- Title -->
           <text x="95" y="60" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            One-Click Cap Table Sync
+            Clean Cap Table Tracking
           </text>
 
           <!-- Description -->
           
     <text x="30" y="110" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="30" dy="0">Automate stock option grants and 409A</tspan><tspan x="30" dy="24">valuations.</tspan>
+      <tspan x="30" dy="0">Manage equity grants and vesting schedules</tspan><tspan x="30" dy="24">without messy spreadsheets.</tspan>
     </text>
   
         </g>
@@ -167,7 +167,7 @@
           <!-- Description -->
           
     <text x="30" y="110" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="30" dy="0">Generate recurring monthly metrics digests</tspan><tspan x="30" dy="24">automatically.</tspan>
+      <tspan x="30" dy="0">Share key growth metrics and monthly</tspan><tspan x="30" dy="24">highlights in a couple of clicks.</tspan>
     </text>
   
         </g>

@@ -55,9 +55,9 @@
 
   <!-- Header -->
   <g transform="translate(80, 50)">
-    <rect x="0" y="0" width="186" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
-    <text x="93" y="20" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      HEALTH SYSTEMS
+    <rect x="0" y="0" width="164" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
+    <text x="82" y="20" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      HEALTH MODEL
     </text>
 
     
@@ -75,12 +75,12 @@
     <g transform="translate(35, 35)">
       <rect x="0" y="0" width="130" height="26" rx="6" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444" stroke-width="1" />
       <text x="65" y="18" fill="#f87171" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-        EXPENSIVE &amp; LATE
+        TRADITIONAL
       </text>
 
       
     <text x="0" y="65" fill="#f0fdf4" font-size="24" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Reactive Treatment</tspan>
+      <tspan x="0" dy="0">Reactive Sick-Care</tspan>
     </text>
   
     </g>
@@ -103,7 +103,7 @@
   
             
     <text x="48" y="16" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Treats symptoms after</tspan><tspan x="48" dy="22">permanent physiological dam...</tspan>
+      <tspan x="48" dy="0">Treats symptoms only after</tspan><tspan x="48" dy="22">illnesses have already...</tspan>
     </text>
   
           </g>
@@ -123,7 +123,7 @@
   
             
     <text x="48" y="16" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Skyrocketing emergency</tspan><tspan x="48" dy="22">hospital inpatient expenses</tspan>
+      <tspan x="48" dy="0">Expensive hospital stays and</tspan><tspan x="48" dy="22">emergency room interventions</tspan>
     </text>
   
           </g>
@@ -143,7 +143,7 @@
   
             
     <text x="48" y="16" fill="#a7f3d0" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Fragmented medical records</tspan><tspan x="48" dy="22">across disconnected clinics</tspan>
+      <tspan x="48" dy="0">Patients left to manage</tspan><tspan x="48" dy="22">complex chronic conditions...</tspan>
     </text>
   
           </g>
@@ -167,12 +167,12 @@
     <g transform="translate(35, 35)">
       <rect x="0" y="0" width="130" height="26" rx="6" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
       <text x="65" y="18" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-        OPTIMAL VITALITY
+        PROACTIVE
       </text>
 
       
     <text x="0" y="65" fill="#f0fdf4" font-size="24" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Continuous Prevention</tspan>
+      <tspan x="0" dy="0">Preventive Care</tspan>
     </text>
   
     </g>
@@ -194,7 +194,7 @@
   
             
     <text x="48" y="16" fill="#f0fdf4" font-size="15" font-weight="500" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Real-time biometric monitoring</tspan><tspan x="48" dy="22">catching anomalies early</tspan>
+      <tspan x="48" dy="0">Monitors daily biomarkers to</tspan><tspan x="48" dy="22">catch warning signs early</tspan>
     </text>
   
           </g>
@@ -213,7 +213,7 @@
   
             
     <text x="48" y="16" fill="#f0fdf4" font-size="15" font-weight="500" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Personalized metabolic and</tspan><tspan x="48" dy="22">nutritional interventions</tspan>
+      <tspan x="48" dy="0">Focuses on nutrition, restful</tspan><tspan x="48" dy="22">sleep, and regular exercise</tspan>
     </text>
   
           </g>
@@ -232,7 +232,7 @@
   
             
     <text x="48" y="16" fill="#f0fdf4" font-size="15" font-weight="500" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Dramatically reduced chronic</tspan><tspan x="48" dy="22">disease incidence</tspan>
+      <tspan x="48" dy="0">Lowers long-term medical costs</tspan><tspan x="48" dy="22">while improving daily energy</tspan>
     </text>
   
           </g>

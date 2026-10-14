@@ -55,9 +55,9 @@
 
   <!-- Header Section -->
   <g transform="translate(80, 65)">
-    <rect x="0" y="0" width="175" height="30" rx="15" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
-    <text x="87.5" y="20" fill="#f97316" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      GTM FRAMEWORK
+    <rect x="0" y="0" width="197" height="30" rx="15" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
+    <text x="98.5" y="20" fill="#f97316" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      GROWTH PLAYBOOK
     </text>
 
     <!-- Main Title -->
@@ -70,7 +70,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="110" fill="#fbcfe8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Transitioning your customer acquisition model from sales-heavy to product-driven</tspan><tspan x="0" dy="24">viral adoption.</tspan>
+      <tspan x="0" dy="0">How to shift customer acquisition from expensive outbound sales to natural</tspan><tspan x="0" dy="24">product adoption.</tspan>
     </text>
   
   </g>
@@ -114,7 +114,7 @@
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Instant value delivery</tspan><tspan x="20" dy="22">with zero sales gates.</tspan>
+      <tspan x="20" dy="0">Let users experience</tspan><tspan x="20" dy="22">value before asking</tspan><tspan x="20" dy="22">for payment or calls.</tspan>
     </text>
   
           </g>
@@ -146,14 +146,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Habit Loop</tspan>
+      <tspan x="20" dy="0">Daily Habits</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Reinforcing daily</tspan><tspan x="20" dy="22">active workflows</tspan><tspan x="20" dy="22">through</tspan><tspan x="20" dy="22">micro-delights.</tspan>
+      <tspan x="20" dy="0">Build core workflows</tspan><tspan x="20" dy="22">that encourage</tspan><tspan x="20" dy="22">frequent, natural</tspan><tspan x="20" dy="22">return.</tspan>
     </text>
   
           </g>
@@ -188,14 +188,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Team Invitation</tspan>
+      <tspan x="20" dy="0">Team Sharing</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Collaborative</tspan><tspan x="20" dy="22">multiplayer utility</tspan><tspan x="20" dy="22">triggering team</tspan><tspan x="20" dy="22">adoption.</tspan>
+      <tspan x="20" dy="0">Multiplayer features</tspan><tspan x="20" dy="22">that motivate users to</tspan><tspan x="20" dy="22">invite colleagues.</tspan>
     </text>
   
           </g>
@@ -228,14 +228,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Enterprise Tier</tspan>
+      <tspan x="20" dy="0">Enterprise...</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Seamless upgrade to</tspan><tspan x="20" dy="22">SSO, compliance, and</tspan><tspan x="20" dy="22">custom governance.</tspan>
+      <tspan x="20" dy="0">Straightforward paths</tspan><tspan x="20" dy="22">to SSO, team security,</tspan><tspan x="20" dy="22">and custom controls.</tspan>
     </text>
   
           </g>

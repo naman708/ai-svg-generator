@@ -55,9 +55,9 @@
 
   <!-- Header Banner -->
   <g transform="translate(60, 60)">
-    <rect x="0" y="0" width="186" height="30" rx="15" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="1.5" />
-    <text x="93" y="20" fill="#2563eb" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      BEST PRACTICES
+    <rect x="0" y="0" width="274" height="30" rx="15" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="1.5" />
+    <text x="137" y="20" fill="#2563eb" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      ENGINEERING GUIDELINES
     </text>
 
     <!-- Main Title -->
@@ -70,7 +70,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="165" fill="#64748b" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Architectural guidelines ensuring software reliability when</tspan><tspan x="0" dy="24">orchestrating stochastic generative models.</tspan>
+      <tspan x="0" dy="0">Practical engineering rules to keep generative applications</tspan><tspan x="0" dy="24">predictable, secure, and reliable.</tspan>
     </text>
   
 
@@ -93,13 +93,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Enforce Structured JSON Outputs</tspan>
+      <tspan x="0" dy="0">Enforce Strict JSON Outputs</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Lock down LLM responses with strict schema</tspan><tspan x="0" dy="22">validation.</tspan>
+      <tspan x="0" dy="0">Validate LLM outputs against strict schemas before</tspan><tspan x="0" dy="22">running code.</tspan>
     </text>
   
           </g>
@@ -130,13 +130,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Implement Deterministic Fallbacks</tspan>
+      <tspan x="0" dy="0">Keep Reliable Fallbacks</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Always have rule-based backups for API downtime.</tspan>
+      <tspan x="0" dy="0">Have deterministic backup logic when third-party</tspan><tspan x="0" dy="22">APIs go down.</tspan>
     </text>
   
           </g>
@@ -167,13 +167,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Audit Intermediate Reasoning</tspan>
+      <tspan x="0" dy="0">Log Agent Reasoning Steps</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Log and trace agent planning traces in real-time.</tspan>
+      <tspan x="0" dy="0">Track decisions and tool inputs in real-time for</tspan><tspan x="0" dy="22">easy debugging.</tspan>
     </text>
   
           </g>
@@ -203,13 +203,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Isolate External Tool Runtimes</tspan>
+      <tspan x="0" dy="0">Sandbox Tool Environments</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Sandbox code execution in ephemeral</tspan><tspan x="0" dy="22">micro-containers.</tspan>
+      <tspan x="0" dy="0">Run generated code in isolated containers with</tspan><tspan x="0" dy="22">limited privileges.</tspan>
     </text>
   
           </g>
@@ -240,13 +240,13 @@
           <g transform="translate(90, 24)">
             
     <text x="0" y="22" fill="#0f172a" font-size="19" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Continuously Evaluate Against Drift</tspan>
+      <tspan x="0" dy="0">Track Performance Over Time</tspan>
     </text>
   
 
             
     <text x="0" y="54" fill="#64748b" font-size="14" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Benchmark daily against fixed golden evaluation</tspan><tspan x="0" dy="22">suites.</tspan>
+      <tspan x="0" dy="0">Run daily evaluation tests against a golden baseline</tspan><tspan x="0" dy="22">dataset.</tspan>
     </text>
   
           </g>

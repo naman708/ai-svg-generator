@@ -70,7 +70,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="110" fill="#fbcfe8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Transition from noisy spam outbound to an inbound magnet that attracts ideal</tspan><tspan x="0" dy="24">enterprise customers.</tspan>
+      <tspan x="0" dy="0">A clear four-stage framework to attract ideal buyers naturally instead of</tspan><tspan x="0" dy="24">relying on annoying cold spam.</tspan>
     </text>
   
   </g>
@@ -108,14 +108,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Problem Education</tspan>
+      <tspan x="20" dy="0">Educational...</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Publish un-gated</tspan><tspan x="20" dy="22">deep-dive frameworks</tspan><tspan x="20" dy="22">that articulate</tspan><tspan x="20" dy="22">customer pain.</tspan>
+      <tspan x="20" dy="0">Publish honest,</tspan><tspan x="20" dy="22">in-depth answers to</tspan><tspan x="20" dy="22">the exact questions</tspan><tspan x="20" dy="22">buyers search for.</tspan>
     </text>
   
           </g>
@@ -138,8 +138,7 @@
     <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <circle cx="12" cy="8" r="6"/>
-    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
   
       </svg>
     </g>
@@ -148,14 +147,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Proof of...</tspan>
+      <tspan x="20" dy="0">Free Practical...</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Share concrete case</tspan><tspan x="20" dy="22">studies with audited</tspan><tspan x="20" dy="22">metric outcomes.</tspan>
+      <tspan x="20" dy="0">Build simple</tspan><tspan x="20" dy="22">calculators,</tspan><tspan x="20" dy="22">templates, or</tspan><tspan x="20" dy="22">assessments that...</tspan>
     </text>
   
           </g>
@@ -178,7 +177,10 @@
     <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+    <circle cx="9" cy="7" r="4"/>
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
   
       </svg>
     </g>
@@ -187,14 +189,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Interactive...</tspan>
+      <tspan x="20" dy="0">Nurturing Emails</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Provide free</tspan><tspan x="20" dy="22">calculators and vector</tspan><tspan x="20" dy="22">generators that</tspan><tspan x="20" dy="22">deliver instant...</tspan>
+      <tspan x="20" dy="0">Send weekly case</tspan><tspan x="20" dy="22">studies and actionable</tspan><tspan x="20" dy="22">tips that respect</tspan><tspan x="20" dy="22">their inbox.</tspan>
     </text>
   
           </g>
@@ -229,14 +231,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Seamless Sales...</tspan>
+      <tspan x="20" dy="0">Frictionless Demo</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Offer frictionless</tspan><tspan x="20" dy="22">self-serve onboarding</tspan><tspan x="20" dy="22">or consultative</tspan><tspan x="20" dy="22">enterprise demos.</tspan>
+      <tspan x="20" dy="0">Offer an easy,</tspan><tspan x="20" dy="22">self-serve way for</tspan><tspan x="20" dy="22">qualified prospects to</tspan><tspan x="20" dy="22">test your product.</tspan>
     </text>
   
           </g>

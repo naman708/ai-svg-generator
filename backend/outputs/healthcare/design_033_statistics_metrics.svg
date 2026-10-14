@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="AI Medical Imaging Performance">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Diagnostic Imaging Performance">
   
     <defs>
       <!-- Base Background Linear Gradient -->
@@ -64,14 +64,14 @@
     <!-- Headline -->
     
     <text x="0" y="65" fill="#ffffff" font-size="40" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">AI Medical Imaging Performance</tspan>
+      <tspan x="0" dy="0">Diagnostic Imaging Performance</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
     <text x="0" y="110" fill="#fecaca" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Peer-reviewed diagnostic benchmarks across multi-center oncology radiology</tspan><tspan x="0" dy="24">datasets.</tspan>
+      <tspan x="0" dy="0">Peer-reviewed performance metrics comparing assisted imaging reviews with</tspan><tspan x="0" dy="24">standard radiology workflows.</tspan>
     </text>
   
   </g>
@@ -100,7 +100,7 @@
             <!-- Delta Pill -->
             <rect x="180" y="6" width="90" height="28" rx="14" fill="#fbbf24" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1" />
             <text x="225" y="24" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-              +14.3% vs Human
+              +14.3% vs Standard
             </text>
           </g>
 
@@ -120,7 +120,7 @@
           <!-- Metric Description -->
           
     <text x="24" y="235" fill="#fecaca" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">Validated detection of</tspan><tspan x="24" dy="20">micro-calcifications in</tspan><tspan x="24" dy="20">mammography</tspan>
+      <tspan x="24" dy="0">Accurately spots early</tspan><tspan x="24" dy="20">micro-calcifications in patient</tspan><tspan x="24" dy="20">scans</tspan>
     </text>
   
 
@@ -174,7 +174,7 @@
           <!-- Metric Description -->
           
     <text x="24" y="235" fill="#fecaca" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">Instantaneous preliminary</tspan><tspan x="24" dy="20">radiology triaging pipeline</tspan>
+      <tspan x="24" dy="0">Prioritizes urgent scans so</tspan><tspan x="24" dy="20">specialists review critical</tspan><tspan x="24" dy="20">cases immediately</tspan>
     </text>
   
 
@@ -210,7 +210,7 @@
             <!-- Delta Pill -->
             <rect x="180" y="6" width="90" height="28" rx="14" fill="#fbbf24" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1" />
             <text x="225" y="24" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif">
-              Global Multi-Center
+              240 Hospitals
             </text>
           </g>
 
@@ -230,7 +230,7 @@
           <!-- Metric Description -->
           
     <text x="24" y="235" fill="#fecaca" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="24" dy="0">Standardized imaging deployed</tspan><tspan x="24" dy="20">across 240 hospital networks</tspan>
+      <tspan x="24" dy="0">Standardized imaging deployed</tspan><tspan x="24" dy="20">safely across global clinical</tspan><tspan x="24" dy="20">networks</tspan>
     </text>
   
 

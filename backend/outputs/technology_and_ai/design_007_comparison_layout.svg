@@ -55,9 +55,9 @@
 
   <!-- Header -->
   <g transform="translate(80, 50)">
-    <rect x="0" y="0" width="175" height="30" rx="15" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
-    <text x="87.5" y="20" fill="#3b82f6" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      SYSTEM DESIGN
+    <rect x="0" y="0" width="241" height="30" rx="15" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
+    <text x="120.5" y="20" fill="#3b82f6" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      SYSTEM ARCHITECTURE
     </text>
 
     
@@ -103,7 +103,7 @@
   
             
     <text x="48" y="16" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">High hallucination risk on</tspan><tspan x="48" dy="22">complex logic</tspan>
+      <tspan x="48" dy="0">High risk of hallucinations on</tspan><tspan x="48" dy="22">multi-step logic</tspan>
     </text>
   
           </g>
@@ -123,7 +123,7 @@
   
             
     <text x="48" y="16" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Astronomical inference token</tspan><tspan x="48" dy="22">overhead</tspan>
+      <tspan x="48" dy="0">Expensive token costs for</tspan><tspan x="48" dy="22">simple routine queries</tspan>
     </text>
   
           </g>
@@ -143,7 +143,7 @@
   
             
     <text x="48" y="16" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Difficult to debug or</tspan><tspan x="48" dy="22">selectively update</tspan>
+      <tspan x="48" dy="0">Hard to debug, update, or</tspan><tspan x="48" dy="22">inspect internal decisions</tspan>
     </text>
   
           </g>
@@ -194,7 +194,7 @@
   
             
     <text x="48" y="16" fill="#f8fafc" font-size="15" font-weight="500" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Specialized small models</tspan><tspan x="48" dy="22">orchestrated by DAGs</tspan>
+      <tspan x="48" dy="0">Specialized smaller models</tspan><tspan x="48" dy="22">organized in clear workflows</tspan>
     </text>
   
           </g>
@@ -213,7 +213,7 @@
   
             
     <text x="48" y="16" fill="#f8fafc" font-size="15" font-weight="500" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Deterministic verification</tspan><tspan x="48" dy="22">filters at every step</tspan>
+      <tspan x="48" dy="0">Verification filters built</tspan><tspan x="48" dy="22">into every pipeline step</tspan>
     </text>
   
           </g>
@@ -232,7 +232,7 @@
   
             
     <text x="48" y="16" fill="#f8fafc" font-size="15" font-weight="500" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="48" dy="0">Fractional cost with 99.8%</tspan><tspan x="48" dy="22">factual accuracy</tspan>
+      <tspan x="48" dy="0">Fraction of the cost with much</tspan><tspan x="48" dy="22">higher factual accuracy</tspan>
     </text>
   
           </g>

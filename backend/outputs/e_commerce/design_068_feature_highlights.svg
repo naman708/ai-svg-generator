@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Neural Visual Product Search">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Visual Product Search &amp; Discovery">
   
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="feat-design_068-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#0f172a" />
-        <stop offset="100%" stop-color="#1e293b" />
+        <stop offset="0%" stop-color="#1c102b" />
+        <stop offset="100%" stop-color="#2e123d" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="feat-design_068-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#3b82f6" />
-        <stop offset="100%" stop-color="#38bdf8" />
+        <stop offset="0%" stop-color="#f97316" />
+        <stop offset="100%" stop-color="#ec4899" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="feat-design_068-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#1e293b" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#38174a" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#38174a" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="feat-design_068-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#3b82f6" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#f97316" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,31 +45,31 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="1080" cy="63" r="300" fill="#3b82f6" filter="url(#feat-design_068-glow)" />
-      <circle cx="60" cy="567" r="240" fill="#38bdf8" filter="url(#feat-design_068-glow)" />
+      <circle cx="1080" cy="63" r="300" fill="#f97316" filter="url(#feat-design_068-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#ec4899" filter="url(#feat-design_068-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#334155" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#562270" stroke-width="1" />
   
 
   <!-- Top Header -->
   <g transform="translate(80, 50)">
-    <rect x="0" y="0" width="192" height="30" rx="15" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
-    <text x="15" y="20" fill="#3b82f6" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
-      SEARCH &amp; DISCOVERY
+    <rect x="0" y="0" width="156" height="30" rx="15" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
+    <text x="15" y="20" fill="#f97316" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+      SMART SHOPPING
     </text>
 
     
-    <text x="0" y="65" fill="#f8fafc" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Neural Visual Product Search</tspan>
+    <text x="0" y="65" fill="#ffffff" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">Visual Product Search &amp; Discovery</tspan>
     </text>
   
   </g>
 
   <!-- Left Hero Bento Card -->
   <g transform="translate(80, 160)">
-    <rect x="0" y="0" width="500" height="410" rx="20" fill="url(#feat-design_068-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#feat-design_068-shadow)" />
+    <rect x="0" y="0" width="500" height="410" rx="20" fill="url(#feat-design_068-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#feat-design_068-shadow)" />
     
     <!-- Hero Icon Bubble -->
     <rect x="40" y="40" width="64" height="64" rx="16" fill="url(#feat-design_068-primary-grad)" />
@@ -84,27 +84,27 @@
   
 
     <!-- Tag Pill -->
-    <rect x="120" y="58" width="130" height="26" rx="13" fill="#3b82f6" fill-opacity="0.15" />
-    <text x="185" y="75" fill="#3b82f6" font-size="11" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
-      DEEP LEARNING
+    <rect x="120" y="58" width="130" height="26" rx="13" fill="#f97316" fill-opacity="0.15" />
+    <text x="185" y="75" fill="#f97316" font-size="11" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1">
+      SEARCH TOOL
     </text>
 
     <!-- Hero Title -->
-    <text x="40" y="160" fill="#f8fafc" font-size="28" font-weight="800" font-family="Inter, sans-serif">
-      Semantic Image Discovery
+    <text x="40" y="160" fill="#ffffff" font-size="28" font-weight="800" font-family="Inter, sans-serif">
+      Visual Match Engine
     </text>
 
     <!-- Hero Body -->
     
-    <text x="40" y="200" fill="#94a3b8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="40" dy="0">Customers upload photos or sketches to</tspan><tspan x="40" dy="28">instantaneously match exact products,</tspan><tspan x="40" dy="28">style alternatives, and complementary</tspan><tspan x="40" dy="28">accessories.</tspan>
+    <text x="40" y="200" fill="#fbcfe8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="40" dy="0">Let shoppers upload a screenshot or</tspan><tspan x="40" dy="28">photo to find matching products and</tspan><tspan x="40" dy="28">styles across your catalog in seconds.</tspan>
     </text>
   
 
     <!-- Bottom Indicator -->
     <g transform="translate(40, 345)">
-      <circle cx="6" cy="6" r="6" fill="#38bdf8" />
-      <text x="22" y="10" fill="#f8fafc" font-size="13" font-weight="600" font-family="Inter, sans-serif">
+      <circle cx="6" cy="6" r="6" fill="#ec4899" />
+      <text x="22" y="10" fill="#ffffff" font-size="13" font-weight="600" font-family="Inter, sans-serif">
         Enterprise Standard Production Module
       </text>
     </g>
@@ -114,41 +114,40 @@
   <g transform="translate(610, 160)">
     
         <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="510" height="195" rx="18" fill="url(#feat-design_068-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#feat-design_068-shadow)" />
+          <rect x="0" y="0" width="510" height="195" rx="18" fill="url(#feat-design_068-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#feat-design_068-shadow)" />
           
           <!-- Icon Bubble -->
-          <rect x="30" y="30" width="48" height="48" rx="12" fill="#3b82f6" fill-opacity="0.15" />
+          <rect x="30" y="30" width="48" height="48" rx="12" fill="#f97316" fill-opacity="0.15" />
           
-    <g transform="translate(42, 42)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(42, 42)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-    <polyline points="22 4 12 14.01 9 11.01"/>
+    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
   
       </svg>
     </g>
   
 
           <!-- Title -->
-          <text x="95" y="60" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Dynamic Size Recommendation
+          <text x="95" y="60" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Accurate Color Matching
           </text>
 
           <!-- Description -->
           
-    <text x="30" y="110" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="30" dy="0">Reduce return rates by 42% with body metric</tspan><tspan x="30" dy="24">fitting.</tspan>
+    <text x="30" y="110" fill="#fbcfe8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="30" dy="0">Finds related items in coordinating palettes</tspan><tspan x="30" dy="24">and fabrics.</tspan>
     </text>
   
         </g>
       
         <g transform="translate(0, 215)">
-          <rect x="0" y="0" width="510" height="195" rx="18" fill="url(#feat-design_068-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#feat-design_068-shadow)" />
+          <rect x="0" y="0" width="510" height="195" rx="18" fill="url(#feat-design_068-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#feat-design_068-shadow)" />
           
           <!-- Icon Bubble -->
-          <rect x="30" y="30" width="48" height="48" rx="12" fill="#3b82f6" fill-opacity="0.15" />
+          <rect x="30" y="30" width="48" height="48" rx="12" fill="#f97316" fill-opacity="0.15" />
           
-    <g transform="translate(42, 42)" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(42, 42)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <circle cx="8" cy="21" r="1"/>
@@ -160,14 +159,14 @@
   
 
           <!-- Title -->
-          <text x="95" y="60" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Contextual Cross-Selling
+          <text x="95" y="60" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Zero Typos or Guesswork
           </text>
 
           <!-- Description -->
           
-    <text x="30" y="110" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="30" dy="0">Suggests bundle items based on real buyer</tspan><tspan x="30" dy="24">carts.</tspan>
+    <text x="30" y="110" fill="#fbcfe8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="30" dy="0">Shoppers find products even when they don&apos;t</tspan><tspan x="30" dy="24">know the exact name.</tspan>
     </text>
   
         </g>

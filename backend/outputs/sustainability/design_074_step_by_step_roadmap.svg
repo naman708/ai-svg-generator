@@ -55,9 +55,9 @@
 
   <!-- Header Section -->
   <g transform="translate(80, 65)">
-    <rect x="0" y="0" width="285" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
-    <text x="142.5" y="20" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      DECARBONIZATION PATHWAY
+    <rect x="0" y="0" width="197" height="30" rx="15" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5" />
+    <text x="98.5" y="20" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      CLIMATE ROADMAP
     </text>
 
     <!-- Main Title -->
@@ -70,7 +70,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="110" fill="#a7f3d0" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">A verified greenhouse gas protocol roadmap for enterprises aiming for true</tspan><tspan x="0" dy="24">climate neutrality.</tspan>
+      <tspan x="0" dy="0">A step-by-step framework helping companies measure emissions, cut waste, and</tspan><tspan x="0" dy="24">reach true climate targets.</tspan>
     </text>
   
   </g>
@@ -107,14 +107,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#f0fdf4" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Comprehensive...</tspan>
+      <tspan x="20" dy="0">Audit Emissions</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Measure Scope 1, 2,</tspan><tspan x="20" dy="22">and 3 emissions across</tspan><tspan x="20" dy="22">suppliers.</tspan>
+      <tspan x="20" dy="0">Calculate greenhouse</tspan><tspan x="20" dy="22">gases across direct</tspan><tspan x="20" dy="22">operations and supply</tspan><tspan x="20" dy="22">chains.</tspan>
     </text>
   
           </g>
@@ -153,7 +153,7 @@
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Electrify heating and</tspan><tspan x="20" dy="22">optimize building</tspan><tspan x="20" dy="22">insulation efficiency.</tspan>
+      <tspan x="20" dy="0">Upgrade facilities</tspan><tspan x="20" dy="22">with smart</tspan><tspan x="20" dy="22">thermostats,</tspan><tspan x="20" dy="22">insulation, and LED...</tspan>
     </text>
   
           </g>
@@ -186,14 +186,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#f0fdf4" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">PPA Contracting</tspan>
+      <tspan x="20" dy="0">Clean Power PPAs</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Procure 100% renewable</tspan><tspan x="20" dy="22">power through</tspan><tspan x="20" dy="22">long-term purchase</tspan><tspan x="20" dy="22">agreements.</tspan>
+      <tspan x="20" dy="0">Sign long-term</tspan><tspan x="20" dy="22">contracts to purchase</tspan><tspan x="20" dy="22">power directly from</tspan><tspan x="20" dy="22">solar farms.</tspan>
     </text>
   
           </g>
@@ -216,8 +216,8 @@
     <g transform="translate(30, 30)" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
-    <path d="m9 12 2 2 4-4"/>
+    <circle cx="12" cy="8" r="6"/>
+    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
   
       </svg>
     </g>
@@ -226,14 +226,14 @@
             <!-- Step Title (Safely bounded) -->
             
     <text x="20" y="95" fill="#f0fdf4" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Carbon Removal</tspan>
+      <tspan x="20" dy="0">Supplier Standards</tspan>
     </text>
   
 
             <!-- Step Description -->
             
     <text x="20" y="125" fill="#a7f3d0" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Finance</tspan><tspan x="20" dy="22">high-durability direct</tspan><tspan x="20" dy="22">air capture and</tspan><tspan x="20" dy="22">mineral sequestration.</tspan>
+      <tspan x="20" dy="0">Partner with vendors</tspan><tspan x="20" dy="22">who share verified</tspan><tspan x="20" dy="22">carbon reduction</tspan><tspan x="20" dy="22">commitments.</tspan>
     </text>
   
           </g>

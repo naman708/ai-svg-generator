@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="The 20-Hour Rapid Skill Acquisition">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="The 20-Hour Rapid Mastery Framework">
   
     <defs>
       <!-- Base Background Linear Gradient -->
       <linearGradient id="steps-design_054-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#1c102b" />
-        <stop offset="100%" stop-color="#2e123d" />
+        <stop offset="0%" stop-color="#1c1917" />
+        <stop offset="100%" stop-color="#292524" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="steps-design_054-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#f97316" />
-        <stop offset="100%" stop-color="#ec4899" />
+        <stop offset="0%" stop-color="#f59e0b" />
+        <stop offset="100%" stop-color="#fde68a" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="steps-design_054-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#38174a" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#38174a" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#292524" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#292524" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="steps-design_054-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#f97316" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#f59e0b" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,57 +45,57 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="1080" cy="63" r="300" fill="#f97316" filter="url(#steps-design_054-glow)" />
-      <circle cx="60" cy="567" r="240" fill="#ec4899" filter="url(#steps-design_054-glow)" />
+      <circle cx="1080" cy="63" r="300" fill="#f59e0b" filter="url(#steps-design_054-glow)" />
+      <circle cx="60" cy="567" r="240" fill="#fde68a" filter="url(#steps-design_054-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#562270" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="1199" height="629" rx="8" fill="none" stroke="#44403c" stroke-width="1" />
   
 
   <!-- Header Section -->
   <g transform="translate(80, 65)">
-    <rect x="0" y="0" width="175" height="30" rx="15" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1.5" />
-    <text x="87.5" y="20" fill="#f97316" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
-      META-LEARNING
+    <rect x="0" y="0" width="230" height="30" rx="15" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-width="1.5" />
+    <text x="115" y="20" fill="#f59e0b" font-size="12" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" letter-spacing="1.2">
+      LEARNING FRAMEWORK
     </text>
 
     <!-- Main Title -->
     
-    <text x="0" y="65" fill="#ffffff" font-size="38" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">The 20-Hour Rapid Skill Acquisition</tspan>
+    <text x="0" y="65" fill="#fafaf9" font-size="38" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">The 20-Hour Rapid Mastery Framework</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
-    <text x="0" y="110" fill="#fbcfe8" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">How to deconstruct and achieve rapid functional competence in any complex modern</tspan><tspan x="0" dy="24">domain.</tspan>
+    <text x="0" y="110" fill="#d6d3d1" font-size="16" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">A practical framework to reach functional competence in any new skill without</tspan><tspan x="0" dy="24">getting overwhelmed.</tspan>
     </text>
   
   </g>
 
   <!-- Horizontal Connector Line between Nodes -->
-  <line x1="180" y1="260" x2="1020" y2="260" stroke="#f97316" stroke-width="3" stroke-dasharray="6 6" opacity="0.6" />
+  <line x1="180" y1="260" x2="1020" y2="260" stroke="#f59e0b" stroke-width="3" stroke-dasharray="6 6" opacity="0.6" />
 
   <!-- 4 Step Cards -->
   <g transform="translate(80, 210)">
     
         <g transform="translate(0, 0)">
           <!-- Circular Node Pin on the connecting line -->
-          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_054-shadow)" />
-          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+          <circle cx="115" cy="50" r="28" fill="#1c1917" stroke="#f59e0b" stroke-width="3" filter="url(#steps-design_054-shadow)" />
+          <text x="115" y="56" fill="#f59e0b" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             01
           </text>
 
           <!-- Step Card Container below the node -->
           <g transform="translate(0, 100)">
-            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_054-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_054-shadow)" />
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_054-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#steps-design_054-shadow)" />
             
             <!-- Icon Wrapper -->
-            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f59e0b" fill-opacity="0.15" />
             
-    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(30, 30)" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <polygon points="12 2 2 7 12 12 22 7 12 2"/>
@@ -108,15 +108,15 @@
 
             <!-- Step Title (Safely bounded) -->
             
-    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Deconstruct Skill</tspan>
+    <text x="20" y="95" fill="#fafaf9" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Deconstruct</tspan>
     </text>
   
 
             <!-- Step Description -->
             
-    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Identify the critical</tspan><tspan x="20" dy="22">sub-skills that</tspan><tspan x="20" dy="22">deliver 80% of</tspan><tspan x="20" dy="22">practical value.</tspan>
+    <text x="20" y="125" fill="#d6d3d1" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Break the skill down</tspan><tspan x="20" dy="22">into its smallest</tspan><tspan x="20" dy="22">practical components.</tspan>
     </text>
   
           </g>
@@ -124,23 +124,23 @@
       
         <g transform="translate(265, 0)">
           <!-- Circular Node Pin on the connecting line -->
-          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_054-shadow)" />
-          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+          <circle cx="115" cy="50" r="28" fill="#1c1917" stroke="#f59e0b" stroke-width="3" filter="url(#steps-design_054-shadow)" />
+          <text x="115" y="56" fill="#f59e0b" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             02
           </text>
 
           <!-- Step Card Container below the node -->
           <g transform="translate(0, 100)">
-            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_054-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_054-shadow)" />
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_054-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#steps-design_054-shadow)" />
             
             <!-- Icon Wrapper -->
-            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f59e0b" fill-opacity="0.15" />
             
-    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(30, 30)" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
-    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
-    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+    <path d="m9 12 2 2 4-4"/>
   
       </svg>
     </g>
@@ -148,15 +148,15 @@
 
             <!-- Step Title (Safely bounded) -->
             
-    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Learn Enough to...</tspan>
+    <text x="20" y="95" fill="#fafaf9" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Clear Barriers</tspan>
     </text>
   
 
             <!-- Step Description -->
             
-    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Absorb baseline rules</tspan><tspan x="20" dy="22">just enough to spot</tspan><tspan x="20" dy="22">your own mistakes.</tspan>
+    <text x="20" y="125" fill="#d6d3d1" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Remove physical and</tspan><tspan x="20" dy="22">mental distractions</tspan><tspan x="20" dy="22">before sitting down to</tspan><tspan x="20" dy="22">practice.</tspan>
     </text>
   
           </g>
@@ -164,59 +164,19 @@
       
         <g transform="translate(530, 0)">
           <!-- Circular Node Pin on the connecting line -->
-          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_054-shadow)" />
-          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+          <circle cx="115" cy="50" r="28" fill="#1c1917" stroke="#f59e0b" stroke-width="3" filter="url(#steps-design_054-shadow)" />
+          <text x="115" y="56" fill="#f59e0b" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             03
           </text>
 
           <!-- Step Card Container below the node -->
           <g transform="translate(0, 100)">
-            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_054-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_054-shadow)" />
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_054-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#steps-design_054-shadow)" />
             
             <!-- Icon Wrapper -->
-            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f59e0b" fill-opacity="0.15" />
             
-    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <svg width="24" height="24" viewBox="0 0 24 24">
-        
-    <circle cx="12" cy="12" r="10"/>
-    <polyline points="12 6 12 12 16 14"/>
-  
-      </svg>
-    </g>
-  
-
-            <!-- Step Title (Safely bounded) -->
-            
-    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Remove Practice...</tspan>
-    </text>
-  
-
-            <!-- Step Description -->
-            
-    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Eliminate digital</tspan><tspan x="20" dy="22">distractions and</tspan><tspan x="20" dy="22">establish dedicated</tspan><tspan x="20" dy="22">deep focus.</tspan>
-    </text>
-  
-          </g>
-        </g>
-      
-        <g transform="translate(795, 0)">
-          <!-- Circular Node Pin on the connecting line -->
-          <circle cx="115" cy="50" r="28" fill="#1c102b" stroke="#f97316" stroke-width="3" filter="url(#steps-design_054-shadow)" />
-          <text x="115" y="56" fill="#f97316" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
-            04
-          </text>
-
-          <!-- Step Card Container below the node -->
-          <g transform="translate(0, 100)">
-            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_054-card-grad)" stroke="#562270" stroke-width="1.5" filter="url(#steps-design_054-shadow)" />
-            
-            <!-- Icon Wrapper -->
-            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" />
-            
-    <g transform="translate(30, 30)" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(30, 30)" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="24" height="24" viewBox="0 0 24 24">
         
     <circle cx="12" cy="12" r="10"/>
@@ -229,15 +189,55 @@
 
             <!-- Step Title (Safely bounded) -->
             
-    <text x="20" y="95" fill="#ffffff" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Deliberate...</tspan>
+    <text x="20" y="95" fill="#fafaf9" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Focus on Core 20%</tspan>
     </text>
   
 
             <!-- Step Description -->
             
-    <text x="20" y="125" fill="#fbcfe8" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="20" dy="0">Commit to 20 focused</tspan><tspan x="20" dy="22">hours targeted at the</tspan><tspan x="20" dy="22">edge of your ability.</tspan>
+    <text x="20" y="125" fill="#d6d3d1" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Practice the key</tspan><tspan x="20" dy="22">sub-skills that</tspan><tspan x="20" dy="22">deliver 80% of</tspan><tspan x="20" dy="22">real-world results.</tspan>
+    </text>
+  
+          </g>
+        </g>
+      
+        <g transform="translate(795, 0)">
+          <!-- Circular Node Pin on the connecting line -->
+          <circle cx="115" cy="50" r="28" fill="#1c1917" stroke="#f59e0b" stroke-width="3" filter="url(#steps-design_054-shadow)" />
+          <text x="115" y="56" fill="#f59e0b" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
+            04
+          </text>
+
+          <!-- Step Card Container below the node -->
+          <g transform="translate(0, 100)">
+            <rect x="0" y="0" width="230" height="220" rx="16" fill="url(#steps-design_054-card-grad)" stroke="#44403c" stroke-width="1.5" filter="url(#steps-design_054-shadow)" />
+            
+            <!-- Icon Wrapper -->
+            <rect x="20" y="20" width="44" height="44" rx="10" fill="#f59e0b" fill-opacity="0.15" />
+            
+    <g transform="translate(30, 30)" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        
+    <circle cx="12" cy="12" r="10"/>
+    <polyline points="12 6 12 12 16 14"/>
+  
+      </svg>
+    </g>
+  
+
+            <!-- Step Title (Safely bounded) -->
+            
+    <text x="20" y="95" fill="#fafaf9" font-size="18" font-weight="700" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Commit to 20 Hours</tspan>
+    </text>
+  
+
+            <!-- Step Description -->
+            
+    <text x="20" y="125" fill="#d6d3d1" font-size="13" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="20" dy="0">Push past initial</tspan><tspan x="20" dy="22">frustration with 20</tspan><tspan x="20" dy="22">focused hours of</tspan><tspan x="20" dy="22">deliberate effort.</tspan>
     </text>
   
           </g>

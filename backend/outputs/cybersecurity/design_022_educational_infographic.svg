@@ -71,7 +71,7 @@
     <!-- Subtitle -->
     
     <text x="0" y="165" fill="#fecaca" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">Stage-by-stage deconstruction of modern double-extortion</tspan><tspan x="0" dy="24">ransomware operations.</tspan>
+      <tspan x="0" dy="0">How modern ransomware attacks unfold from initial foothold to</tspan><tspan x="0" dy="24">extortion demand.</tspan>
     </text>
   
     
@@ -110,7 +110,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#fecaca" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Spear-phishing or credential stuffing breaches</tspan><tspan x="95" dy="24">outward perimeter.</tspan>
+      <tspan x="95" dy="0">Spear-phishing or leaked credentials bypass the</tspan><tspan x="95" dy="24">outer perimeter.</tspan>
     </text>
   
         </g>
@@ -127,7 +127,7 @@
 
           <!-- Card Header & Icon -->
           <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Lateral Escalation
+            Lateral Movement
           </text>
           
     <g transform="translate(615, 30)" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -145,7 +145,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#fecaca" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Attacker abuses Kerberos tickets to achieve domain</tspan><tspan x="95" dy="24">controller access.</tspan>
+      <tspan x="95" dy="0">Attackers move quietly between internal systems to</tspan><tspan x="95" dy="24">escalate privileges.</tspan>
     </text>
   
         </g>
@@ -179,7 +179,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#fecaca" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Sensitive customer data is encrypted and staged to</tspan><tspan x="95" dy="24">offshore servers.</tspan>
+      <tspan x="95" dy="0">Sensitive customer records are quietly copied to</tspan><tspan x="95" dy="24">remote servers.</tspan>
     </text>
   
         </g>
@@ -213,7 +213,7 @@
           <!-- Card Body Description -->
           
     <text x="95" y="95" fill="#fecaca" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Volume shadow copies deleted and high-grade AES-256</tspan><tspan x="95" dy="24">cipher executed.</tspan>
+      <tspan x="95" dy="0">Local backups are deleted and strong encryption</tspan><tspan x="95" dy="24">locks all critical disks.</tspan>
     </text>
   
         </g>

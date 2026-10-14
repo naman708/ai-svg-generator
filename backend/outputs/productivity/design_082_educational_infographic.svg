@@ -4,19 +4,19 @@
       <!-- Base Background Linear Gradient -->
       <linearGradient id="edu-design_082-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
         <stop offset="0%" stop-color="#0f172a" />
-        <stop offset="100%" stop-color="#1e1b4b" />
+        <stop offset="100%" stop-color="#1e293b" />
       </linearGradient>
 
       <!-- Primary Gradient for Accents and Cards -->
       <linearGradient id="edu-design_082-primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#6366f1" />
-        <stop offset="100%" stop-color="#c084fc" />
+        <stop offset="0%" stop-color="#3b82f6" />
+        <stop offset="100%" stop-color="#38bdf8" />
       </linearGradient>
 
       <!-- Glass / Surface Card Gradient -->
       <linearGradient id="edu-design_082-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.6" />
+        <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#1e293b" stop-opacity="0.6" />
       </linearGradient>
 
       <!-- Modern Drop Shadow Filter -->
@@ -32,7 +32,7 @@
 
       <!-- Tech Dot Pattern -->
       <pattern id="edu-design_082-dot-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1.2" fill="#6366f1" fill-opacity="0.12" />
+        <circle cx="2" cy="2" r="1.2" fill="#3b82f6" fill-opacity="0.12" />
       </pattern>
     </defs>
   
@@ -45,38 +45,38 @@
 
     <!-- Ambient Glow Orbs -->
     <g opacity="0.3">
-      <circle cx="720" cy="120" r="200" fill="#6366f1" filter="url(#edu-design_082-glow)" />
-      <circle cx="40" cy="1080" r="160" fill="#c084fc" filter="url(#edu-design_082-glow)" />
+      <circle cx="720" cy="120" r="200" fill="#3b82f6" filter="url(#edu-design_082-glow)" />
+      <circle cx="40" cy="1080" r="160" fill="#38bdf8" filter="url(#edu-design_082-glow)" />
     </g>
 
     <!-- Border Accent Line -->
-    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#312e81" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="799" height="1199" rx="8" fill="none" stroke="#334155" stroke-width="1" />
   
 
   <!-- Header Section -->
   <g transform="translate(60, 60)">
     <!-- Pill Badge -->
-    <rect x="0" y="0" width="165" height="30" rx="15" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-width="1.5" />
-    <text x="15" y="20" fill="#6366f1" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
-      TIME MANAGEMENT
+    <rect x="0" y="0" width="165" height="30" rx="15" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1.5" />
+    <text x="15" y="20" fill="#3b82f6" font-size="12" font-weight="700" font-family="Inter, sans-serif" letter-spacing="1.5">
+      DECISION MATRIX
     </text>
 
     <!-- Main Title -->
     
-    <text x="0" y="65" fill="#ffffff" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+    <text x="0" y="65" fill="#f8fafc" font-size="36" font-weight="800" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
       <tspan x="0" dy="0">The Eisenhower Decision</tspan><tspan x="0" dy="44">Matrix</tspan>
     </text>
   
 
     <!-- Subtitle -->
     
-    <text x="0" y="165" fill="#cbd5e1" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="0" dy="0">A four-quadrant prioritization framework separating urgency from</tspan><tspan x="0" dy="24">true strategic importance.</tspan>
+    <text x="0" y="165" fill="#94a3b8" font-size="16" font-weight="400" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="0" dy="0">A classic four-quadrant tool to separate what is truly important</tspan><tspan x="0" dy="24">from what is merely loud and urgent.</tspan>
     </text>
   
     
     <!-- Dividing Accent Line -->
-    <line x1="0" y1="220" x2="680" y2="220" stroke="#312e81" stroke-width="1.5" stroke-dasharray="4 4" />
+    <line x1="0" y1="220" x2="680" y2="220" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4" />
   </g>
 
   <!-- Educational Concept Cards (4 Stacked) -->
@@ -84,25 +84,23 @@
     
         <g transform="translate(0, 0)">
           <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_082-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#edu-design_082-shadow)" />
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_082-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#edu-design_082-shadow)" />
           
           <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#6366f1" />
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#3b82f6" />
           <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             01
           </text>
 
           <!-- Card Header & Icon -->
-          <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Quadrant 1: Urgent &amp; Important
+          <text x="95" y="54" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Do First
           </text>
           
-    <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(615, 30)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
-    <circle cx="12" cy="12" r="10"/>
-    <line x1="12" x2="12" y1="8" y2="12"/>
-    <line x1="12" x2="12.01" y1="16" y2="16"/>
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
   
       </svg>
     </g>
@@ -110,33 +108,32 @@
 
           <!-- Card Body Description -->
           
-    <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Crises, imminent deadlines, and critical client</tspan><tspan x="95" dy="24">emergencies (Do Immediately).</tspan>
+    <text x="95" y="95" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Pressing crises and hard deadlines that demand</tspan><tspan x="95" dy="24">immediate personal attention.</tspan>
     </text>
   
         </g>
       
         <g transform="translate(0, 195)">
           <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_082-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#edu-design_082-shadow)" />
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_082-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#edu-design_082-shadow)" />
           
           <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#6366f1" />
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#3b82f6" />
           <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             02
           </text>
 
           <!-- Card Header & Icon -->
-          <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Quadrant 2: Not Urgent &amp; Important
+          <text x="95" y="54" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Schedule
           </text>
           
-    <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(615, 30)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
     <circle cx="12" cy="12" r="10"/>
-    <circle cx="12" cy="12" r="6"/>
-    <circle cx="12" cy="12" r="2"/>
+    <polyline points="12 6 12 12 16 14"/>
   
       </svg>
     </g>
@@ -144,28 +141,28 @@
 
           <!-- Card Body Description -->
           
-    <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Strategic planning, deep skill acquisition, health,</tspan><tspan x="95" dy="24">and relationship building (Schedule It).</tspan>
+    <text x="95" y="95" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Strategic planning, deep learning, exercise, and</tspan><tspan x="95" dy="24">relationship building.</tspan>
     </text>
   
         </g>
       
         <g transform="translate(0, 390)">
           <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_082-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#edu-design_082-shadow)" />
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_082-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#edu-design_082-shadow)" />
           
           <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#6366f1" />
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#3b82f6" />
           <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             03
           </text>
 
           <!-- Card Header & Icon -->
-          <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Quadrant 3: Urgent &amp; Not Important
+          <text x="95" y="54" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Delegate
           </text>
           
-    <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(615, 30)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
     <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
@@ -179,32 +176,32 @@
 
           <!-- Card Body Description -->
           
-    <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Interruptions, unexpected minor requests, and</tspan><tspan x="95" dy="24">non-essential phone calls (Delegate It).</tspan>
+    <text x="95" y="95" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Routine admin tasks, meeting scheduling requests,</tspan><tspan x="95" dy="24">and minor interruptions.</tspan>
     </text>
   
         </g>
       
         <g transform="translate(0, 585)">
           <!-- Card Container -->
-          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_082-card-grad)" stroke="#312e81" stroke-width="1.5" filter="url(#edu-design_082-shadow)" />
+          <rect x="0" y="0" width="680" height="170" rx="16" fill="url(#edu-design_082-card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#edu-design_082-shadow)" />
           
           <!-- Number Badge -->
-          <rect x="25" y="25" width="48" height="48" rx="12" fill="#6366f1" />
+          <rect x="25" y="25" width="48" height="48" rx="12" fill="#3b82f6" />
           <text x="49" y="55" fill="#ffffff" font-size="20" font-weight="800" text-anchor="middle" font-family="Inter, sans-serif">
             04
           </text>
 
           <!-- Card Header & Icon -->
-          <text x="95" y="54" fill="#ffffff" font-size="22" font-weight="700" font-family="Inter, sans-serif">
-            Quadrant 4: Not Urgent &amp; Not Important
+          <text x="95" y="54" fill="#f8fafc" font-size="22" font-weight="700" font-family="Inter, sans-serif">
+            Eliminate
           </text>
           
-    <g transform="translate(615, 30)" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(615, 30)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <svg width="26" height="26" viewBox="0 0 24 24">
         
-    <circle cx="12" cy="12" r="10"/>
-    <polyline points="12 6 12 12 16 14"/>
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+    <path d="m9 12 2 2 4-4"/>
   
       </svg>
     </g>
@@ -212,8 +209,8 @@
 
           <!-- Card Body Description -->
           
-    <text x="95" y="95" fill="#cbd5e1" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
-      <tspan x="95" dy="0">Mindless feed scrolling, busywork, and</tspan><tspan x="95" dy="24">procrastination traps (Eliminate It).</tspan>
+    <text x="95" y="95" fill="#94a3b8" font-size="15" font-weight="normal" text-anchor="start" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="1">
+      <tspan x="95" dy="0">Mindless social feeds and busywork that produces no</tspan><tspan x="95" dy="24">real value.</tspan>
     </text>
   
         </g>
@@ -222,11 +219,11 @@
 
   <!-- Footer Info -->
   <g transform="translate(60, 1130)">
-    <line x1="0" y1="0" x2="680" y2="0" stroke="#312e81" stroke-width="1" />
-    <text x="0" y="32" fill="#cbd5e1" font-size="13" font-family="Inter, sans-serif">
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#334155" stroke-width="1" />
+    <text x="0" y="32" fill="#94a3b8" font-size="13" font-family="Inter, sans-serif">
       AI-Powered Vector Infographic Engine • Generated Visual Guide
     </text>
-    <text x="680" y="32" fill="#6366f1" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
+    <text x="680" y="32" fill="#3b82f6" font-size="13" font-weight="600" text-anchor="end" font-family="Inter, sans-serif">
       Open Standards • Production Ready
     </text>
   </g>
